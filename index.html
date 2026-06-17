@@ -642,6 +642,10 @@
                 <option value="all">All Suppliers</option>
             </select>
             
+            <select id="fg-filter" class="filter-select" style="margin-top: 6px;">
+                <option value="all">All Functional Groups / Features</option>
+            </select>
+
             <select id="group-by" class="filter-select" style="margin-top: 6px;">
                 <option value="none">Flat List (Alphabetical)</option>
                 <option value="fg">Group by Functional Group</option>
@@ -836,9 +840,10 @@
         });
 
         function initApp() {
-            // Build the Odor Family and Supplier dropdown options
+            // Build the Odor Family, Supplier, and Functional Group dropdown options
             const families = new Set();
             const suppliers = new Set();
+            const functionalGroups = new Set();
 
             chemicalData.forEach(c => {
                 if (c.odorFamily) {
@@ -850,6 +855,14 @@
                 if (c.suppliers && Array.isArray(c.suppliers)) {
                     c.suppliers.forEach(s => {
                         if (s) suppliers.add(s);
+                    });
+                }
+                if (c.functionalGroups) {
+                    c.functionalGroups.split(",").forEach(g => {
+                        const trimmed = g.trim();
+                        if (trimmed && trimmed !== "Hydrocarbon / Other") {
+                            functionalGroups.add(trimmed);
+                        }
                     });
                 }
             });
@@ -870,10 +883,19 @@
                 supplierSelect.appendChild(opt);
             });
 
+            const fgSelect = document.getElementById("fg-filter");
+            Array.from(functionalGroups).sort().forEach(fg => {
+                const opt = document.createElement("option");
+                opt.value = fg;
+                opt.textContent = fg;
+                fgSelect.appendChild(opt);
+            });
+
             // Set up search and filter event listeners
             document.getElementById("search-bar").addEventListener("input", filterList);
             familySelect.addEventListener("change", filterList);
             supplierSelect.addEventListener("change", filterList);
+            document.getElementById("fg-filter").addEventListener("change", filterList);
             document.getElementById("group-by").addEventListener("change", filterList);
 
             // Initial render of list
@@ -1079,6 +1101,7 @@
             const query = document.getElementById("search-bar").value.toLowerCase().trim();
             const family = document.getElementById("family-filter").value;
             const supplier = document.getElementById("supplier-filter").value;
+            const fg = document.getElementById("fg-filter").value;
 
             const filtered = chemicalData.filter(c => {
                 // Check supplier filter
@@ -1088,6 +1111,10 @@
                 // Check family filter
                 const matchesFamily = family === "all" || (c.odorFamily && c.odorFamily.toLowerCase().startsWith(family.toLowerCase()));
                 if (!matchesFamily) return false;
+
+                // Check functional group filter
+                const matchesFG = fg === "all" || (c.functionalGroups && c.functionalGroups.split(",").map(g => g.trim()).includes(fg));
+                if (!matchesFG) return false;
 
                 // Check search query
                 if (!query) return true;
