@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Perfumery Course Portal</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --bg-dark: #070708;
+            --bg-card: rgba(20, 20, 22, 0.7);
+            --text-primary: #f3f3f5;
+            --text-dim: #a0a0a5;
+            --gold-primary: #d4af37;
+            --gold-bright: #f9d71c;
+            --gold-glow: rgba(212, 175, 55, 0.25);
+            --border-color: rgba(255, 255, 255, 0.07);
+            --accent-teal: #4ba6a6;
+            --accent-teal-glow: rgba(75, 166, 166, 0.2);
+            --accent-purple: #8e44ad;
+            --accent-purple-glow: rgba(142, 68, 173, 0.2);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
+            font-family: 'Outfit', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(212, 175, 55, 0.04) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(75, 166, 166, 0.04) 0%, transparent 40%);
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px 30px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            letter-spacing: -1px;
+            margin-bottom: 15px;
+            background: linear-gradient(135deg, #fff 30%, var(--gold-primary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-dim);
+            font-weight: 300;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            width: 100%;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+            width: 100%;
+            margin-bottom: 50px;
+        }
+
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 30px;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(20px);
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, transparent 60%, rgba(255,255,255,0.02) 100%);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .card:hover::before {
+            opacity: 1;
+        }
+
+        .card-gold:hover {
+            border-color: var(--gold-primary);
+            box-shadow: 0 15px 35px var(--gold-glow);
+            transform: translateY(-5px);
+        }
+
+        .card-teal:hover {
+            border-color: var(--accent-teal);
+            box-shadow: 0 15px 35px var(--accent-teal-glow);
+            transform: translateY(-5px);
+        }
+
+        .card-purple:hover {
+            border-color: var(--accent-purple);
+            box-shadow: 0 15px 35px var(--accent-purple-glow);
+            transform: translateY(-5px);
+        }
+
+        .card-icon {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+        }
+
+        .card-gold .card-icon { color: var(--gold-primary); }
+        .card-teal .card-icon { color: var(--accent-teal); }
+        .card-purple .card-icon { color: var(--accent-purple); }
+
+        .card h2 {
+            font-size: 1.35rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #fff;
+        }
+
+        .card p {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            line-height: 1.5;
+            margin-bottom: 25px;
+            font-weight: 300;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 8px 16px;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            font-family: 'Space Mono', monospace;
+            border: 1px solid var(--border-color);
+        }
+
+        .card-gold .btn { color: var(--gold-primary); background: rgba(212, 175, 55, 0.05); }
+        .card-gold:hover .btn { background: var(--gold-primary); color: var(--bg-dark); border-color: var(--gold-primary); }
+
+        .card-teal .btn { color: var(--accent-teal); background: rgba(75, 166, 166, 0.05); }
+        .card-teal:hover .btn { background: var(--accent-teal); color: var(--bg-dark); border-color: var(--accent-teal); }
+
+        .card-purple .btn { color: var(--accent-purple); background: rgba(142, 68, 173, 0.05); }
+        .card-purple:hover .btn { background: var(--accent-purple); color: var(--bg-dark); border-color: var(--accent-purple); }
+
+        /* Data Section */
+        .data-section {
+            background: rgba(15, 15, 18, 0.6);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 30px;
+            margin: 0 auto 40px;
+            max-width: 900px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+
+        .data-section h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #fff;
+        }
+
+        .data-section p {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+
+        .download-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 24px;
+            border-radius: 8px;
+            background: #111;
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: all 0.3s;
+            font-family: 'Space Mono', monospace;
+        }
+
+        .download-btn:hover {
+            background: #fff;
+            color: #000;
+            border-color: #fff;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--text-dim);
+            font-size: 0.8rem;
+            border-top: 1px solid var(--border-color);
+            font-family: 'Space Mono', monospace;
+            margin-top: 40px;
+            background: rgba(10, 10, 12, 0.4);
+        }
+
+        footer a {
+            color: var(--gold-primary);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: var(--gold-bright);
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .grid { grid-template-columns: 1fr; }
+            .download-btn { width: 100%; justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Modern Perfumery Course Portal</h1>
+        <p class="subtitle">Interactive spatial databases, visual vocabulary engines, and molecular mapping visualizers designed for students and educators.</p>
+    </header>
+
+    <div class="container">
+        <div class="grid">
+            <!-- Card 1: Organ Explorer -->
+            <a href="./OrganExplorer/index.html" class="card card-gold">
+                <div>
+                    <div class="card-icon"><i class="fas fa-layer-group"></i></div>
+                    <h2>Organ Explorer</h2>
+                    <p>2D MDS visualizer mapping raw materials. Explore proximity-based sensory affinities, structured odor families, and structural similarity networks compiled for course organ setups.</p>
+                </div>
+                <div>
+                    <span class="btn">Launch Explorer <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </a>
+
+            <!-- Card 2: Molecular Space -->
+            <a href="./MolecularSpace/index.html" class="card card-teal">
+                <div>
+                    <div class="card-icon"><i class="fas fa-cubes"></i></div>
+                    <h2>Molecular Space</h2>
+                    <p>Interactive 3D chemical coordinates space (AromaOS). Filter by supply vendor and view interactive WebGL-rendered 3D conformations with Gasteiger charge projections.</p>
+                </div>
+                <div>
+                    <span class="btn">Launch Space <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </a>
+
+            <!-- Card 3: Statistical Affinity Map -->
+            <a href="./StatisticalAffinityMap/index.html" class="card card-purple">
+                <div>
+                    <div class="card-icon"><i class="fas fa-diagram-project"></i></div>
+                    <h2>Affinity Map</h2>
+                    <p>Global raw materials mapping projecting localized inventory items onto the standard TGSC (The Good Scents Company) olfactory network to explore chemical classifications.</p>
+                </div>
+                <div>
+                    <span class="btn">Launch Map <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </a>
+        </div>
+
+        <!-- Download Section -->
+        <div class="data-section">
+            <h3>Student Data Downloads</h3>
+            <p>Download the standardized chemical datasets and reference feature matrices below for local spreadsheet lookups or analysis:</p>
+            <div class="download-links">
+                <a href="./Student_Organ_Database.csv" download class="download-btn">
+                    <i class="fas fa-file-csv"></i> Organ Database (Master)
+                </a>
+                <a href="./Student_Organ_Chemical_Features.csv" download class="download-btn">
+                    <i class="fas fa-table"></i> Chemical Features (Clean)
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Host on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</p>
+    </footer>
+
+</body>
+</html>

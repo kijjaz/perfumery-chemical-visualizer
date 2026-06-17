@@ -1,0 +1,681 @@
+SKU,Material Name,CAS Number,Official Name,Odor Family,Odor Description,Atom Counts,Functional Groups,Aromaticity,Heterocyclic,Formulation Compatibility,Molecular Weight,LogP,SMILES
+5EW07840,2 3-Dimethyl Pyrazine 1% in DPG from PerfumersWorld,5910-89-4,"2,3-DIMETHYLPYRAZINE",Gourmet (Nutty),,C6 N2,Pyrazine,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),108.14,1.09,CC1=NC=CN=C1C
+5EW20137,2 3-Dimethyl Pyrazine 10% in DPG from PerfumersWorld,5910-89-4,"2,3-DIMETHYLPYRAZINE",Gourmet (Nutty),,C6 N2,Pyrazine,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),108.14,1.09,CC1=NC=CN=C1C
+4EW07503,2 3-Dimethyl Pyrazine from PerfumersWorld,5910-89-4,"2,3-DIMETHYLPYRAZINE",Gourmet (Nutty),,C6 N2,Pyrazine,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),108.14,1.09,CC1=NC=CN=C1C
+8F3094001657,2-Acetyl Pyrazine (Powder) from SimpleScentsDIY,22047-25-2,Acetylpyrazine,Gourmet (Roasted),,C6 O1 N2,"Ketone, Pyrazine",Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),122.13,0.68,CC(=O)C1=NC=CN=C1
+5EN13769,2-Acetyl Pyrazine 1% in DPG from PerfumersWorld,22047-25-2,Acetylpyrazine,Gourmet (Roasted),,C6 O1 N2,"Ketone, Pyrazine",Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),122.13,0.68,CC(=O)C1=NC=CN=C1
+1EN13109,2-Acetyl Pyrazine from PerfumersWorld,22047-25-2,Acetylpyrazine,Gourmet (Roasted),,C6 O1 N2,"Ketone, Pyrazine",Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),122.13,0.68,CC(=O)C1=NC=CN=C1
+5FC07623,2-Methyl-2-Pentenoic Acid 10% in DPG from PerfumersWorld,6297-41-2,Butyl 2-methylvalerate,Fruit (Strawberry),,C10 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),172.27,2.77,CCCCOC(=O)C(C)CCC
+4FC07622,2-Methyl-2-Pentenoic Acid from PerfumersWorld,3142-72-1,DTXSID0051998,Fruit (Strawberry),,C6 O2,Carboxylic Acid,Aliphatic,No,Standard (Alcohol Compatible),114.14,1.43,CCC=C(C)C(=O)O
+4FD00001,2-Methylbutyl 2-Methylbutyrate from PerfumersWorld,2445-78-5,2-METHYLBUTYL 2-METHYLBUTYRATE,Fruit (Apple),,C10 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),172.27,2.62,CCC(C)COC(=O)C(C)CC
+4FY22527,2-Octen-4-one from PerfumersWorld,4643-27-0,2-Octen-4-one,Earthy (Mushroom),,C8 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),126.2,2.32,CCCCC(=O)C=CC
+5ES13952,2-iso Propyl 4 Methyl Thiazole 1% in DPG from PerfumersWorld,15679-13-7,2-Isopropyl-4-methylthiazole,Facet (Roasted),Modifier,C7 N1 S1,Thiazole,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),141.24,2.57,CC1=CSC(=N1)C(C)C
+4ES11805,2-iso Propyl 4 Methyl Thiazole from PerfumersWorld,15679-13-7,2-Isopropyl-4-methylthiazole,Facet (Roasted),Modifier,C7 N1 S1,Thiazole,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),141.24,2.57,CC1=CSC(=N1)C(C)C
+5VD07562,6-Methyl Coumarin 10% in DPG from PerfumersWorld,92-48-8,6-Methylcoumarin,Gourmet (Coconut),,C10 O2,Lactone,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),160.17,2.1,CC1=CC2=C(C=C1)OC(=O)C=C2
+1VD00002,6-Methyl Coumarin from PerfumersWorld,92-48-8,6-Methylcoumarin,Gourmet (Coconut),,C10 O2,Lactone,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),160.17,2.1,CC1=CC2=C(C=C1)OC(=O)C=C2
+4FG02943,Acetic Acid from PerfumersWorld,64-19-7,acetic acid,Vinegar,,C2 O2,Carboxylic Acid,Aliphatic,No,Hydrophilic (Water Compatible),60.05,0.09,CC(=O)O
+5DV09244,Acetoin 10% in DPG from PerfumersWorld,513-86-0,acetoin,Gourmet (Buttery),,C4 O2,"Ketone, Secondary Alcohol",Aliphatic,No,Hydrophilic (Water Compatible),88.11,-0.04,CC(C(=O)C)O
+4DV02664,Acetoin from PerfumersWorld,513-86-0,acetoin,Gourmet (Buttery),,C4 O2,"Ketone, Secondary Alcohol",Aliphatic,No,Hydrophilic (Water Compatible),88.11,-0.04,CC(C(=O)C)O
+1NP00009,Acetophenone from PerfumersWorld,98-86-2,ACETOPHENONE,Floral (Hawthorn),,C8 O1,Ketone,Aromatic (Benzene),No,Standard (Alcohol Compatible),120.15,1.89,CC(=O)C1=CC=CC=C1
+5SP07823,Acetyl Isoeugenol 10% in DPG from PerfumersWorld,93-29-8,RefChem:1087544,Spice (Clove),,C12 O3,"Ester, Ether",Aromatic (Benzene),No,Standard (Alcohol Compatible),206.24,2.65,CC=CC1=CC(=C(C=C1)OC(=O)C)OC
+1SP00011,Acetyl Isoeugenol from PerfumersWorld,93-29-8,RefChem:1087544,Spice (Clove),,C12 O3,"Ester, Ether",Aromatic (Benzene),No,Standard (Alcohol Compatible),206.24,2.65,CC=CC1=CC(=C(C=C1)OC(=O)C)OC
+5GA08479,Adoxal 10% in DPG from PerfumersWorld,141-13-9,Adoxal,Water (Fresh),,C14 O1,Aldehyde,Aliphatic,No,Lipophilic (Oil/Wax Compatible),210.36,4.37,CC(CCCC(C)C=O)CCC=C(C)C
+4GA00012,Adoxal from PerfumersWorld,141-13-9,Adoxal,Water (Fresh),,C14 O1,Aldehyde,Aliphatic,No,Lipophilic (Oil/Wax Compatible),210.36,4.37,CC(CCCC(C)C=O)CCC=C(C)C
+3AE13387,Alcohol C-7 Heptanol from PerfumersWorld,111-70-6,1-HEPTANOL,Green (Herbal),,C7 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),116.2,1.95,CCCCCCCO
+3AD13388,Alcohol C-8 Octanol from PerfumersWorld,111-87-5,1-octanol,Citrus (Orange),,C8 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),130.23,2.34,CCCCCCCCO
+3AD00017,Alcohol C-9 from PerfumersWorld,143-08-8,1-Nonanol,Floral (Rose),,C9 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),144.26,2.73,CCCCCCCCCO
+5AC07527,Aldehyde C-10 Decanal 10% in DPG from PerfumersWorld,112-31-2,Decanal,Citrus (Orange),,C10 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),156.27,3.33,CCCCCCCCCC=O
+5AC08459,Aldehyde C-10 Decanal 50% in DPG from PerfumersWorld,112-31-2,Decanal,Citrus (Orange),,C10 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),156.27,3.33,CCCCCCCCCC=O
+4AC00018,Aldehyde C-10 Decanal from PerfumersWorld,112-31-2,Decanal,Citrus (Orange),,C10 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),156.27,3.33,CCCCCCCCCC=O
+8F3094001770,Aldehyde C-10 from SimpleScentsDIY,112-31-2,Decanal,Citrus (Orange),,C10 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),156.27,3.33,CCCCCCCCCC=O
+5AR08831,Aldehyde C-11 Undecanal 10% in DPG from PerfumersWorld,112-44-7,UNDECANAL,Aldehydic (Clean),,C11 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),170.3,3.72,CCCCCCCCCCC=O
+4AR00020,Aldehyde C-11 Undecanal from PerfumersWorld,112-44-7,UNDECANAL,Aldehydic (Clean),,C11 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),170.3,3.72,CCCCCCCCCCC=O
+5AR08462,Aldehyde C-11 Undecylenic 10% in DPG from PerfumersWorld,112-45-8,10-Undecenal,Aldehydic (Clean),,C11 O1,"Aldehyde, Allyl",Aliphatic,No,Standard (Alcohol Compatible),168.28,3.49,C=CCCCCCCCCC=O
+4AR01236,Aldehyde C-11 Undecylenic from PerfumersWorld,112-45-8,10-Undecenal,Aldehydic (Waxy),Modifier,C11 O1,"Aldehyde, Allyl",Aliphatic,No,Standard (Alcohol Compatible),168.28,3.49,C=CCCCCCCCCC=O
+8F3094001771,Aldehyde C-11 from SimpleScentsDIY,112-45-8,10-Undecenal,Aldehydic (Clean),,C11 O1,"Aldehyde, Allyl",Aliphatic,No,Standard (Alcohol Compatible),168.28,3.49,C=CCCCCCCCCC=O
+5AA07834,Aldehyde C-12 Lauric Dodecanal 10% in DPG from PerfumersWorld,112-54-9,DODECANAL,Aldehydic (Clean),,C12 O1,Aldehyde,Aliphatic,No,Lipophilic (Oil/Wax Compatible),184.32,4.11,CCCCCCCCCCCC=O
+4AA00021,Aldehyde C-12 Lauric Dodecanal from PerfumersWorld,112-54-9,DODECANAL,Aldehydic (Clean),,C12 O1,Aldehyde,Aliphatic,No,Lipophilic (Oil/Wax Compatible),184.32,4.11,CCCCCCCCCCCC=O
+5AG07528,Aldehyde C-12 MNA 10% in DPG from PerfumersWorld,110-41-8,2-Methylundecanal,Aldehydic (Clean),,C12 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),184.32,3.96,CCCCCCCCCC(C)C=O
+4AG00022,Aldehyde C-12 MNA from PerfumersWorld,110-41-8,2-Methylundecanal,Aldehydic (Clean),Modifier,C12 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),184.32,3.96,CCCCCCCCCC(C)C=O
+8F3094005317,Aldehyde C-12 MNA from SimpleScentsDIY,110-41-8,2-Methylundecanal,Aldehydic (Clean),,C12 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),184.32,3.96,CCCCCCCCCC(C)C=O
+8F3094001656,Aldehyde C-12 from SimpleScentsDIY,112-54-9,DODECANAL,Aldehydic (Clean),,C12 O1,Aldehyde,Aliphatic,No,Lipophilic (Oil/Wax Compatible),184.32,4.11,CCCCCCCCCCCC=O
+5DD07538,Aldehyde C-14 Gamma Undecalactone 10% in DPG from PerfumersWorld,104-67-6,Gamma-undecalactone,Fruit (Peach),,C11 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),184.28,3.05,CCCCCCCC1CCC(=O)O1
+4DD00454,Aldehyde C-14 Gamma Undecalactone from PerfumersWorld,104-67-6,Gamma-undecalactone,Fruit (Peach),,C11 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),184.28,3.05,CCCCCCCC1CCC(=O)O1
+8F3094001800,Aldehyde C-14 Pure from SimpleScentsDIY,104-67-6,Gamma-undecalactone,Fruit (Peach),,C11 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),184.28,3.05,CCCCCCCC1CCC(=O)O1
+5FC07539,Aldehyde C-16 Ethyl Methyl Phenyl Glycidate 10% in DPG from PerfumersWorld,77-83-8,Ethyl 3-methyl-3-phenylglycidate,Fruit (Strawberry),,C12 O3,"Ester, Ether",Aromatic (Benzene),Yes,Standard (Alcohol Compatible),206.24,1.86,CCOC(=O)C1C(O1)(C)C2=CC=CC=C2
+4FC00176,Aldehyde C-16 Ethyl Methyl Phenyl Glycidate from PerfumersWorld,77-83-8,Ethyl 3-methyl-3-phenylglycidate,Fruit (Strawberry),,C12 O3,"Ester, Ether",Aromatic (Benzene),Yes,Standard (Alcohol Compatible),206.24,1.86,CCOC(=O)C1C(O1)(C)C2=CC=CC=C2
+8F3094001431,Aldehyde C-16 from SimpleScentsDIY,77-83-8,Ethyl 3-methyl-3-phenylglycidate,Fruit (Strawberry),,C12 O3,"Ester, Ether",Aromatic (Benzene),Yes,Standard (Alcohol Compatible),206.24,1.86,CCOC(=O)C1C(O1)(C)C2=CC=CC=C2
+5DD12925,Aldehyde C-18 Gamma Nonalactone 10% in DPG from PerfumersWorld,104-61-0,Gamma-nonalactone,Fruit (Coconut),,C9 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),156.22,2.27,CCCCCC1CCC(=O)O1
+4DD00324,Aldehyde C-18 Gamma Nonalactone from PerfumersWorld,104-61-0,Gamma-nonalactone,Fruit (Coconut),,C9 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),156.22,2.27,CCCCCC1CCC(=O)O1
+8F3094001801,Aldehyde C-18 Pure from SimpleScentsDIY,104-67-6,Gamma-undecalactone,Fruit (Coconut),,C11 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),184.28,3.05,CCCCCCCC1CCC(=O)O1
+4AG00025,Aldehyde C-7 Heptanal from PerfumersWorld,111-71-7,Heptanal,Green (Fatty),,C7 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),114.19,2.16,CCCCCCC=O
+5AC08158,Aldehyde C-8 Octanal 10% in DPG from PerfumersWorld,124-13-0,Octanal,Citrus (Orange),,C8 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),128.22,2.55,CCCCCCCC=O
+4AC00026,Aldehyde C-8 Octanal from PerfumersWorld,124-13-0,Octanal,Citrus (Orange),,C8 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),128.22,2.55,CCCCCCCC=O
+8F3094001768,Aldehyde C-8 from SimpleScentsDIY,124-13-0,Octanal,Citrus (Orange),,C8 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),128.22,2.55,CCCCCCCC=O
+5AC10167,Aldehyde C-9 Nonanal 10% in DPG from PerfumersWorld,124-19-6,NONANAL,Floral (Rose),,C9 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),142.24,2.94,CCCCCCCCC=O
+4AC00027,Aldehyde C-9 Nonanal from PerfumersWorld,124-19-6,NONANAL,Floral (Rose),,C9 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),142.24,2.94,CCCCCCCCC=O
+8F3094001769,Aldehyde C-9 from SimpleScentsDIY,124-19-6,NONANAL,Floral (Rose),,C9 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),142.24,2.94,CCCCCCCCC=O
+4GN23714,Algix Pure from PerfumersWorld,72987-59-8,2-(4-Methylphenoxy)-1-(2-phenylethoxy)ethanol,Unclassified,,C17 O3,"Ether, Hemiacetal, Secondary Alcohol",Aromatic (Benzene),No,Standard (Alcohol Compatible),272.34,2.95,CC1=CC=C(C=C1)OCC(O)OCCC2=CC=CC=C2
+5FG07543,Allyl Amyl Glycolate 10% in DPG from PerfumersWorld,67634-00-8,Allyl (3-methylbutoxy)acetate,Fruit (Pineapple),,C10 O3,"Allyl, Ester, Ether",Aliphatic,No,Standard (Alcohol Compatible),186.25,1.78,CC(C)CCOCC(=O)OCC=C
+4FG00029,Allyl Amyl Glycolate from PerfumersWorld,67634-00-8,Allyl (3-methylbutoxy)acetate,Fruit (Pineapple),,C10 O3,"Allyl, Ester, Ether",Aliphatic,No,Standard (Alcohol Compatible),186.25,1.78,CC(C)CCOCC(=O)OCC=C
+4FC02995,Allyl Caproate from PerfumersWorld,123-68-2,Allyl hexanoate,Fruit (Pineapple),,C9 O2,"Allyl, Ester",Aliphatic,No,Standard (Alcohol Compatible),156.22,2.3,CCCCCC(=O)OCC=C
+8F3094001826,Allyl Caproate C6 from SimpleScentsDIY,123-68-2,Allyl hexanoate,Fruit (Pineapple),,C9 O2,"Allyl, Ester",Aliphatic,No,Standard (Alcohol Compatible),156.22,2.3,CCCCCC(=O)OCC=C
+5FC12465,Allyl Cyclohexyl Propionate 10% in DPG from PerfumersWorld,2705-87-5,Allyl cyclohexanepropionate,Fruit (Pineapple),,C12 O2,"Allyl, Ester",Aliphatic,No,Standard (Alcohol Compatible),196.29,3.08,C=CCOC(=O)CCC1CCCCC1
+4FC00030,Allyl Cyclohexyl Propionate from PerfumersWorld,2705-87-5,Allyl cyclohexanepropionate,Fruit (Pineapple),,C12 O2,"Allyl, Ester",Aliphatic,No,Standard (Alcohol Compatible),196.29,3.08,C=CCOC(=O)CCC1CCCCC1
+8F3094001704,Allyl Heptylate from SimpleScentsDIY,142-19-8,Allyl heptanoate,Unclassified,,C10 O2,"Allyl, Ester",Aliphatic,No,Standard (Alcohol Compatible),170.25,2.69,CCCCCCC(=O)OCC=C
+4IN10857,Allyl Ionone Cetone V from PerfumersWorld,79-78-7,Allyl alpha-ionone,Unclassified,,C16 O1,"Allyl, Ketone",Aliphatic,No,Lipophilic (Oil/Wax Compatible),232.37,4.46,CC1=CCCC(C1C=CC(=O)CCC=C)(C)C
+5IF07569,Alpha Damascone 10% in DPG from PerfumersWorld,43052-87-5,DTXSID90880772,Fruit (Apple/Plum),,C13 O1,"Allyl, Ketone",Aliphatic,No,Standard (Alcohol Compatible),192.3,3.51,CC1=CCCC(C1C(=O)CC=C)(C)C
+9IF02656,Alpha Damascone from PerfumersWorld,43052-87-5,DTXSID90880772,Fruit (Apple/Plum),,C13 O1,"Allyl, Ketone",Aliphatic,No,Standard (Alcohol Compatible),192.3,3.51,CC1=CCCC(C1C(=O)CC=C)(C)C
+3IF00237,Alpha Ionone from PerfumersWorld,127-41-3,ALPHA-IONONE,Floral (Violet),,C13 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),192.3,3.51,CC1=CCCC(C1C=CC(=O)C)(C)C
+8F3094001290,Alpha Ionone from SimpleScentsDIY,127-41-3,ALPHA-IONONE,Floral (Violet),,C13 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),192.3,3.51,CC1=CCCC(C1C=CC(=O)C)(C)C
+5II11436,Alpha Irone 10% in DPG from PerfumersWorld,79-69-6,alpha-Irone,Floral (Orris),,C14 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),206.33,3.76,CC1CC=C(C(C1(C)C)C=CC(=O)C)C
+5II09179,Alpha Irone 10% in Myristic Acid(solid) from PerfumersWorld,79-69-6,alpha-Irone,Floral (Orris),,C14 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),206.33,3.76,CC1CC=C(C(C1(C)C)C=CC(=O)C)C
+3IW00300,Alpha Isomethyl Ionone from PerfumersWorld,127-51-5,"3-Methyl-4-(2,6,6-trimethyl-2-cyclohexen-1-yl)-3-buten-2-one",Floral (Violet),,C14 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),206.33,3.9,CC1=CCCC(C1C=C(C)C(=O)C)(C)C
+3KC14406,Alpha Pinene from PerfumersWorld,80-56-8,ALPHA-PINENE,Woods (Pine),,C10,Hydrocarbon / Other,Aliphatic,No,Standard (Alcohol Compatible),136.24,3.0,CC1=CCC2CC1C2(C)C
+3KL00430,Alpha Terpineol from PerfumersWorld,98-55-5,alpha-TERPINEOL,Floral (Lilac),,C10 O1,Tertiary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),154.25,2.5,CC1=CCC(CC1)C(C)(C)O
+8F3094005333,Alpha-Pinene from SimpleScentsDIY,80-56-8,ALPHA-PINENE,Woods (Pine),,C10,Hydrocarbon / Other,Aliphatic,No,Standard (Alcohol Compatible),136.24,3.0,CC1=CCC2CC1C2(C)C
+4WW17035,Amber Core from PerfumersWorld,139504-68-0,"2-Butanol, 1-[[2-(1,1-dimethylethyl)cyclohexyl]oxy]-",Unclassified,,C14 O2,"Ether, Secondary Alcohol",Aliphatic,No,Standard (Alcohol Compatible),228.38,3.38,CCC(COC1CCCCC1C(C)(C)C)O
+8F3094001701,Amber Core from SimpleScentsDIY,139504-68-0,"2-Butanol, 1-[[2-(1,1-dimethylethyl)cyclohexyl]oxy]-",Unclassified,,C14 O2,"Ether, Secondary Alcohol",Aliphatic,No,Standard (Alcohol Compatible),228.38,3.38,CCC(COC1CCCCC1C(C)(C)C)O
+4WW16862,Amberketal IPM from PerfumersWorld,57345-19-4,"5H-3,5a-Epoxynaphth[2,1-c]oxepin, dodecahydro-3,8,8,11a-tetramethyl-",Unclassified,,C18 O2,Ketal,Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),278.44,4.52,CC1(CCCC2(C1CCC34C2CCC(O3)(OC4)C)C)C
+4WU16860,Ambermax 50% Dowanol TPM from PerfumersWorld,929625-08-1,RefChem:216773,Unclassified,,C18 O1,Primary Alcohol,Aliphatic,No,Lipophilic (Oil/Wax Compatible),262.44,4.56,CC(CO)C1=C2C(C3CCC2(C3)C(CC1)(C)C)(C)C
+8F3094001890,Ambermax 50% Dowanol TPM from SimpleScentsDIY,929625-08-1,RefChem:216773,Unclassified,,C18 O1,Primary Alcohol,Aliphatic,No,Lipophilic (Oil/Wax Compatible),262.44,4.56,CC(CO)C1=C2C(C3CCC2(C3)C(CC1)(C)C)(C)C
+8F3094001658,Ambermor DL (Semi Solid) from SimpleScentsDIY,3738-00-9,Cetalox,Amber (Dry),,C16 O1,Ether,Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),236.4,4.41,CC1(CCCC2(C1CCC3(C2CCO3)C)C)C
+8F3094004205,Amberwood F from SimpleScentsDIY,58567-11-6,formaldehyde cyclododecyl ethyl acetal,Unclassified,,C15 O2,Acetal,Aliphatic,No,Lipophilic (Oil/Wax Compatible),242.4,4.67,CCOCOC1CCCCCCCCCCC1
+5XU07617,Ambrettolide 10% in DPG from PerfumersWorld,28645-51-4,Cis-isoambrettolide,Unclassified,,C16 O2,"Lactone, Macrocyclic Musk",Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),252.4,4.78,C1CCCC=CCCCCCCOC(=O)CCC1
+5XU10231,Ambrettolide 50% in DPG from PerfumersWorld,123-69-3,Ambrettolide,Unclassified,,C16 O2,"Lactone, Macrocyclic Musk",Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),252.4,4.78,C1CCCCOC(=O)CCCCCC=CCCC1
+4XU00034,Ambrettolide from PerfumersWorld,28645-51-4,Cis-isoambrettolide,Unclassified,,C16 O2,"Lactone, Macrocyclic Musk",Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),252.4,4.78,C1CCCC=CCCCCCCOC(=O)CCC1
+8F3094001556,Ambrettolide from SimpleScentsDIY,28645-51-4,Cis-isoambrettolide,Unclassified,,C16 O2,"Lactone, Macrocyclic Musk",Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),252.4,4.78,C1CCCC=CCCCCCCOC(=O)CCC1
+8F3094004161,Ambrinol from SimpleScentsDIY,41199-19-3,"1,2,3,4,4a,5,6,7-Octahydro-2,5,5-trimethyl-2-naphthol",Unclassified,,C13 O1,Tertiary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),194.32,3.28,CC1(CCC=C2C1CCC(C2)(C)O)C
+8F3094001659,Ambrocenide (Powder) from SimpleScentsDIY,211299-54-6,"4H-4a,9-Methanoazuleno[5,6-d]-1,3-dioxole, octahydro-2,2,5,8,8,9a-hexamethyl-, (4aR,5R,7aS,9R)-",Amber (Powerful),,C18 O2,Ketal,Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),278.44,4.38,CC1CCC2C13CC(C2(C)C)C4(C(C3)OC(O4)(C)C)C
+5WU22697,Ambrocenide 10% in DPG from PerfumersWorld,211299-54-6,"4H-4a,9-Methanoazuleno[5,6-d]-1,3-dioxole, octahydro-2,2,5,8,8,9a-hexamethyl-, (4aR,5R,7aS,9R)-",Amber (Powerful),,C18 O2,Ketal,Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),278.44,4.38,CC1CCC2C13CC(C2(C)C)C4(C(C3)OC(O4)(C)C)C
+5WU22696,Ambrocenide 10% in TEC from PerfumersWorld,211299-54-6,"4H-4a,9-Methanoazuleno[5,6-d]-1,3-dioxole, octahydro-2,2,5,8,8,9a-hexamethyl-, (4aR,5R,7aS,9R)-",Amber (Powerful),,C18 O2,Ketal,Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),278.44,4.38,CC1CCC2C13CC(C2(C)C)C4(C(C3)OC(O4)(C)C)C
+1WU21632,Ambrocenide from PerfumersWorld,211299-54-6,"4H-4a,9-Methanoazuleno[5,6-d]-1,3-dioxole, octahydro-2,2,5,8,8,9a-hexamethyl-, (4aR,5R,7aS,9R)-",Amber (Powerful),,C18 O2,Ketal,Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),278.44,4.38,CC1CCC2C13CC(C2(C)C)C4(C(C3)OC(O4)(C)C)C
+1UW16861,Ambrofix from PerfumersWorld,6790-58-5,(-)-Ambroxide,Amber (Dry),,C16 O1,Ether,Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),236.4,4.41,CC1(CCCC2(C1CCC3(C2CCO3)C)C)C
+5UW20027,Ambrox Super 10% in DPG from PerfumersWorld,6790-58-5,(-)-Ambroxide,Amber (Dry),,C16 O1,Ether,Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),236.4,4.41,CC1(CCCC2(C1CCC3(C2CCO3)C)C)C
+1UW00035,Ambrox Super from PerfumersWorld,6790-58-5,(-)-Ambroxide,Amber (Dry),,C16 O1,Ether,Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),236.4,4.41,CC1(CCCC2(C1CCC3(C2CCO3)C)C)C
+8F3094001561,Ambroxan (Powder) from SimpleScentsDIY,6790-58-5,(-)-Ambroxide,Amber (Dry),,C16 O1,Ether,Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),236.4,4.41,CC1(CCCC2(C1CCC3(C2CCO3)C)C)C
+5UW07540,Ambroxan 10% in DPG from PerfumersWorld,6790-58-5,(-)-Ambroxide,Amber (Dry),,C16 O1,Ether,Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),236.4,4.41,CC1(CCCC2(C1CCC3(C2CCO3)C)C)C
+1UW00036,Ambroxan from PerfumersWorld,6790-58-5,(-)-Ambroxide,Amber (Dry),,C16 O1,Ether,Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),236.4,4.41,CC1(CCCC2(C1CCC3(C2CCO3)C)C)C
+3JJ00005,Amyl Cinnamic Aldehyde (ACA) from PerfumersWorld,122-40-7,alpha-Amylcinnamaldehyde,Floral (Mimosa),,C14 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),202.3,3.85,CCCCCC(=CC1=CC=CC=C1)C=O
+3OH00037,Amyl Salicylate from PerfumersWorld,2050-08-0,Amyl salicylate,Green (Herbal),,C12 O3,Salicylate,Aromatic (Benzene),No,Standard (Alcohol Compatible),208.26,2.74,CCCCCOC(=O)C1=CC=CC=C1O
+4FD06346,Amyl Valerate from PerfumersWorld,2173-56-0,Pentyl valerate,Unclassified,,C10 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),172.27,2.91,CCCCCOC(=O)CCCC
+8F3094005337,Anethol from SimpleScentsDIY,4180-23-8,ANETHOLE,Unclassified,,C10 O1,Ether,Aromatic (Benzene),No,Standard (Alcohol Compatible),148.2,2.73,CC=CC1=CC=C(C=C1)OC
+4SB00038,Anethole from PerfumersWorld,104-46-1,ANETHOLE,Unclassified,,C10 O1,Ether,Aromatic (Benzene),No,Standard (Alcohol Compatible),148.2,2.73,CC=CC1=CC=C(C=C1)OC
+3NV00040,Anisaldehyde from PerfumersWorld,123-11-5,4-Methoxybenzaldehyde,Floral (Hawthorn),,C8 O2,"Aldehyde, Ether",Aromatic (Benzene),No,Standard (Alcohol Compatible),136.15,1.51,COC1=CC=C(C=C1)C=O
+8F3094004198,Anisaldehyde from SimpleScentsDIY,123-11-5,4-Methoxybenzaldehyde,Aldehydic (Complex),,C8 O2,"Aldehyde, Ether",Aromatic (Benzene),No,Standard (Alcohol Compatible),136.15,1.51,COC1=CC=C(C=C1)C=O
+3LN00043,Anisyl Acetate from PerfumersWorld,104-21-2,4-Methoxybenzyl acetate,Unclassified,,C10 O3,"Ester, Ether",Aromatic (Benzene),No,Standard (Alcohol Compatible),180.2,1.76,CC(=O)OCC1=CC=C(C=C1)OC
+3NL00044,Anisyl Alcohol from PerfumersWorld,105-13-5,4-METHOXYBENZYL ALCOHOL,Unclassified,,C8 O2,"Ether, Primary Alcohol",Aromatic (Benzene),No,Standard (Alcohol Compatible),138.17,1.19,COC1=CC=C(C=C1)CO
+3FD06779,Apritone from PerfumersWorld,68133-79-9,"2-(3,7-Dimethyl-2,6-octadienyl)cyclopentanone",Unclassified,,C15 O1,Ketone,Aliphatic,No,Lipophilic (Oil/Wax Compatible),220.36,4.44,CC(=CCCC(=CCC1CCCC1=O)C)C
+5NC12180,Aurantiol (Methyl Anthranilate Schiffs Base) 50% in DPG from PerfumersWorld,89-43-0,Aurantiol,Floral (Heavy),,C18 O3 N1,"Ester, Tertiary Alcohol",Aromatic (Benzene),No,Lipophilic (Oil/Wax Compatible),305.42,4.14,CC(CCCC(C)(C)O)CC=NC1=CC=CC=C1C(=O)OC
+2NC00409,Aurantiol - Methyl Anthranilate Schiffs Base from PerfumersWorld,89-43-0,Aurantiol,Floral (Heavy),,C18 O3 N1,"Ester, Tertiary Alcohol",Aromatic (Benzene),No,Lipophilic (Oil/Wax Compatible),305.42,4.14,CC(CCCC(C)(C)O)CC=NC1=CC=CC=C1C(=O)OC
+4WB16858,Azarbre from PerfumersWorld,1754-00-3,Isocitral,Unclassified,,C10 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),152.24,2.88,CC(=CCC=C(C)CC=O)C
+8F3094001772,Azarbre from SimpleScentsDIY,68845-36-3,Diethyldimethylcyclohex-2-en-1-one,Unclassified,,C12 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),180.29,3.35,CCC1C(CC(=O)C(=C1CC)C)C
+4WR00045,Bacdanol from PerfumersWorld,28219-61-6,Sandela,Unclassified,,C14 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),208.34,3.7,CCC(=CCC1CC=C(C1(C)C)C)CO
+8F3094001773,Bacdanol from SimpleScentsDIY,28219-61-6,Sandela,Unclassified,,C14 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),208.34,3.7,CCC(=CCC1CC=C(C1(C)C)C)CO
+5FN07794,Benzaldehyde 10% in DPG from PerfumersWorld,100-52-7,benzaldehyde,Woods (Agarwood),,C7 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),106.12,1.5,C1=CC=C(C=C1)C=O
+4FN00049,Benzaldehyde from PerfumersWorld,100-52-7,benzaldehyde,Fruit (Almond),,C7 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),106.12,1.5,C1=CC=C(C=C1)C=O
+8F3094001640,Benzaldehyde from SimpleScentsDIY,100-52-7,benzaldehyde,Woods (Agarwood),,C7 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),106.12,1.5,C1=CC=C(C=C1)C=O
+5RP09245,Benzophenone 10% in DPG from PerfumersWorld,119-61-9,BENZOPHENONE,Unclassified,,C13 O1,Ketone,Aromatic (Benzene),No,Standard (Alcohol Compatible),182.22,2.92,C1=CC=C(C=C1)C(=O)C2=CC=CC=C2
+1RP00051,Benzophenone from PerfumersWorld,119-61-9,BENZOPHENONE,Unclassified,,C13 O1,Ketone,Aromatic (Benzene),No,Standard (Alcohol Compatible),182.22,2.92,C1=CC=C(C=C1)C(=O)C2=CC=CC=C2
+3JF00052,Benzyl Acetate from PerfumersWorld,140-11-4,BENZYL ACETATE,Floral (Jasmine),,C9 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),150.18,1.75,CC(=O)OCC1=CC=CC=C1
+8F3094001432,Benzyl Acetate from SimpleScentsDIY,140-11-4,BENZYL ACETATE,Floral (Jasmine),,C9 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),150.18,1.75,CC(=O)OCC1=CC=CC=C1
+8F3094001690,Benzyl Benzoate from SimpleScentsDIY,120-51-4,BENZYL BENZOATE,Aldehydic (Complex),,C14 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),212.25,3.04,C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2
+4JD00055,Benzyl Butyrate from PerfumersWorld,103-37-7,Benzyl butyrate,Unclassified,,C11 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),178.23,2.53,CCCC(=O)OCC1=CC=CC=C1
+5SQ12479,Benzyl Cinnamate 10% in DPG from PerfumersWorld,103-41-3,BENZYL CINNAMATE,Woods (Agarwood),,C16 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),238.29,3.44,C1=CC=C(C=C1)COC(=O)C=CC2=CC=CC=C2
+2SQ00056,Benzyl Cinnamate from PerfumersWorld,103-41-3,BENZYL CINNAMATE,Woods (Agarwood),,C16 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),238.29,3.44,C1=CC=C(C=C1)COC(=O)C=CC2=CC=CC=C2
+4JW00057,Benzyl Formate from PerfumersWorld,104-57-4,Benzyl formate,Unclassified,,C8 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),136.15,1.36,C1=CC=C(C=C1)COC=O
+5SP12480,Benzyl Isoeugenol 10% in DPG from PerfumersWorld,120-11-6,Benzyl isoeugenol,Unclassified,,C17 O2,Ether,Aromatic (Benzene),No,Lipophilic (Oil/Wax Compatible),254.33,4.31,CC=CC1=CC(=C(C=C1)OCC2=CC=CC=C2)OC
+1SP00058,Benzyl Isoeugenol from PerfumersWorld,120-11-6,Benzyl isoeugenol,Unclassified,,C17 O2,Ether,Aromatic (Benzene),No,Lipophilic (Oil/Wax Compatible),254.33,4.31,CC=CC1=CC(=C(C=C1)OCC2=CC=CC=C2)OC
+3JF00059,Benzyl Propionate from PerfumersWorld,122-63-4,BENZYL PROPIONATE,Unclassified,,C10 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),164.2,2.14,CCC(=O)OCC1=CC=CC=C1
+3ON00060,Benzyl Salicylate from PerfumersWorld,118-58-1,BENZYL SALICYLATE,Floral (Solar),Blender,C14 O3,Salicylate,Aromatic (Benzene),No,Standard (Alcohol Compatible),228.25,2.75,C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2O
+8F3094001300,Benzyl Salicylate from SimpleScentsDIY,118-58-1,BENZYL SALICYLATE,Aldehydic (Complex),,C14 O3,Salicylate,Aromatic (Benzene),No,Standard (Alcohol Compatible),228.25,2.75,C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2O
+3FG19149,Berry Hexanoate (BerryFlor) from PerfumersWorld,104986-28-9,Ethyl 6-acetoxyhexanoate,Unclassified,,C10 O4,Ester,Aliphatic,No,Standard (Alcohol Compatible),202.25,1.67,CCOC(=O)CCCCCOC(=O)C
+3WS00089,Beta Caryophyllene from PerfumersWorld,87-44-5,BETA-CARYOPHYLLENE,Woods (Pepper),,C15,Hydrocarbon / Other,Aliphatic,No,Lipophilic (Oil/Wax Compatible),204.36,4.73,CC1=CCCC(=C)C2CC(C2CC1)(C)C
+8F3094001645,Beta Caryophyllene from SimpleScentsDIY,87-44-5,BETA-CARYOPHYLLENE,Woods (Pepper),,C15,Hydrocarbon / Other,Aliphatic,No,Lipophilic (Oil/Wax Compatible),204.36,4.73,CC1=CCCC(=C)C2CC(C2CC1)(C)C
+5IR07532,Beta Damascone 10% in DPG from PerfumersWorld,23696-85-7,beta-Damascenone,Woods (Agarwood),,C13 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),190.29,3.43,CC=CC(=O)C1=C(C=CCC1(C)C)C
+9IR00141,Beta Damascone from PerfumersWorld,23696-85-7,beta-Damascenone,Woods (Agarwood),,C13 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),190.29,3.43,CC=CC(=O)C1=C(C=CCC1(C)C)C
+4BC11314,Beta Homocyclocitral from PerfumersWorld,472-66-2,"2,6,6-Trimethyl-1-cyclohexene-1-acetaldehyde",Unclassified,,C11 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),166.26,3.1,CC1=C(C(CCC1)(C)C)CC=O
+3IF00238,Beta Ionone from PerfumersWorld,79-77-6,BETA-IONONE,Unclassified,,C13 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),192.3,3.66,CC1=C(C(CCC1)(C)C)C=CC(=O)C
+3KC00386,Beta Pinene from PerfumersWorld,127-91-3,BETA-PINENE,Unclassified,,C10,Hydrocarbon / Other,Aliphatic,No,Standard (Alcohol Compatible),136.24,3.0,CC1(C2CCC(=C)C1C2)C
+5BW12462,Borneol 50% in DPG from PerfumersWorld,507-70-0,Borneol,Unclassified,,C10 O1,Secondary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),154.25,2.19,CC1(C2CCC1(C(C2)O)C)C
+1BW00064,Borneol from PerfumersWorld,507-70-0,Borneol,Unclassified,,C10 O1,Secondary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),154.25,2.19,CC1(C2CCC1(C(C2)O)C)C
+5MA12469,Bourgeonal 10% in DPG from PerfumersWorld,18127-01-0,Bourgeonal,Floral (Mimosa),,C13 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),190.29,3.12,CC(C)(C)C1=CC=C(C=C1)CCC=O
+4MA00067,Bourgeonal from PerfumersWorld,18127-01-0,Bourgeonal,Floral (Mimosa),,C13 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),190.29,3.12,CC(C)(C)C1=CC=C(C=C1)CCC=O
+8F3094005318,Bourgeonal from SimpleScentsDIY,18127-01-0,Bourgeonal,Floral (Mimosa),,C13 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),190.29,3.12,CC(C)(C)C1=CC=C(C=C1)CCC=O
+5FB07818,Buccoxime 10% in DPG from PerfumersWorld,75147-23-8,"1,5-Dimethylbicyclo[3.2.1]octan-8-one oxime",Facet (Minty),Modifier,C10 O1 N1,Hydrocarbon / Other,Aliphatic,No,Standard (Alcohol Compatible),167.25,2.81,CC12CCCC(C1=NO)(CC2)C
+1FB00071,Buccoxime from PerfumersWorld,75147-23-8,"1,5-Dimethylbicyclo[3.2.1]octan-8-one oxime",Facet (Minty),Modifier,C10 O1 N1,Hydrocarbon / Other,Aliphatic,No,Standard (Alcohol Compatible),167.25,2.81,CC12CCCC(C1=NO)(CC2)C
+3FD05860,Butyl Butyrate from PerfumersWorld,109-21-7,Butyl butyrate,Unclassified,,C8 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),144.21,2.13,CCCCOC(=O)CCC
+4FD05871,Butyl Isovalerate from PerfumersWorld,109-19-3,BUTYL ISOVALERATE,Unclassified,,C9 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),158.24,2.38,CCCCOC(=O)CC(C)C
+3OH00073,Butyl Salicylate from PerfumersWorld,2054-14-4,Butyl salicylate,Unclassified,,C11 O3,Salicylate,Aromatic (Benzene),No,Standard (Alcohol Compatible),194.23,2.35,CCCCOC(=O)C1=CC=CC=C1O
+8F3094001560,CIS Jasmone from SimpleScentsDIY,488-10-8,cis-Jasmone,Unclassified,,C11 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),164.25,3.02,CCC=CCC1=C(C)C(=O)CC1
+8F3094001559,Calone (Powder) from SimpleScentsDIY,28940-11-6,Watermelon ketone,Facet (Marine),,C10 O3,"Ether, Ketone",Aromatic (Benzene),Yes,Standard (Alcohol Compatible),178.19,1.34,CC1=CC2=C(C=C1)OCC(=O)CO2
+5YG11098,Calone 1% in DPG from PerfumersWorld,28940-11-6,Watermelon ketone,Facet (Marine),,C10 O3,"Ether, Ketone",Aromatic (Benzene),Yes,Standard (Alcohol Compatible),178.19,1.34,CC1=CC2=C(C=C1)OCC(=O)CO2
+5YG07546,Calone 10% in DPG from PerfumersWorld,28940-11-6,Watermelon ketone,Facet (Marine),,C10 O3,"Ether, Ketone",Aromatic (Benzene),Yes,Standard (Alcohol Compatible),178.19,1.34,CC1=CC2=C(C=C1)OCC(=O)CO2
+1YG00077,Calone from PerfumersWorld,28940-11-6,Watermelon ketone,Facet (Marine),,C10 O3,"Ether, Ketone",Aromatic (Benzene),Yes,Standard (Alcohol Compatible),178.19,1.34,CC1=CC2=C(C=C1)OCC(=O)CO2
+3BH00078,Camphene from PerfumersWorld,5794-03-6,(+)-Camphene,Unclassified,,C10,Hydrocarbon / Other,Aliphatic,No,Standard (Alcohol Compatible),136.24,3.0,CC1(C2CCC(C2)C1=C)C
+5BH09580,Camphor Powder 50% in DPG from PerfumersWorld,464-49-3,D-CAMPHOR,Unclassified,,C10 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),152.24,2.4,CC1(C2CCC1(C(=O)C2)C)C
+1BH00080,Camphor Powder from PerfumersWorld,464-49-3,D-CAMPHOR,Unclassified,,C10 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),152.24,2.4,CC1(C2CCC1(C(=O)C2)C)C
+8F3094004157,Canthoxal from SimpleScentsDIY,5462-06-6,3-(4-methoxyphenyl)-2-methylpropanal,Unclassified,,C11 O2,"Aldehyde, Ether",Aromatic (Benzene),No,Standard (Alcohol Compatible),178.23,2.07,CC(CC1=CC=C(C=C1)OC)C=O
+5VE14325,Caramel Furanone 0.003% from PerfumersWorld,28664-35-9,"3-Hydroxy-4,5-dimethylfuran-2(5H)-one",Unclassified,,C6 O3,Lactone,Aliphatic,Yes,Hydrophilic (Water Compatible),128.13,0.76,CC1C(=C(C(=O)O1)O)C
+5VE14324,Caramel Furanone 0.03% from PerfumersWorld,28664-35-9,"3-Hydroxy-4,5-dimethylfuran-2(5H)-one",Unclassified,,C6 O3,Lactone,Aliphatic,Yes,Hydrophilic (Water Compatible),128.13,0.76,CC1C(=C(C(=O)O1)O)C
+3WI03465,Caryophyllene Acetate from PerfumersWorld,32214-91-8,ACETYL CARYOPHYLLENE,Unclassified,,C17 O2,Ester,Aliphatic,No,Lipophilic (Oil/Wax Compatible),262.39,4.27,CC1=CCC2C(CC2(C)C)C(=C)CCC1OC(=O)C
+5XB07615,Cashmeran 10% in DPG from PerfumersWorld,33704-61-9,Cashmeran,Musk (Woody),,C14 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),206.33,3.74,CC1C(C2=C(C1(C)C)C(=O)CCC2)(C)C
+8F3094001698,Cashmeran 10% in DPG from SimpleScentsDIY,33704-61-9,Cashmeran,Musk (Woody),,C14 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),206.33,3.74,CC1C(C2=C(C1(C)C)C(=O)CCC2)(C)C
+4XB00090,Cashmeran from PerfumersWorld,33704-61-9,Cashmeran,Musk (Woody),,C14 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),206.33,3.74,CC1C(C2=C(C1(C)C)C(=O)CCC2)(C)C
+3WW00097,Cedramber from PerfumersWorld,19870-74-7,"Cedrane, 8-methoxy-",Unclassified,,C16 O1,Ether,Aliphatic,No,Lipophilic (Oil/Wax Compatible),236.4,4.26,CC1CCC2C13CCC(C(C3)C2(C)C)(C)OC
+8F3094001551,Cedramber from SimpleScentsDIY,19870-74-7,"Cedrane, 8-methoxy-",Unclassified,,C16 O1,Ether,Aliphatic,No,Lipophilic (Oil/Wax Compatible),236.4,4.26,CC1CCC2C13CCC(C(C3)C2(C)C)(C)OC
+1WW00096,Cedrenyl Acetate from PerfumersWorld,1405-92-1,Cedrenyl acetate,Unclassified,,C17 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),262.39,3.96,CC1CCC2C13CC=C(C(C3)C2(C)C)COC(=O)C
+5WW09974,Cedrol 10% in DPG from PerfumersWorld,77-53-2,Cedrol,Unclassified,,C15 O1,Tertiary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),222.37,3.61,CC1CCC2C13CCC(C(C3)C2(C)C)(C)O
+1WW01281,Cedrol from PerfumersWorld,77-53-2,Cedrol,Unclassified,,C15 O1,Tertiary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),222.37,3.61,CC1CCC2C13CCC(C(C3)C2(C)C)(C)O
+3WI00098,Cedroxyde from PerfumersWorld,71735-79-0,"13-Oxabicyclo(10.1.0)trideca-4,8-diene, trimethyl-",Unclassified,,C15 O1,Ether,Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),220.36,4.25,CC1(CC=CCCC=CCCC2C1(O2)C)C
+8F3094005312,Cedroxyde from SimpleScentsDIY,71735-79-0,"13-Oxabicyclo(10.1.0)trideca-4,8-diene, trimethyl-",Unclassified,,C15 O1,Ether,Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),220.36,4.25,CC1(CC=CCCC=CCCC2C1(O2)C)C
+2WW00099,Cedryl Acetate from PerfumersWorld,77-54-3,Cedryl acetate,Unclassified,,C17 O2,Ester,Aliphatic,No,Lipophilic (Oil/Wax Compatible),264.41,4.18,CC1CCC2C13CCC(C(C3)C2(C)C)(C)OC(=O)C
+5XY10869,Celestolide 10% in DPG from PerfumersWorld,13171-00-1,CELESTOLIDE,Unclassified,,C17 O1,Ketone,Aromatic (Benzene),No,Lipophilic (Oil/Wax Compatible),244.38,4.41,CC(=O)C1=C2CCC(C2=CC(=C1)C(C)(C)C)(C)C
+1XY00101,Celestolide from PerfumersWorld,13171-00-1,CELESTOLIDE,Unclassified,,C17 O1,Ketone,Aromatic (Benzene),No,Lipophilic (Oil/Wax Compatible),244.38,4.41,CC(=O)C1=C2CCC(C2=CC(=C1)C(C)(C)C)(C)C
+5YE12329,Champignol 10% in DPG from PerfumersWorld,3687-48-7,(3R)-oct-1-en-3-ol,Unclassified,,C8 O1,Secondary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),128.21,2.11,CCCCCC(C=C)O
+4YE09171,Champignol from PerfumersWorld,3687-48-7,(3R)-oct-1-en-3-ol,Unclassified,,C8 O1,Secondary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),128.21,2.11,CCCCCC(C=C)O
+8F3094001833,Cinnamic Aldehyde from SimpleScentsDIY,104-55-2,cinnamaldehyde,Woods (Agarwood),,C9 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),132.16,1.9,C1=CC=C(C=C1)C=CC=O
+3SQ00109,Cinnamyl Acetate from PerfumersWorld,103-54-8,Cinnamyl acetate,Unclassified,,C11 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),176.22,2.26,CC(=O)OCC=CC1=CC=CC=C1
+8F3094001834,Cinnamyl Acetate from SimpleScentsDIY,103-54-8,Cinnamyl acetate,Unclassified,,C11 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),176.22,2.26,CC(=O)OCC=CC1=CC=CC=C1
+5SV07857,Cinnamyl Alcohol 50% in DPG from PerfumersWorld,104-54-1,cinnamyl alcohol,Woods (Agarwood),,C9 O1,Primary Alcohol,Aromatic (Benzene),No,Standard (Alcohol Compatible),134.18,1.69,C1=CC=C(C=C1)C=CCO
+8F3094001819,Cinnamyl Alcohol 50% in DPG from SimpleScentsDIY,104-54-1,cinnamyl alcohol,Woods (Agarwood),,C9 O1,Primary Alcohol,Aromatic (Benzene),No,Standard (Alcohol Compatible),134.18,1.69,C1=CC=C(C=C1)C=CCO
+2SV00105,Cinnamyl Alcohol from PerfumersWorld,104-54-1,cinnamyl alcohol,Balsamic (Spicy),,C9 O1,Primary Alcohol,Aromatic (Benzene),No,Standard (Alcohol Compatible),134.18,1.69,C1=CC=C(C=C1)C=CCO
+4SV00106,Cinnamyl Aldehyde from PerfumersWorld,104-55-2,cinnamaldehyde,Woods (Agarwood),,C9 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),132.16,1.9,C1=CC=C(C=C1)C=CC=O
+4SW23710,Cinnamyl Nitrile from PerfumersWorld,4360-47-8,Cinnamonitrile,Unclassified,,C9 N1,Nitrile,Aromatic (Benzene),No,Standard (Alcohol Compatible),129.16,2.22,C1=CC=C(C=C1)C=CC#N
+5SV10991,Cinnamyl aldehyde 10% in DPG from PerfumersWorld,104-55-2,cinnamaldehyde,Woods (Agarwood),,C9 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),132.16,1.9,C1=CC=C(C=C1)C=CC=O
+8F3094005324,Cis-3-Hexenol from SimpleScentsDIY,928-96-1,cis-3-Hexen-1-ol,Green (Cut Grass),,C6 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),100.16,1.33,CCC=CCCO
+8F3094001830,Cis-3-hexenyl Isobutyrate from SimpleScentsDIY,41519-23-7,cis-3-Hexenyl isobutyrate,Unclassified,,C10 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),170.25,2.54,CCC=CCCOC(=O)C(C)C
+5CC07796,Citral 10% in DPG from PerfumersWorld,5392-40-5,Citral,Aldehydic (Complex),,C10 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),152.24,2.88,CC(=CCCC(=CC=O)C)C
+8F3094001284,Citral Nat from SimpleScentsDIY,5392-40-5,Citral,Aldehydic (Complex),,C10 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),152.24,2.88,CC(=CCCC(=CC=O)C)C
+4CC00111,Citral from PerfumersWorld,5392-40-5,Citral,Citrus (Lemon),,C10 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),152.24,2.88,CC(=CCCC(=CC=O)C)C
+5CC07820,Citralva 10% in DPG from PerfumersWorld,5146-66-7,citronitrile,Unclassified,,C10 N1,Nitrile,Aliphatic,No,Standard (Alcohol Compatible),149.24,3.2,CC(=CCCC(=CC#N)C)C
+3CC00112,Citrathal from PerfumersWorld,7492-66-2,"1,1-Diethoxy-3,7-dimethylocta-2,6-diene",Unclassified,,C14 O2,Acetal,Aliphatic,No,Lipophilic (Oil/Wax Compatible),226.36,4.08,CCOC(C=C(C)CCC=C(C)C)OCC
+1ZX03525,Citric Acid from PerfumersWorld,77-92-9,citric acid,Unclassified,,C6 O7,"Carboxylic Acid, Tertiary Alcohol",Aliphatic,No,Hydrophilic (Water Compatible),192.12,-1.25,C(C(=O)O)C(CC(=O)O)(C(=O)O)O
+5CR07548,CitronellAL 10% in DPG from PerfumersWorld,106-23-0,CITRONELLAL,Floral (Hay),,C10 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),154.25,2.96,CC(CCC=C(C)C)CC=O
+4CR00115,CitronellAL from PerfumersWorld,106-23-0,CITRONELLAL,Floral (Hay),,C10 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),154.25,2.96,CC(CCC=C(C)C)CC=O
+3RM00116,CitronellOL from PerfumersWorld,106-22-9,Citronellol,Floral (Rose),,C10 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),156.27,2.75,CC(CCC=C(C)C)CCO
+8F3094004197,Citronellal from SimpleScentsDIY,106-23-0,CITRONELLAL,Floral (Hay),,C10 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),154.25,2.96,CC(CCC=C(C)C)CC=O
+8F3094001297,Citronello 70 from SimpleScentsDIY,106-22-9,Citronellol,Floral (Mimosa),,C10 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),156.27,2.75,CC(CCC=C(C)C)CCO
+3RL00118,Citronellyl Acetate from PerfumersWorld,150-84-5,Citronellyl acetate,Unclassified,,C12 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),198.31,3.32,CC(CCC=C(C)C)CCOC(=O)C
+4RC03548,Citronellyl Formate from PerfumersWorld,105-85-1,Citronellyl formate,Unclassified,,C11 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),184.28,2.93,CC(CCC=C(C)C)CCOC=O
+4CR06787,Citronellyl Nitrile from PerfumersWorld,51566-62-2,Citronellyl nitrile,Citrus (Sharp),,C10 N1,Nitrile,Aliphatic,No,Standard (Alcohol Compatible),151.25,3.28,CC(CCC=C(C)C)CC#N
+3WB13402,Clearwood from PerfumersWorld,84238-39-1,Clearwood,Woods (Patchouli),,C15 O1,Tertiary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),222.37,3.61,CC12CCC(C1)(C3(CCC(C23)C(C)C)C)O
+3KK00124,Coniferan from PerfumersWorld,67874-72-0,Coniferan,Unclassified,,C13 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),212.33,3.54,CCC(C)(C)C1CCCCC1OC(=O)C
+8F3094004206,Coranol from SimpleScentsDIY,83926-73-2,4-cyclohexyl-2-methyl-2-butanol,Unclassified,,C11 O1,Tertiary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),170.3,3.12,CC(C)(CCC1CCCCC1)O
+4XU10872,Cosmone from PerfumersWorld,259854-70-1,"5-Cyclotetradecen-1-one, 3-methyl-, (5E)-",Unclassified,,C15 O1,"Ketone, Macrocyclic Musk",Aliphatic,No,Lipophilic (Oil/Wax Compatible),222.37,4.66,CC1CC=CCCCCCCCCC(=O)C1
+8F3094001563,Coumarin (Powder) from SimpleScentsDIY,91-64-5,coumarin,Aldehydic (Complex),,C9 O2,Lactone,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),146.14,1.79,C1=CC=C2C(=C1)C=CC(=O)O2
+5VD07557,Coumarin 10% in DPG from PerfumersWorld,91-64-5,coumarin,Aldehydic (Complex),,C9 O2,Lactone,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),146.14,1.79,C1=CC=C2C(=C1)C=CC(=O)O2
+1VD00129,Coumarin from PerfumersWorld,91-64-5,coumarin,Balsamic (Hay),,C9 O2,Lactone,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),146.14,1.79,C1=CC=C2C(=C1)C=CC(=O)O2
+3MG00134,Cyclamen Aldehyde from PerfumersWorld,103-95-7,Cyclamen aldehyde,Floral (Watery),,C13 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),190.29,3.19,CC(C)C1=CC=C(C=C1)CC(C)C=O
+8F3094001644,Cyclamen Aldehyde from SimpleScentsDIY,103-95-7,Cyclamen aldehyde,Floral (Mimosa),,C13 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),190.29,3.19,CC(C)C1=CC=C(C=C1)CC(C)C=O
+8F3094004158,Cyclogalbanate from SimpleScentsDIY,68901-15-5,Allyl cyclohexyloxyacetate,Green (Bitter),,C11 O3,"Allyl, Ester, Ether",Aliphatic,No,Standard (Alcohol Compatible),198.26,2.06,C=CCOC(=O)COC1CCCCC1
+4PQ00352,Cymene Para from PerfumersWorld,99-87-6,P-CYMENE,Unclassified,,C10,Hydrocarbon / Other,Aromatic (Benzene),No,Standard (Alcohol Compatible),134.22,3.12,CC1=CC=C(C=C1)C(C)C
+3CQ00276,D-Limonene from PerfumersWorld,5989-27-5,D-Limonene,Citrus (Orange),,C10,Hydrocarbon / Other,Aliphatic,No,Standard (Alcohol Compatible),136.24,3.31,CC1=CCC(CC1)C(=C)C
+8F3094001794,D-Limonene from SimpleScentsDIY,5989-27-5,D-Limonene,Woods (Agarwood),,C10,Hydrocarbon / Other,Aliphatic,No,Standard (Alcohol Compatible),136.24,3.31,CC1=CCC(CC1)C(=C)C
+8F3094005316,DMBC Acetate from SimpleScentsDIY,151-05-3,Dimethylbenzylcarbinyl acetate,Unclassified,,C12 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),192.26,2.57,CC(=O)OC(C)(C)CC1=CC=CC=C1
+DPG,DPG,25265-71-8,Dipropylenglykol,Gourmet (Nutty),,C12 O6,"Ether, Primary Alcohol, Secondary Alcohol",Aliphatic,No,Hydrophilic (Water Compatible),268.35,-0.47,CC(CO)OC(C)CO.CC(COCC(C)O)O
+9IF07120,Damascenone from PerfumersWorld,23696-85-7,beta-Damascenone,Woods (Agarwood),,C13 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),190.29,3.43,CC=CC(=O)C1=C(C=CCC1(C)C)C
+8F3094001728,Damascenone from SimpleScentsDIY,23696-85-7,beta-Damascenone,Woods (Agarwood),,C13 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),190.29,3.43,CC=CC(=O)C1=C(C=CCC1(C)C)C
+3IL00139,Damascol from PerfumersWorld,4927-36-0,5-Methyl-5-phenylhexan-3-one,Unclassified,,C13 O1,Ketone,Aromatic (Benzene),No,Standard (Alcohol Compatible),190.29,3.33,CCC(=O)CC(C)(C)C1=CC=CC=C1
+8F3094001729,Damascone Alpha from SimpleScentsDIY,24720-09-0,"1-(2,6,6-trimethylcyclohex-2-en-1-yl)but-2-en-1-one",Fruit (Apple/Plum),,C13 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),192.3,3.51,CC=CC(=O)C1C(=CCCC1(C)C)C
+8F3094001730,Damascone Beta from SimpleScentsDIY,23726-91-2,beta-Damascone,Fruit (Berry),Modifier,C13 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),192.3,3.66,CC=CC(=O)C1=C(CCCC1(C)C)C
+8F3094001820,Damascone Delta from SimpleScentsDIY,57378-68-4,delta-Damascone,Unclassified,,C13 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),192.3,3.37,CC=CC(=O)C1C(C=CCC1(C)C)C
+3AC00014,Decanol (Alcohol C-10) from PerfumersWorld,112-30-1,1-DECANOL,Unclassified,,C10 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),158.28,3.12,CCCCCCCCCCO
+4CF19148,Decatone from PerfumersWorld,34131-98-1,"2(1H)-Naphthalenone, octahydro-6-(1-methylethyl)-",Unclassified,,C13 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),194.32,3.43,CC(C)C1CCC2CC(=O)CCC2C1
+Deionized Water from PerfumersWorld,Deionized Water from PerfumersWorld,7732-18-5,water,Unclassified,,O1,Hydrocarbon / Other,Aliphatic,No,Hydrophilic (Water Compatible),18.02,-0.82,O
+5DD12463,Delta Decalactone 10% in DPG from PerfumersWorld,2825-91-4,(6R)-6-pentyloxan-2-one,Unclassified,,C10 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),170.25,2.66,CCCCCC1CCCC(=O)O1
+4DD03683,Delta Decalactone from PerfumersWorld,2825-91-4,(6R)-6-pentyloxan-2-one,Unclassified,,C10 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),170.25,2.66,CCCCCC1CCCC(=O)O1
+8F3094001825,Delta Decalactone from SimpleScentsDIY,705-86-2,DELTA-DECALACTONE,Unclassified,,C10 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),170.25,2.66,CCCCCC1CCCC(=O)O1
+5DV07644,Diacetyl 1% in DPG from PerfumersWorld,431-03-8,"2,3-butanedione",Unclassified,,C4 O2,Ketone,Aliphatic,No,Hydrophilic (Water Compatible),86.09,0.16,CC(=O)C(=O)C
+9DV00144,Diacetyl from PerfumersWorld,431-03-8,"2,3-butanedione",Unclassified,,C4 O2,Ketone,Aliphatic,No,Hydrophilic (Water Compatible),86.09,0.16,CC(=O)C(=O)C
+3FG00145,Diethyl Malonate from PerfumersWorld,105-53-3,DIETHYL MALONATE,Unclassified,,C7 O4,Ester,Aliphatic,No,Hydrophilic (Water Compatible),160.17,0.5,CCOC(=O)CC(=O)OCC
+8F3094001550,Diethyl Malonate from SimpleScentsDIY,105-53-3,DIETHYL MALONATE,Unclassified,,C7 O4,Ester,Aliphatic,No,Hydrophilic (Water Compatible),160.17,0.5,CCOC(=O)CC(=O)OCC
+3IL00153,Dihydro Beta Ionone from PerfumersWorld,17283-81-7,Dihydro-beta-ionone,Unclassified,,C13 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),194.32,3.88,CC1=C(C(CCC1)(C)C)CCC(=O)C
+4HF00147,Dihydro Carvyl Acetate from PerfumersWorld,20777-49-5,Dihydrocarvyl acetate,Unclassified,,C12 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),196.29,2.93,CC1CCC(CC1OC(=O)C)C(=C)C
+2VD00148,Dihydro Coumarin from PerfumersWorld,119-84-6,dihydrocoumarin,Unclassified,,C9 O2,Lactone,Aromatic (Benzene),Yes,Standard (Alcohol Compatible),148.16,1.54,C1CC(=O)OC2=CC=CC=C21
+5JN10948,Dihydro Jasmone 10% in DPG from PerfumersWorld,1128-08-1,Dihydrojasmone,Unclassified,,C11 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),166.26,3.25,CCCCCC1=C(C)C(=O)CC1
+4JN00149,Dihydro Jasmone from PerfumersWorld,1128-08-1,Dihydrojasmone,Unclassified,,C11 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),166.26,3.25,CCCCCC1=C(C)C(=O)CC1
+8F3094001822,Dihydro Jasmone from SimpleScentsDIY,1128-08-1,Dihydrojasmone,Unclassified,,C11 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),166.26,3.25,CCCCCC1=C(C)C(=O)CC1
+3CK00150,Dihydro Myrcenol from PerfumersWorld,18479-58-8,Dihydromyrcenol,Citrus (Lime),,C10 O1,Tertiary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),156.27,2.75,CC(CCCC(C)(C)O)C=C
+3KL00152,Dihydro Terpinyl Acetate from PerfumersWorld,80-25-1,Dihydroterpinyl acetate,Unclassified,,C12 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),198.31,3.15,CC1CCC(CC1)C(C)(C)OC(=O)C
+8F3094001289,Dihydromyrcenol from SimpleScentsDIY,18479-58-8,Dihydromyrcenol,Citrus (Lime),,C10 O1,Tertiary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),156.27,2.75,CC(CCCC(C)(C)O)C=C
+3NC00155,Dimethyl Anthranilate from PerfumersWorld,85-91-6,Methyl 2-(methylamino)benzoate,Woods (Rot),,C9 O2 N1,"Amine, Ester",Aromatic (Benzene),No,Standard (Alcohol Compatible),165.19,1.51,CNC1=CC=CC=C1C(=O)OC
+3LL00156,Dimethyl Benzyl Carbinol from PerfumersWorld,100-86-7,2-Methyl-1-phenyl-2-propanol,Unclassified,,C10 O1,Tertiary Alcohol,Aromatic (Benzene),No,Standard (Alcohol Compatible),150.22,2.0,CC(C)(CC1=CC=CC=C1)O
+3LF00157,Dimethyl Benzyl Carbinyl Acetate from PerfumersWorld,151-05-3,Dimethylbenzylcarbinyl acetate,Unclassified,,C12 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),192.26,2.57,CC(=O)OC(C)(C)CC1=CC=CC=C1
+4LD02865,Dimethyl Benzyl Carbinyl Butyrate from PerfumersWorld,10094-34-5,"1,1-Dimethyl-2-phenylethyl butyrate",Unclassified,,C14 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),220.31,3.35,CCCC(=O)OC(C)(C)CC1=CC=CC=C1
+5EG09234,Dimethyl Sulfide 1% in DPG from PerfumersWorld,75-18-3,dimethyl sulfide,Facet (Oceanic),,C2 S1,Hydrocarbon / Other,Aliphatic,No,Hydrophilic (Water Compatible),62.14,0.98,CSC
+3CK07504,Dimetol from PerfumersWorld,13254-34-7,"2,6-Dimethyl-2-heptanol",Unclassified,,C9 O1,Tertiary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),144.26,2.58,CC(C)CCCC(C)(C)O
+8F3094001775,Dimetol from SimpleScentsDIY,13254-34-7,"2,6-Dimethyl-2-heptanol",Unclassified,,C9 O1,Tertiary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),144.26,2.58,CC(C)CCCC(C)(C)O
+5RB09235,Diphenyl Oxide 10% in DPG from PerfumersWorld,101-84-8,DIPHENYL ETHER,Unclassified,,C12 O1,Ether,Aromatic (Benzene),No,Standard (Alcohol Compatible),170.21,3.48,C1=CC=C(C=C1)OC2=CC=CC=C2
+5RB07855,Diphenyl Oxide 50% in DPG from PerfumersWorld,101-84-8,DIPHENYL ETHER,Unclassified,,C12 O1,Ether,Aromatic (Benzene),No,Standard (Alcohol Compatible),170.21,3.48,C1=CC=C(C=C1)OC2=CC=CC=C2
+2RB00163,Diphenyl Oxide from PerfumersWorld,101-84-8,DIPHENYL ETHER,Unclassified,,C12 O1,Ether,Aromatic (Benzene),No,Standard (Alcohol Compatible),170.21,3.48,C1=CC=C(C=C1)OC2=CC=CC=C2
+8F3094004204,Diphenyl Oxide from SimpleScentsDIY,101-84-8,DIPHENYL ETHER,Unclassified,,C12 O1,Ether,Aromatic (Benzene),No,Standard (Alcohol Compatible),170.21,3.48,C1=CC=C(C=C1)OC2=CC=CC=C2
+5AC07788,Dodecyl Nitrile 10% in DPG from PerfumersWorld,2437-25-4,Dodecanenitrile,Unclassified,,C12 N1,Nitrile,Aliphatic,No,Lipophilic (Oil/Wax Compatible),181.32,4.43,CCCCCCCCCCCC#N
+3AC03955,Dodecyl Nitrile from PerfumersWorld,2437-25-4,Dodecanenitrile,Unclassified,,C12 N1,Nitrile,Aliphatic,No,Lipophilic (Oil/Wax Compatible),181.32,4.43,CCCCCCCCCCCC#N
+5MA08874,Dupical 10% in DPG from PerfumersWorld,30168-23-1,4-Tricyclodecylidene butanal,Unclassified,,C14 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),204.31,3.35,C1CC2C(C1)C3CC2CC3=CCCC=O
+4MA00167,Dupical from PerfumersWorld,30168-23-1,4-Tricyclodecylidene butanal,Unclassified,,C14 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),204.31,3.35,C1CC2C(C1)C3CC2CC3=CCCC=O
+5FG22457,Dynascone 10% in DPG from PerfumersWorld,56973-85-4,"1-(5,5-dimethylcyclohexen-1-yl)pent-4-en-1-one",Green (Bitter),,C13 O1,"Allyl, Ketone",Aliphatic,No,Standard (Alcohol Compatible),192.3,3.66,CC1(CCC=C(C1)C(=O)CCC=C)C
+4FG07161,Dynascone from PerfumersWorld,56973-85-4,"1-(5,5-dimethylcyclohexen-1-yl)pent-4-en-1-one",Green (Bitter),,C13 O1,"Allyl, Ketone",Aliphatic,No,Standard (Alcohol Compatible),192.3,3.66,CC1(CCC=C(C1)C(=O)CCC=C)C
+8F3094001904,Dynascone from SimpleScentsDIY,56973-85-4,"1-(5,5-dimethylcyclohexen-1-yl)pent-4-en-1-one",Green (Bitter),,C13 O1,"Allyl, Ketone",Aliphatic,No,Standard (Alcohol Compatible),192.3,3.66,CC1(CCC=C(C1)C(=O)CCC=C)C
+4WX07563,Ebanol from PerfumersWorld,67801-20-1,28N247O58B,Unclassified,,C14 O1,Secondary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),208.34,3.55,CC1=CCC(C1(C)C)C=CC(C)C(C)O
+8F3094004194,Ebanol from SimpleScentsDIY,67801-20-1,28N247O58B,Unclassified,,C14 O1,Secondary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),208.34,3.55,CC1=CCC(C1(C)C)C=CC(C)C(C)O
+Ethanol 99.9% from PerfumersWorld,Ethanol 99.9% from PerfumersWorld,64-17-5,ethanol,Unclassified,,C2 O1,Primary Alcohol,Aliphatic,No,Hydrophilic (Water Compatible),46.07,-0.0,CCO
+5FD12135,Ethyl 2-Methylbutyrate 10% in DPG from PerfumersWorld,7452-79-1,Ethyl 2-methylbutyrate,Unclassified,,C7 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),130.19,1.6,CCC(C)C(=O)OCC
+4FD04118,Ethyl 2-Methylbutyrate from PerfumersWorld,7452-79-1,Ethyl 2-methylbutyrate,Unclassified,,C7 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),130.19,1.6,CCC(C)C(=O)OCC
+8F3094001483,Ethyl 2-methyl butyrate from SimpleScentsDIY,7452-79-1,Ethyl 2-methylbutyrate,Unclassified,,C7 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),130.19,1.6,CCC(C)C(=O)OCC
+5FC12427,Ethyl Acetate 10% in DPG from PerfumersWorld,141-78-6,ETHYL ACETATE,Unclassified,,C4 O2,Ester,Aliphatic,No,Hydrophilic (Water Compatible),88.11,0.57,CCOC(=O)C
+9FC01313,Ethyl Acetate from PerfumersWorld,141-78-6,ETHYL ACETATE,Unclassified,,C4 O2,Ester,Aliphatic,No,Hydrophilic (Water Compatible),88.11,0.57,CCOC(=O)C
+8F3094001641,Ethyl Acetate from SimpleScentsDIY,141-78-6,ETHYL ACETATE,Unclassified,,C4 O2,Ester,Aliphatic,No,Hydrophilic (Water Compatible),88.11,0.57,CCOC(=O)C
+3FG00172,Ethyl Acetoacetate from PerfumersWorld,141-97-9,ethyl acetoacetate,Unclassified,,C6 O3,"Ester, Ketone",Aliphatic,No,Hydrophilic (Water Compatible),130.14,0.53,CCOC(=O)CC(=O)C
+4FY00173,Ethyl Amyl Ketone from PerfumersWorld,106-68-3,3-Octanone,Unclassified,,C8 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),128.21,2.55,CCCCCC(=O)CC
+3NF03984,Ethyl Anthranilate from PerfumersWorld,87-25-2,ETHYL ANTHRANILATE,Unclassified,,C9 O2 N1,"Amine, Ester",Aromatic (Benzene),No,Standard (Alcohol Compatible),165.19,1.45,CCOC(=O)C1=CC=CC=C1N
+5NJ12470,Ethyl Benzoate 10% in DPG from PerfumersWorld,93-89-0,ETHYL BENZOATE,Unclassified,,C9 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),150.18,1.86,CCOC(=O)C1=CC=CC=C1
+3NJ01315,Ethyl Benzoate from PerfumersWorld,93-89-0,ETHYL BENZOATE,Unclassified,,C9 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),150.18,1.86,CCOC(=O)C1=CC=CC=C1
+3FD00174,Ethyl Butyrate from PerfumersWorld,105-54-4,ETHYL BUTYRATE,Unclassified,,C6 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),116.16,1.35,CCCC(=O)OCC
+8F3094001434,Ethyl Butyrate from SimpleScentsDIY,105-54-4,ETHYL BUTYRATE,Unclassified,,C6 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),116.16,1.35,CCCC(=O)OCC
+4FY02024,Ethyl Heptylate from PerfumersWorld,106-30-9,ETHYL HEPTANOATE,Unclassified,,C9 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),158.24,2.52,CCCCCCC(=O)OCC
+4FD02026,Ethyl Isovalerate from PerfumersWorld,108-64-5,ETHYL ISOVALERATE,Unclassified,,C7 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),130.19,1.6,CCOC(=O)CC(C)C
+3FD04102,Ethyl Lactate from PerfumersWorld,97-64-3,ETHYL LACTATE,Unclassified,,C5 O3,"Ester, Secondary Alcohol",Aliphatic,No,Hydrophilic (Water Compatible),118.13,-0.07,CCOC(=O)C(C)O
+3FH04104,Ethyl Levulinate from PerfumersWorld,539-88-8,ETHYL LEVULINATE,Unclassified,,C7 O3,"Ester, Ketone",Aliphatic,No,Hydrophilic (Water Compatible),144.17,0.92,CCOC(=O)CCC(=O)C
+4LL11499,Ethyl Linalool from PerfumersWorld,10339-55-6,Ethyl linalool,Floral (Fresh),,C11 O1,Tertiary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),168.28,3.06,CCC(=CCCC(C)(C=C)O)C
+8F3094005311,Ethyl Linalool from SimpleScentsDIY,10339-55-6,Ethyl linalool,Floral (Fresh),,C11 O1,Tertiary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),168.28,3.06,CCC(=CCCC(C)(C=C)O)C
+3LC19147,Ethyl Linalyl Acetate from PerfumersWorld,61931-80-4,"3,7-dimethylnona-1,6-dien-3-yl acetate",Unclassified,,C13 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),210.32,3.63,CCC(=CCCC(C)(C=C)OC(=O)C)C
+8F3094001695,Ethyl Maltol (Powder) from SimpleScentsDIY,4940-11-8,Ethyl maltol,Gourmet (Sugar),Modifier,C7 O3,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),140.14,0.91,CCC1=C(C(=O)C=CO1)O
+5VF07861,Ethyl Maltol 1% in DPG from PerfumersWorld,4940-11-8,Ethyl maltol,Gourmet (Sugar),Modifier,C7 O3,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),140.14,0.91,CCC1=C(C(=O)C=CO1)O
+5VF07531,Ethyl Maltol 5% in DPG from PerfumersWorld,4940-11-8,Ethyl maltol,Gourmet (Sugar),Modifier,C7 O3,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),140.14,0.91,CCC1=C(C(=O)C=CO1)O
+1VF00175,Ethyl Maltol from PerfumersWorld,4940-11-8,Ethyl maltol,Gourmet (Sugar),Modifier,C7 O3,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),140.14,0.91,CCC1=C(C(=O)C=CO1)O
+5PF07867,Ethyl Phenyl Acetate 10% in DPG from PerfumersWorld,101-97-3,ETHYL PHENYLACETATE,Unclassified,,C10 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),164.2,1.79,CCOC(=O)CC1=CC=CC=C1
+3PF02759,Ethyl Phenyl Acetate from PerfumersWorld,101-97-3,ETHYL PHENYLACETATE,Unclassified,,C10 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),164.2,1.79,CCOC(=O)CC1=CC=CC=C1
+5ES13018,Ethyl Safranate 10% in DPG from PerfumersWorld,35044-57-6,"Ethyl 2,6,6-trimethylcyclohexa-2,4-diene-1-carboxylate",Unclassified,,C12 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),194.27,2.71,CCOC(=O)C1C(=CC=CC1(C)C)C
+4ES06848,Ethyl Safranate from PerfumersWorld,35044-57-6,"Ethyl 2,6,6-trimethylcyclohexa-2,4-diene-1-carboxylate",Unclassified,,C12 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),194.27,2.71,CCOC(=O)C1C(=CC=CC1(C)C)C
+8F3094001646,Ethyl Safranate from SimpleScentsDIY,35044-59-8,Ethyl safranate,Unclassified,,C12 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),194.27,2.85,CCOC(=O)C1=C(C=CCC1(C)C)C
+5OP12472,Ethyl Salicylate 10% in DPG from PerfumersWorld,118-61-6,Ethyl salicylate,Unclassified,,C9 O3,Salicylate,Aromatic (Benzene),No,Standard (Alcohol Compatible),166.18,1.57,CCOC(=O)C1=CC=CC=C1O
+3OP01253,Ethyl Salicylate from PerfumersWorld,118-61-6,Ethyl salicylate,Unclassified,,C9 O3,Salicylate,Aromatic (Benzene),No,Standard (Alcohol Compatible),166.18,1.57,CCOC(=O)C1=CC=CC=C1O
+8F3094001699,Ethyl Vanillin (Powder) from SimpleScentsDIY,121-32-4,3-Ethoxy-4-hydroxybenzaldehyde,Gourmet (Sweet),,C9 O3,"Aldehyde, Ether, Phenol",Aromatic (Benzene),No,Standard (Alcohol Compatible),166.18,1.6,CCOC1=C(C=CC(=C1)C=O)O
+5VV07559,Ethyl Vanillin 10% in DPG from PerfumersWorld,121-32-4,3-Ethoxy-4-hydroxybenzaldehyde,Gourmet (Sweet),,C9 O3,"Aldehyde, Ether, Phenol",Aromatic (Benzene),No,Standard (Alcohol Compatible),166.18,1.6,CCOC1=C(C=CC(=C1)C=O)O
+1VV00179,Ethyl Vanillin from PerfumersWorld,121-32-4,3-Ethoxy-4-hydroxybenzaldehyde,Gourmet (Sweet),,C9 O3,"Aldehyde, Ether, Phenol",Aromatic (Benzene),No,Standard (Alcohol Compatible),166.18,1.6,CCOC1=C(C=CC(=C1)C=O)O
+8F3094001886,Ethylene Brassylate (Musk T) from SimpleScentsDIY,105-95-3,Ethylene brassylate,Unclassified,,C15 O4,"Lactone, Macrocyclic Musk",Aliphatic,Yes,Standard (Alcohol Compatible),270.37,3.38,C1CCCCCC(=O)OCCOC(=O)CCCCC1
+3XU00180,Ethylene Brassylate from PerfumersWorld,105-95-3,Ethylene brassylate,Unclassified,,C15 O4,"Lactone, Macrocyclic Musk",Aliphatic,Yes,Standard (Alcohol Compatible),270.37,3.38,C1CCCCCC(=O)OCCOC(=O)CCCCC1
+3BH00181,Eucalyptol from PerfumersWorld,470-82-6,Eucalyptol,Unclassified,,C10 O1,Ether,Aliphatic,Yes,Standard (Alcohol Compatible),154.25,2.74,CC1(C2CCC(O1)(CC2)C)C
+8F3094001864,Eugenol Nat from SimpleScentsDIY,97-53-0,eugenol,Woods (Agarwood),,C10 O2,"Allyl, Ether, Phenol",Aromatic (Benzene),No,Standard (Alcohol Compatible),164.2,2.13,COC1=C(C=CC(=C1)CC=C)O
+3SP00184,Eugenol from PerfumersWorld,97-53-0,eugenol,Spice (Clove),,C10 O2,"Allyl, Ether, Phenol",Aromatic (Benzene),No,Standard (Alcohol Compatible),164.2,2.13,COC1=C(C=CC(=C1)CC=C)O
+8F3094001564,Evernyl (Powder) from SimpleScentsDIY,4707-47-5,"Methyl 2,4-dihydroxy-3,6-dimethylbenzoate",Woods (Mossy),,C10 O4,"Ester, Phenol",Aromatic (Benzene),No,Standard (Alcohol Compatible),196.2,1.5,CC1=CC(=C(C(=C1C(=O)OC)O)C)O
+5YY07815,Evernyl 10% in DPG from PerfumersWorld,4707-47-5,"Methyl 2,4-dihydroxy-3,6-dimethylbenzoate",Woods (Mossy),,C10 O4,"Ester, Phenol",Aromatic (Benzene),No,Standard (Alcohol Compatible),196.2,1.5,CC1=CC(=C(C(=C1C(=O)OC)O)C)O
+1YP00185,Evernyl from PerfumersWorld,4707-47-5,"Methyl 2,4-dihydroxy-3,6-dimethylbenzoate",Woods (Mossy),,C10 O4,"Ester, Phenol",Aromatic (Benzene),No,Standard (Alcohol Compatible),196.2,1.5,CC1=CC(=C(C(=C1C(=O)OC)O)C)O
+5XX07862,Exaltolide Pentadecanolide 10% in DPG from PerfumersWorld,106-02-5,Oxacyclohexadecan-2-one,Musk (Botanical),,C15 O2,"Lactone, Macrocyclic Musk",Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),240.39,4.61,O=C1CCCCCCCCCCCCCCO1
+5XX08283,Exaltolide Pentadecanolide 50% in DPG from PerfumersWorld,106-02-5,Oxacyclohexadecan-2-one,Musk (Botanical),,C15 O2,"Lactone, Macrocyclic Musk",Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),240.39,4.61,O=C1CCCCCCCCCCCCCCO1
+2XX00186,Exaltolide Pentadecanolide from PerfumersWorld,106-02-5,Oxacyclohexadecan-2-one,Musk (Botanical),,C15 O2,"Lactone, Macrocyclic Musk",Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),240.39,4.61,O=C1CCCCCCCCCCCCCCO1
+3LW00187,Farnesol from PerfumersWorld,4602-84-0,farnesol,Musk (Botanical),,C15 O1,Primary Alcohol,Aliphatic,No,Lipophilic (Oil/Wax Compatible),222.37,4.4,CC(=CCCC(=CCCC(=CCO)C)C)C
+8F3094001821,Farnesol from SimpleScentsDIY,4602-84-0,farnesol,Musk (Botanical),,C15 O1,Primary Alcohol,Aliphatic,No,Lipophilic (Oil/Wax Compatible),222.37,4.4,CC(=CCCC(=CCCC(=CCO)C)C)C
+3XU22434,Fixamber from PerfumersWorld,71735-79-0,"13-Oxabicyclo(10.1.0)trideca-4,8-diene, trimethyl-",Unclassified,,C15 O1,Ether,Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),220.36,4.25,CC1(CC=CCCC=CCCC2C1(O2)C)C
+4YM00191,Floralozone from PerfumersWorld,67634-15-5,"3-(4-ethylphenyl)-2,2-dimethylpropanal",Unclassified,,C13 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),190.29,3.02,CCC1=CC=C(C=C1)CC(C)(C)C=O
+8F3094001554,Floralozone from SimpleScentsDIY,67634-14-4,"3-(2-ethylphenyl)-2,2-dimethylpropanal",Unclassified,,C13 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),190.29,3.02,CCC1=CC=CC=C1CC(C)(C)C=O
+8F3094005319,Florhydral from SimpleScentsDIY,125109-85-5,Isopropylphenylbutanal,Unclassified,,C13 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),190.29,3.5,CC(C)C1=CC(=CC=C1)C(C)CC=O
+3ML00192,Florol from PerfumersWorld,63500-71-0,"2H-Pyran-4-ol, tetrahydro-4-methyl-2-(2-methylpropyl)-",Floral (Muguet),,C10 O2,"Ether, Tertiary Alcohol",Aliphatic,Yes,Standard (Alcohol Compatible),172.27,1.96,CC(C)CC1CC(CCO1)(C)O
+8F3094001285,Florol from SimpleScentsDIY,63500-71-0,"2H-Pyran-4-ol, tetrahydro-4-methyl-2-(2-methylpropyl)-",Floral (Muguet),,C10 O2,"Ether, Tertiary Alcohol",Aliphatic,Yes,Standard (Alcohol Compatible),172.27,1.96,CC(C)CC1CC(CCO1)(C)O
+8F3094001776,Floropal from SimpleScentsDIY,5182-36-5,"2,4,6-Trimethyl-4-phenyl-1,3-dioxane",Unclassified,,C13 O2,Acetal,Aromatic (Benzene),Yes,Standard (Alcohol Compatible),206.28,3.07,CC1CC(OC(O1)C)(C)C2=CC=CC=C2
+3FG00196,Fructone B from PerfumersWorld,6290-17-1,"ethyl 2-(2,4-dimethyl-1,3-dioxolan-2-yl)acetate",Unclassified,,C9 O4,"Ester, Ketal",Aliphatic,Yes,Standard (Alcohol Compatible),188.22,1.09,CCOC(=O)CC1(OCC(O1)C)C
+8F3094004212,Fruitate from SimpleScentsDIY,80657-64-3,"Ethyl hexahydro-4,7-methanoindane-3a-carboxylate",Unclassified,,C13 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),208.3,2.77,CCOC(=O)C12CCCC1C3CCC2C3
+8F3094001828,Furaneol 10% In DPG from SimpleScentsDIY,3658-77-3,Furaneol,Unclassified,,C6 O3,"Ether, Ketone",Aliphatic,Yes,Hydrophilic (Water Compatible),128.13,0.76,CC1C(=O)C(=C(O1)C)O
+5VE09272,Furaneol 10% in PG from PerfumersWorld,3658-77-3,Furaneol,Unclassified,,C6 O3,"Ether, Ketone",Aliphatic,Yes,Hydrophilic (Water Compatible),128.13,0.76,CC1C(=O)C(=C(O1)C)O
+4XA13770,Galaxolide 100 (Undiluted) from PerfumersWorld,1222-05-5,Galaxolide,Musk (Clean),,C20,Hydrocarbon / Other,Aromatic (Benzene),No,Lipophilic (Oil/Wax Compatible),268.44,5.84,CC1CC2(C(C1)C)C3=C(C=C2C)C(=CC(=C3)C)C(C)C
+8F3094001703,Galaxolide 100% (Pure) from SimpleScentsDIY,1222-05-5,Galaxolide,Musk (Clean),,C20,Hydrocarbon / Other,Aromatic (Benzene),No,Lipophilic (Oil/Wax Compatible),268.44,5.84,CC1CC2(C(C1)C)C3=C(C=C2C)C(=CC(=C3)C)C(C)C
+3XA00199,Galaxolide 50 DEP from PerfumersWorld,1222-05-5,Galaxolide,Musk (Clean),,C20,Hydrocarbon / Other,Aromatic (Benzene),No,Lipophilic (Oil/Wax Compatible),268.44,5.84,CC1CC2(C(C1)C)C3=C(C=C2C)C(=CC(=C3)C)C(C)C
+3XA10721,Galaxolide 50 DPG from PerfumersWorld,1222-05-5,Galaxolide,Musk (Clean),,C20,Hydrocarbon / Other,Aromatic (Benzene),No,Lipophilic (Oil/Wax Compatible),268.44,5.84,CC1CC2(C(C1)C)C3=C(C=C2C)C(=CC(=C3)C)C(C)C
+5DD07874,Gamma Decalactone 10% in DPG from PerfumersWorld,706-14-9,gamma-Decalactone,Fruit (Peach),,C10 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),170.25,2.66,CCCCCCC1CCC(=O)O1
+4DD01639,Gamma Decalactone from PerfumersWorld,706-14-9,gamma-Decalactone,Fruit (Peach),,C10 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),170.25,2.66,CCCCCCC1CCC(=O)O1
+8F3094001731,Gamma Decalactone from SimpleScentsDIY,706-14-9,gamma-Decalactone,Fruit (Peach),,C10 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),170.25,2.66,CCCCCCC1CCC(=O)O1
+4DF00164,Gamma Dodecalactone from PerfumersWorld,2305-05-7,gamma-Dodecalactone,Unclassified,,C12 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),198.31,3.44,CCCCCCCCC1CCC(=O)O1
+5DV08651,Gamma Octalactone 10% in DPG from PerfumersWorld,104-50-7,GAMMA-OCTALACTONE,Fruit (Coconut),,C8 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),142.2,1.88,CCCCC1CCC(=O)O1
+4DD00331,Gamma Octalactone from PerfumersWorld,104-50-7,GAMMA-OCTALACTONE,Fruit (Coconut),,C8 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),142.2,1.88,CCCCC1CCC(=O)O1
+8F3094005320,Gamma-Heptalactone from SimpleScentsDIY,105-21-5,gamma-Heptalactone,Unclassified,,C7 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),128.17,1.49,CCCC1CCC(=O)O1
+8F3094001903,Gamma-Octalactone from SimpleScentsDIY,104-50-7,GAMMA-OCTALACTONE,Fruit (Coconut),,C8 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),142.2,1.88,CCCCC1CCC(=O)O1
+5YW13682,Geosmin 1% in DPG from PerfumersWorld,23333-91-7,"Octahydro-4,8a-dimethyl-4a(2H)-naphthol",Unclassified,,C12 O1,Tertiary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),182.31,3.12,CC1CCCC2(C1(CCCC2)O)C
+5YW18061,Geosmin 1% in TEC from PerfumersWorld,23333-91-7,"Octahydro-4,8a-dimethyl-4a(2H)-naphthol",Unclassified,,C12 O1,Tertiary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),182.31,3.12,CC1CCCC2(C1(CCCC2)O)C
+3RL00204,Geraniol from PerfumersWorld,106-24-1,GERANIOL,Floral (Rose),,C10 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),154.25,2.67,CC(=CCCC(=CCO)C)C
+8F3094001291,Geraniol from SimpleScentsDIY,106-24-1,GERANIOL,Aldehydic (Complex),,C10 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),154.25,2.67,CC(=CCCC(=CCO)C)C
+3RL00206,Geranyl Acetate from PerfumersWorld,105-87-3,GERANYL ACETATE,Unclassified,,C12 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),196.29,3.24,CC(=CCCC(=CCOC(=O)C)C)C
+8F3094001298,Geranyl Acetate from SimpleScentsDIY,105-87-3,GERANYL ACETATE,Unclassified,,C12 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),196.29,3.24,CC(=CCCC(=CCOC(=O)C)C)C
+4RD00207,Geranyl Butyrate from PerfumersWorld,106-29-6,Geranyl butyrate,Unclassified,,C14 O2,Ester,Aliphatic,No,Lipophilic (Oil/Wax Compatible),224.34,4.02,CCCC(=O)OCC=C(C)CCC=C(C)C
+4RW00208,Geranyl Formate from PerfumersWorld,105-86-2,Geranyl formate,Unclassified,,C11 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),182.26,2.85,CC(=CCCC(=CCOC=O)C)C
+3RP04262,Geranyl Phenylacetate from PerfumersWorld,102-22-7,Geranyl phenylacetate,Unclassified,,C18 O2,Ester,Aromatic (Benzene),No,Lipophilic (Oil/Wax Compatible),272.39,4.47,CC(=CCCC(=CCOC(=O)CC1=CC=CC=C1)C)C
+4RF06840,Givescone from PerfumersWorld,57934-97-1,"Ethyl 2-ethyl-6,6-dimethylcyclohex-2-ene-1-carboxylate",Unclassified,,C13 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),210.32,3.32,CCC1=CCCC(C1C(=O)OCC)(C)C
+8F3094004193,Globanone 50 % in DPG from SimpleScentsDIY,3100-36-5,cyclohexadec-8-en-1-one,Unclassified,,C16 O1,"Ketone, Macrocyclic Musk",Aliphatic,No,Lipophilic (Oil/Wax Compatible),236.4,5.2,C1CCCC=CCCCCCCC(=O)CCC1
+3MW11714,Glycolierral from PerfumersWorld,68901-32-6,EINECS 272-669-9,Unclassified,,C15 O2,Acetal,Aliphatic,Yes,Standard (Alcohol Compatible),236.35,3.23,CC1=CC2CC(C1CC2C(C)C)C3OCCO3
+5PT18969,Guaiacol 1% in TEC from PerfumersWorld,90-05-1,guaiacol,Unclassified,,C7 O2,"Ether, Phenol",Aromatic (Benzene),No,Standard (Alcohol Compatible),124.14,1.4,COC1=CC=CC=C1O
+5PT07645,Guaiacol 10% in DPG from PerfumersWorld,90-05-1,guaiacol,Unclassified,,C7 O2,"Ether, Phenol",Aromatic (Benzene),No,Standard (Alcohol Compatible),124.14,1.4,COC1=CC=CC=C1O
+9PT00213,Guaiacol from PerfumersWorld,90-05-1,guaiacol,Unclassified,,C7 O2,"Ether, Phenol",Aromatic (Benzene),No,Standard (Alcohol Compatible),124.14,1.4,COC1=CC=CC=C1O
+8F3094001653,Guaiacol from SimpleScentsDIY,90-05-1,guaiacol,Unclassified,,C7 O2,"Ether, Phenol",Aromatic (Benzene),No,Standard (Alcohol Compatible),124.14,1.4,COC1=CC=CC=C1O
+3RW04286,Guaiyl Acetate from PerfumersWorld,134-28-1,Guaiol acetate,Unclassified,,C17 O2,Ester,Aliphatic,No,Lipophilic (Oil/Wax Compatible),264.41,4.49,CC1CCC(CC2=C1CCC2C)C(C)(C)OC(=O)C
+3XA09821,Habanolide from PerfumersWorld,111879-80-2,"Oxacyclohexadec-12-en-2-one, (12E)-",Musk (Clean/Metallic),,C15 O2,"Lactone, Macrocyclic Musk",Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),238.37,4.39,C1CCCCC=CCCCOC(=O)CCCC1
+8F3094001832,Habanolide from SimpleScentsDIY,111879-80-2,"Oxacyclohexadec-12-en-2-one, (12E)-",Musk (Clean/Metallic),,C15 O2,"Lactone, Macrocyclic Musk",Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),238.37,4.39,C1CCCCC=CCCCOC(=O)CCCC1
+8F3094001878,Hedione HC from SimpleScentsDIY,24851-98-7,Methyl dihydrojasmonate,Floral (Transparent),Blender,C13 O3,"Ester, Ketone",Aliphatic,No,Standard (Alcohol Compatible),226.32,2.73,CCCCCC1C(CCC1=O)CC(=O)OC
+5JJ21775,Hedione High Cis 10% in TEC from PerfumersWorld,24851-98-7,Methyl dihydrojasmonate,Floral (Transparent),Blender,C13 O3,"Ester, Ketone",Aliphatic,No,Standard (Alcohol Compatible),226.32,2.73,CCCCCC1C(CCC1=O)CC(=O)OC
+4JJ10013,Hedione High Cis from PerfumersWorld,24851-98-7,Methyl dihydrojasmonate,Floral (Transparent),Blender,C13 O3,"Ester, Ketone",Aliphatic,No,Standard (Alcohol Compatible),226.32,2.73,CCCCCC1C(CCC1=O)CC(=O)OC
+3JJ00218,Hedione from PerfumersWorld,24851-98-7,Methyl dihydrojasmonate,Floral (Transparent),Blender,C13 O3,"Ester, Ketone",Aliphatic,No,Standard (Alcohol Compatible),226.32,2.73,CCCCCC1C(CCC1=O)CC(=O)OC
+8F3094001479,Hedione from SimpleScentsDIY,24851-98-7,Methyl dihydrojasmonate,Floral (Transparent),Blender,C13 O3,"Ester, Ketone",Aliphatic,No,Standard (Alcohol Compatible),226.32,2.73,CCCCCC1C(CCC1=O)CC(=O)OC
+3GM00219,Helional from PerfumersWorld,1205-17-0,Helional,Facet (Ozone),,C11 O3,"Acetal, Aldehyde",Aromatic (Benzene),Yes,Standard (Alcohol Compatible),192.21,1.79,CC(CC1=CC2=C(C=C1)OCO2)C=O
+8F3094001802,Helional from SimpleScentsDIY,1205-17-0,Helional,Fruit (Apple),,C11 O3,"Acetal, Aldehyde",Aromatic (Benzene),Yes,Standard (Alcohol Compatible),192.21,1.79,CC(CC1=CC2=C(C=C1)OCO2)C=O
+3XD17215,Helvetolide from PerfumersWorld,141773-73-1,HELVETOLIDE,Unclassified,,C17 O3,"Ester, Ether",Aliphatic,No,Lipophilic (Oil/Wax Compatible),284.44,4.34,CCC(=O)OCC(C)(C)OC(C)C1CCCC(C1)(C)C
+8F3094001831,Helvetolide from SimpleScentsDIY,141773-73-1,HELVETOLIDE,Unclassified,,C17 O3,"Ester, Ether",Aliphatic,No,Lipophilic (Oil/Wax Compatible),284.44,4.34,CCC(=O)OCC(C)(C)OC(C)C1CCCC(C1)(C)C
+4FG13385,Hexanoic Acid from PerfumersWorld,142-62-1,HEXANOIC ACID,Unclassified,,C6 O2,Carboxylic Acid,Aliphatic,No,Standard (Alcohol Compatible),116.16,1.65,CCCCCC(=O)O
+4FG04398,Hexanol from PerfumersWorld,111-27-3,1-Hexanol,Unclassified,,C6 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),102.18,1.56,CCCCCCO
+4FG01284,Hexyl Acetate from PerfumersWorld,142-92-7,Hexyl acetate,Unclassified,,C8 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),144.21,2.13,CCCCCCOC(=O)C
+8F3094004195,Hexyl Acetate from SimpleScentsDIY,142-92-7,Hexyl acetate,Unclassified,,C8 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),144.21,2.13,CCCCCCOC(=O)C
+3JJ00217,Hexyl Cinnamic Aldehyde (HCA) from PerfumersWorld,101-86-0,alpha-Hexylcinnamaldehyde,Floral (Hay),,C15 O1,Aldehyde,Aromatic (Benzene),No,Lipophilic (Oil/Wax Compatible),216.32,4.24,CCCCCCC(=CC1=CC=CC=C1)C=O
+3OG00230,Hexyl Salicylate from PerfumersWorld,6259-76-3,Hexyl salicylate,Floral (Green),,C13 O3,Salicylate,Aromatic (Benzene),No,Standard (Alcohol Compatible),222.28,3.13,CCCCCCOC(=O)C1=CC=CC=C1O
+8F3094004201,Hexyl Salicylate from SimpleScentsDIY,6259-76-3,Hexyl salicylate,Floral (Green),,C13 O3,Salicylate,Aromatic (Benzene),No,Standard (Alcohol Compatible),222.28,3.13,CCCCCCOC(=O)C1=CC=CC=C1O
+5GN08474,Hyacinth Body 10% in DPG from PerfumersWorld,2556-10-7,Ethyl phenethyl acetal,Unclassified,,C12 O2,Acetal,Aromatic (Benzene),No,Standard (Alcohol Compatible),194.27,2.63,CCOC(C)OCCC1=CC=CC=C1
+4GN00231,Hyacinth Body from PerfumersWorld,2556-10-7,Ethyl phenethyl acetal,Unclassified,,C12 O2,Acetal,Aromatic (Benzene),No,Standard (Alcohol Compatible),194.27,2.63,CCOC(C)OCCC1=CC=CC=C1
+4GM00232,Hydratropic Aldehyde from PerfumersWorld,93-53-8,2-Phenylpropanal,Unclassified,,C9 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),134.18,1.99,CC(C=O)C1=CC=CC=C1
+3MC00233,Hydroxycitronellal from PerfumersWorld,107-75-5,Hydroxycitronellal,Floral (Muguet),,C10 O2,"Aldehyde, Tertiary Alcohol",Aliphatic,No,Standard (Alcohol Compatible),172.27,2.15,CC(CCCC(C)(C)O)CC=O
+8F3094001861,Hydroxycitronellal from SimpleScentsDIY,107-75-5,Hydroxycitronellal,Floral (Mimosa),,C10 O2,"Aldehyde, Tertiary Alcohol",Aliphatic,No,Standard (Alcohol Compatible),172.27,2.15,CC(CCCC(C)(C)O)CC=O
+IPM,IPM,110-27-0,ISOPROPYL MYRISTATE,Unclassified,,C17 O2,Ester,Aliphatic,No,Lipophilic (Oil/Wax Compatible),270.46,5.64,CCCCCCCCCCCCCC(=O)OC(C)C
+3WX10767,Indisan from PerfumersWorld,80748-58-9,Indisan,Unclassified,,C16 O1,Tertiary Alcohol,Aliphatic,No,Lipophilic (Oil/Wax Compatible),236.4,4.14,CC1C2CCC(C2)(C1(C)C)C3(CCCCC3)O
+5UN07558,Indole 10% in DPG from PerfumersWorld,120-72-9,indole,Animalic (Fecal),Modifier,C8 N1,Indole,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),117.15,2.17,C1=CC=C2C(=C1)C=CN2
+8F3094001860,Indole 10% in DPG from SimpleScentsDIY,120-72-9,indole,Animalic (Fecal),Modifier,C8 N1,Indole,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),117.15,2.17,C1=CC=C2C(=C1)C=CN2
+9UN00235,Indole from PerfumersWorld,120-72-9,indole,Animalic (Fecal),Modifier,C8 N1,Indole,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),117.15,2.17,C1=CC=C2C(=C1)C=CN2
+5NU07552,Indolene 10% in DPG from PerfumersWorld,68527-79-7,DTXSID30867663,Unclassified,,C18 O1 N1,"Indole, Tertiary Alcohol","Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Lipophilic (Oil/Wax Compatible),271.4,4.69,CC(CCCC(C)(C)O)C=CN1C=CC2=CC=CC=C21
+4NU04558,Indolene from PerfumersWorld,68527-79-7,DTXSID30867663,Unclassified,,C18 O1 N1,"Indole, Tertiary Alcohol","Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Lipophilic (Oil/Wax Compatible),271.4,4.69,CC(CCCC(C)(C)O)C=CN1C=CC2=CC=CC=C21
+3IA06874,Irotyl from PerfumersWorld,2983-37-1,Ethyl 2-ethylhexanoate,Unclassified,,C10 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),172.27,2.77,CCCCC(CC)C(=O)OCC
+3WY00244,Iso E Super from PerfumersWorld,54464-57-2,"1-(1,2,3,4,5,6,7,8-Octahydro-2,3,8,8-tetramethyl-2-naphthalenyl)ethanone",Woods (Velvet),,C16 O1,Ketone,Aliphatic,No,Lipophilic (Oil/Wax Compatible),234.38,4.52,CC1CC2=C(CC1(C)C(=O)C)C(CCC2)(C)C
+8F3094001265,Iso E Super from SimpleScentsDIY,54464-57-2,"1-(1,2,3,4,5,6,7,8-Octahydro-2,3,8,8-tetramethyl-2-naphthalenyl)ethanone",Woods (Agarwood),,C16 O1,Ketone,Aliphatic,No,Lipophilic (Oil/Wax Compatible),234.38,4.52,CC1CC2=C(CC1(C)C(=O)C)C(CCC2)(C)C
+8F3094001865,IsoButyl Quinoline from SimpleScentsDIY,1333-58-0,(Isobutyl)quinoline,Unclassified,,C13 N1,Quinoline,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),185.27,3.43,CC(C)CC1=CC=NC2=CC=CC=C12
+9FD00245,Isoamyl Acetate from PerfumersWorld,123-92-2,ISOAMYL ACETATE,Unclassified,,C7 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),130.19,1.6,CC(C)CCOC(=O)C
+8F3094001694,Isoamyl Acetate from SimpleScentsDIY,123-92-2,ISOAMYL ACETATE,Unclassified,,C7 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),130.19,1.6,CC(C)CCOC(=O)C
+3FD00246,Isoamyl Butyrate from PerfumersWorld,106-27-4,Isoamyl butyrate,Unclassified,,C9 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),158.24,2.38,CCCC(=O)OCCC(C)C
+8F3094001553,Isoamyl Butyrate from SimpleScentsDIY,106-27-4,Isoamyl butyrate,Unclassified,,C9 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),158.24,2.38,CCCC(=O)OCCC(C)C
+8F3094001862,Isoamyl Phenyl Acetate from SimpleScentsDIY,102-19-2,Isoamyl phenylacetate,Unclassified,,C13 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),206.28,2.82,CC(C)CCOC(=O)CC1=CC=CC=C1
+8F3094001691,Isoamyl Salicylate from SimpleScentsDIY,87-20-7,Isoamyl salicylate,Unclassified,,C12 O3,Salicylate,Aromatic (Benzene),No,Standard (Alcohol Compatible),208.26,2.6,CC(C)CCOC(=O)C1=CC=CC=C1O
+3KH00065,Isobornyl Acetate from PerfumersWorld,125-12-2,Isobornyl acetate,Unclassified,,C12 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),196.29,2.76,CC(=O)OC1CC2CCC1(C2(C)C)C
+4VV16856,Isobutavan from PerfumersWorld,20665-85-4,Vanillin isobutyrate,Citrus (Orange),,C12 O4,"Aldehyde, Ester, Ether",Aromatic (Benzene),No,Standard (Alcohol Compatible),222.24,2.07,CC(C)C(=O)OC1=C(C=C(C=C1)C=O)OC
+8F3094001655,Isobutavan from SimpleScentsDIY,20665-85-4,Vanillin isobutyrate,Citrus (Orange),,C12 O4,"Aldehyde, Ester, Ether",Aromatic (Benzene),No,Standard (Alcohol Compatible),222.24,2.07,CC(C)C(=O)OC1=C(C=C(C=C1)C=O)OC
+5UP07523,Isobutyl Quinoline 10% in DPG from PerfumersWorld,65442-31-1,6-sec-Butylquinoline,Unclassified,,C13 N1,Quinoline,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),185.27,3.75,CCC(C)C1=CC2=C(C=C1)N=CC=C2
+9UP00247,Isobutyl Quinoline from PerfumersWorld,65442-31-1,6-sec-Butylquinoline,Unclassified,,C13 N1,Quinoline,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),185.27,3.75,CCC(C)C1=CC2=C(C=C1)N=CC=C2
+8F3094001692,Isobutyl Salicylate from SimpleScentsDIY,87-19-4,Isobutyl salicylate,Unclassified,,C11 O3,Salicylate,Aromatic (Benzene),No,Standard (Alcohol Compatible),194.23,2.21,CC(C)COC(=O)C1=CC=CC=C1O
+5DF14120,Isobutyric Acid 10% in DPG from PerfumersWorld,79-31-2,ISOBUTYRIC ACID,Unclassified,,C4 O2,Carboxylic Acid,Aliphatic,No,Hydrophilic (Water Compatible),88.11,0.73,CC(C)C(=O)O
+4DF13384,Isobutyric Acid from PerfumersWorld,79-31-2,ISOBUTYRIC ACID,Unclassified,,C4 O2,Carboxylic Acid,Aliphatic,No,Hydrophilic (Water Compatible),88.11,0.73,CC(C)C(=O)O
+4CA03618,Isocyclocitral from PerfumersWorld,1335-66-6,DTXSID8044541,Green (Bitter),,C20 O2,Aldehyde,Aliphatic,No,Lipophilic (Oil/Wax Compatible),304.47,4.85,CC1CC(=CC(C1C=O)C)C.CC1C=C(CC(C1C)C=O)C
+8F3094001777,Isocyclocitral from SimpleScentsDIY,1335-66-6,DTXSID8044541,Green (Bitter),,C20 O2,Aldehyde,Aliphatic,No,Lipophilic (Oil/Wax Compatible),304.47,4.85,CC1CC(=CC(C1C=O)C)C.CC1C=C(CC(C1C)C=O)C
+3SP00250,Isoeugenol from PerfumersWorld,97-54-1,Isoeugenol,Spice (Carnation),,C10 O2,"Ether, Phenol",Aromatic (Benzene),No,Standard (Alcohol Compatible),164.2,2.43,CC=CC1=CC(=C(C=C1)O)OC
+3WY14446,Isolongifolanone from PerfumersWorld,14727-47-0,trans-Isolongifolanone,Unclassified,,C15 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),220.36,3.82,CC1(CCC(=O)C2C13CCC(C3)C2(C)C)C
+8F3094004214,Isolongifolanone from SimpleScentsDIY,23787-90-8,"2H-2,4a-Methanonaphthalen-8(5H)-one, 1,3,4,6,7,8a-hexahydro-1,1,5,5-tetramethyl-",Unclassified,,C15 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),220.36,3.82,CC1(CCC(=O)C2C13CCC(C3)C2(C)C)C
+3LH00252,Isononyl Acetate from PerfumersWorld,58430-94-7,"3,5,5-Trimethylhexyl acetate",Unclassified,,C11 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),186.29,3.01,CC(CCOC(=O)C)CC(C)(C)C
+3JF07351,Jasmin Lactone from PerfumersWorld,34686-71-0,6-pent-2-enyloxan-2-one,Unclassified,,C10 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),168.24,2.44,CCC=CCC1CCCC(=O)O1
+8F3094001732,Jasmolactone from SimpleScentsDIY,32764-98-0,8-Decen-5-olide,Unclassified,,C10 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),168.24,2.44,CC=CCCC1CCCC(=O)O1
+8F3094001693,Jasmonal H (HCA) from SimpleScentsDIY,101-86-0,alpha-Hexylcinnamaldehyde,Floral (Hay),,C15 O1,Aldehyde,Aromatic (Benzene),No,Lipophilic (Oil/Wax Compatible),216.32,4.24,CCCCCCC(=CC1=CC=CC=C1)C=O
+4WX10027,Javanol from PerfumersWorld,198404-98-7,Javanol,Woods (Sandal),,C15 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),222.37,3.47,CC1(C(CC2C1(C2)C)CC3CC3(C)CO)C
+8F3094004199,Javanol from SimpleScentsDIY,198404-98-7,Javanol,Woods (Sandal),,C15 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),222.37,3.47,CC1(C(CC2C1(C2)C)CC3CC3(C)CO)C
+3JN00258,Jessemal Jasmonyl from PerfumersWorld,18871-14-2,Jasmopyrane,Unclassified,,C12 O3,"Ester, Ether",Aliphatic,Yes,Standard (Alcohol Compatible),214.3,2.53,CCCCCC1COCCC1OC(=O)C
+8F3094001887,Jessemal from SimpleScentsDIY,38285-49-3,5-Methyl-3-butyltetrahydropyran-4-yl acetate,Unclassified,,C12 O3,"Ester, Ether",Aliphatic,Yes,Standard (Alcohol Compatible),214.3,2.39,CCCCC1COCC(C1OC(=O)C)C
+4WU16857,Karanal from PerfumersWorld,117933-89-8,"2-(2,4-dimethyl-3-cyclohexen-1-yl)-5-methyl-5-(1-methylpropyl)-1,3-dioxane",Unclassified,,C17 O2,Acetal,Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),266.42,4.4,CCC(C)C1(COC(OC1)C2CCC(=CC2C)C)C
+4WY07089,Kephalis from PerfumersWorld,36306-87-3,Kephalis,Unclassified,,C14 O2,"Ether, Ketone",Aliphatic,No,Standard (Alcohol Compatible),224.34,3.57,CCOC(=C)C1C(CC(=O)CC1(C)C)(C)C
+8F3094001905,Kephalis from SimpleScentsDIY,36306-87-3,Kephalis,Unclassified,,C14 O2,"Ether, Ketone",Aliphatic,No,Standard (Alcohol Compatible),224.34,3.57,CCOC(=C)C1C(CC(=O)CC1(C)C)(C)C
+4WI10591,Koavone from PerfumersWorld,81786-73-4,"(Z)-3,4,5,6,6-Pentamethylhept-3-en-2-one",Unclassified,,C12 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),182.31,3.59,CC(C(=C(C)C(=O)C)C)C(C)(C)C
+8F3094001778,Koavone from SimpleScentsDIY,81786-75-6,"3,5,6,6-Tetramethyl-4-methyleneheptan-2-one",Unclassified,,C12 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),182.31,3.45,CC(C(=O)C)C(=C)C(C)C(C)(C)C
+8F3094005334,Kohinool from SimpleScentsDIY,87118-95-4,"3,4,5,6,6-pentamethylheptan-2-ol",Unclassified,,C12 O1,Secondary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),186.34,3.32,CC(C(C)C(C)O)C(C)C(C)(C)C
+4BB00088,L-Carvone from PerfumersWorld,99-49-0,CARVONE,Musk (Botanical),,C10 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),150.22,2.49,CC1=CCC(CC1=O)C(=C)C
+5AA12488,Lauric Acid 10% in DPG from PerfumersWorld,143-07-7,lauric acid,Unclassified,,C12 O2,Carboxylic Acid,Aliphatic,No,Standard (Alcohol Compatible),200.32,3.99,CCCCCCCCCCCC(=O)O
+1AA06214,Lauric Acid from PerfumersWorld,143-07-7,lauric acid,Unclassified,,C12 O2,Carboxylic Acid,Aliphatic,No,Standard (Alcohol Compatible),200.32,3.99,CCCCCCCCCCCC(=O)O
+5HW23697,Lavender Aldehyde 10% in DPG from PerfumersWorld,35158-25-9,5-methyl-2-propan-2-ylhex-2-enal,Unclassified,,C10 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),154.25,2.81,CC(C)CC=C(C=O)C(C)C
+4HW03807,Lavender Aldehyde from PerfumersWorld,35158-25-9,5-methyl-2-propan-2-ylhex-2-enal,Unclassified,,C10 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),154.25,2.81,CC(C)CC=C(C=O)C(C)C
+4GI15439,Leafovert from PerfumersWorld,67633-96-9,(3Z)-Hex-3-en-1-yl methyl carbonate,Unclassified,,C8 O3,Ester,Aliphatic,No,Standard (Alcohol Compatible),158.2,2.13,CCC=CCCOC(=O)OC
+3CC06770,Lemonile from PerfumersWorld,61792-11-8,"3,7-Dimethylnona-2,6-dienenitrile",Unclassified,,C11 N1,Nitrile,Aliphatic,No,Standard (Alcohol Compatible),163.26,3.59,CCC(=CCCC(=CC#N)C)C
+8F3094001795,Lemonile from SimpleScentsDIY,61792-11-8,"3,7-Dimethylnona-2,6-dienenitrile",Unclassified,,C11 N1,Nitrile,Aliphatic,No,Standard (Alcohol Compatible),163.26,3.59,CCC(=CCCC(=CC#N)C)C
+4GI24147,Liffarome from PerfumersWorld,67633-96-9,(3Z)-Hex-3-en-1-yl methyl carbonate,Unclassified,,C8 O3,Ester,Aliphatic,No,Standard (Alcohol Compatible),158.2,2.13,CCC=CCCOC(=O)OC
+8F3094004159,Liffarome from SimpleScentsDIY,67633-96-9,(3Z)-Hex-3-en-1-yl methyl carbonate,Unclassified,,C8 O3,Ester,Aliphatic,No,Standard (Alcohol Compatible),158.2,2.13,CCC=CCCOC(=O)OC
+3MA00273,Lilial from PerfumersWorld,80-54-6,Lilial,Unclassified,,C14 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),204.31,3.36,CC(CC1=CC=C(C=C1)C(C)(C)C)C=O
+8F3094004370,Lily Flore (Powder) from SimpleScentsDIY,285977-85-7,"2,3-Dihydro-2,5-dimethyl-1H-indene-2-methanol",Unclassified,,C12 O1,Primary Alcohol,Aromatic (Benzene),No,Standard (Alcohol Compatible),176.26,2.09,CC1=CC2=C(CC(C2)(C)CO)C=C1
+8F3094001912,Lily Flore 10 % In DPG from SimpleScentsDIY,285977-85-7,"2,3-Dihydro-2,5-dimethyl-1H-indene-2-methanol",Unclassified,,C12 O1,Primary Alcohol,Aromatic (Benzene),No,Standard (Alcohol Compatible),176.26,2.09,CC1=CC2=C(CC(C2)(C)CO)C=C1
+5CK21690,Lime Oxide 10% in TEC from PerfumersWorld,7392-19-0,LIMETOL,Unclassified,,C10 O1,Ether,Aliphatic,Yes,Standard (Alcohol Compatible),154.25,2.91,CC1(CCCC(O1)(C)C=C)C
+4CK00275,Lime Oxide from PerfumersWorld,7392-19-0,LIMETOL,Unclassified,,C10 O1,Ether,Aliphatic,Yes,Standard (Alcohol Compatible),154.25,2.91,CC1(CCCC(O1)(C)C=C)C
+4LL00277,Linalool Oxide from PerfumersWorld,5989-33-3,cis-Linalool Oxide,Unclassified,,C10 O2,"Ether, Tertiary Alcohol",Aliphatic,Yes,Standard (Alcohol Compatible),170.25,1.88,CC1(CCC(O1)C(C)(C)O)C=C
+3LL00278,Linalool Synthetic from PerfumersWorld,78-70-6,Linalool,Aldehydic (Complex),,C10 O1,Tertiary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),154.25,2.67,CC(=CCCC(C)(C=C)O)C
+8F3094001295,Linalool from SimpleScentsDIY,78-70-6,Linalool,Aldehydic (Complex),,C10 O1,Tertiary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),154.25,2.67,CC(=CCCC(C)(C=C)O)C
+3LF00279,Linalyl Acetate from PerfumersWorld,115-95-7,LINALYL ACETATE,Citrus (Bergamot),,C12 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),196.29,3.24,CC(=CCCC(C)(C=C)OC(=O)C)C
+8F3094001299,Linalyl Acetate from SimpleScentsDIY,115-95-7,LINALYL ACETATE,Citrus (Bergamot),,C12 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),196.29,3.24,CC(=CCCC(C)(C=C)OC(=O)C)C
+3LC12899,Linalyl Propionate from PerfumersWorld,144-39-8,Linalyl propionate,Unclassified,,C13 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),210.32,3.63,CCC(=O)OC(C)(CCC=C(C)C)C=C
+3MG00282,Lyral from PerfumersWorld,31906-04-4,4-(4-hydroxy-4-methylpentyl)cyclohex-3-ene-1-carbaldehyde,Unclassified,,C13 O2,"Aldehyde, Tertiary Alcohol",Aliphatic,No,Standard (Alcohol Compatible),210.32,2.85,CC(C)(CCCC1=CCC(CC1)C=O)O
+5VD10871,METHYL LAITONE 10% DPG from PerfumersWorld,94201-19-1,8-METHYL-1-OXASPIRO[4.5]DECAN-2-ONE,Unclassified,,C10 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),168.24,2.27,CC1CCC2(CC1)CCC(=O)O2
+8B3094000972,MMB (3-methoxy-3-methyl-1-butanol) 1 kg from SimpleScentsDIY,56539-66-3,3-Methoxy-3-methylbutan-1-ol,Solvent,Blender,C6 O2,"Ether, Primary Alcohol",Aliphatic,No,Hydrophilic (Water Compatible),118.18,0.79,CC(C)(CCO)OC
+5GL23703,Maceal 10% in DPG from PerfumersWorld,67845-30-1,"Bicyclo[2.2.2]oct-5-ene-2-carboxaldehyde, 6-methyl-8-(1-methylethyl)-",Unclassified,,C13 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),192.3,3.06,CC1=CC2CC(C1CC2C(C)C)C=O
+4GL22835,Maceal from PerfumersWorld,67845-30-1,"Bicyclo[2.2.2]oct-5-ene-2-carboxaldehyde, 6-methyl-8-(1-methylethyl)-",Unclassified,,C13 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),192.3,3.06,CC1=CC2CC(C1CC2C(C)C)C=O
+2XX14556,Macrolide from PerfumersWorld,106-02-5,Oxacyclohexadecan-2-one,Musk (Botanical),,C15 O2,"Lactone, Macrocyclic Musk",Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),240.39,4.61,O=C1CCCCCCCCCCCCCCO1
+3MN13569,Magnolan from PerfumersWorld,27606-14-6,Magnolan,Unclassified,,C13 O2,Acetal,Aromatic (Benzene),Yes,Standard (Alcohol Compatible),204.27,2.68,CC1C2CC3=CC=CC=C3C2OC(O1)C
+8F3094001705,Magnolan from SimpleScentsDIY,27606-09-3,Magnolan,Unclassified,,C13 O2,Acetal,Aromatic (Benzene),Yes,Standard (Alcohol Compatible),204.27,2.68,CC1C2CC3=CC=CC=C3C2OC(O1)C
+8F3094004208,Majantol from SimpleScentsDIY,103694-68-4,Majantol,Unclassified,,C12 O1,Primary Alcohol,Aromatic (Benzene),No,Standard (Alcohol Compatible),178.27,2.56,CC1=CC(=CC=C1)CC(C)(C)CO
+5VE08421,Maltol 1% in DPG from PerfumersWorld,118-71-8,MALTOL,Unclassified,,C6 O3,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),126.11,0.65,CC1=C(C(=O)C=CO1)O
+5VE10963,Maltol 5% in DPG from PerfumersWorld,118-71-8,MALTOL,Unclassified,,C6 O3,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),126.11,0.65,CC1=C(C(=O)C=CO1)O
+1VE00283,Maltol from PerfumersWorld,118-71-8,MALTOL,Unclassified,,C6 O3,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),126.11,0.65,CC1=C(C(=O)C=CO1)O
+4FG15438,Manzanate from PerfumersWorld,39255-32-8,Ethyl 2-methylpentanoate,Unclassified,,C8 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),144.21,1.99,CCCC(C)C(=O)OCC
+8F3094001433,Manzanate from SimpleScentsDIY,39255-32-8,Ethyl 2-methylpentanoate,Unclassified,,C8 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),144.21,1.99,CCCC(C)C(=O)OCC
+8F3094004209,Maple Lactone (Powder) from SimpleScentsDIY,80-71-7,Cyclotene,Unclassified,,C6 O2,Ketone,Aliphatic,No,Standard (Alcohol Compatible),112.13,1.18,CC1=C(C(=O)CC1)O
+8F3094004210,Maple Lactone 10 % in DPG from SimpleScentsDIY,80-71-7,Cyclotene,Unclassified,,C6 O2,Ketone,Aliphatic,No,Standard (Alcohol Compatible),112.13,1.18,CC1=C(C(=O)CC1)O
+5VE09632,Maple Lactone 10% in DPG from PerfumersWorld,80-71-7,Cyclotene,Unclassified,,C6 O2,Ketone,Aliphatic,No,Standard (Alcohol Compatible),112.13,1.18,CC1=C(C(=O)CC1)O
+1VE00286,Maple Lactone from PerfumersWorld,80-71-7,Cyclotene,Unclassified,,C6 O2,Ketone,Aliphatic,No,Standard (Alcohol Compatible),112.13,1.18,CC1=C(C(=O)CC1)O
+3MG11691,Mayol from PerfumersWorld,13828-37-0,p-MENTHAN-7-OL,Floral (Fresh),,C10 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),156.27,2.44,CC(C)C1CCC(CC1)CO
+8F3094001779,Mayol from SimpleScentsDIY,13828-37-0,p-MENTHAN-7-OL,Woods (Rot),,C10 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),156.27,2.44,CC(C)C1CCC(CC1)CO
+5FG08480,Melonal 10% in DPG from PerfumersWorld,106-72-9,"2,6-Dimethyl-5-heptenal",Fruit (Melon),,C9 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),140.23,2.57,CC(CCC=C(C)C)C=O
+8F3094001286,Melonal 50% in DPG from SimpleScentsDIY,106-72-9,"2,6-Dimethyl-5-heptenal",Fruit (Melon),,C9 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),140.23,2.57,CC(CCC=C(C)C)C=O
+4FG00289,Melonal from PerfumersWorld,106-72-9,"2,6-Dimethyl-5-heptenal",Fruit (Melon),,C9 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),140.23,2.57,CC(CCC=C(C)C)C=O
+5BB08460,Menthol Crystals 50% in DPG from PerfumersWorld,2216-51-5,l-Menthol,Mint (Cold),,C10 O1,Secondary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),156.27,2.44,CC1CCC(C(C1)O)C(C)C
+1BB00290,Menthol Crystals from PerfumersWorld,2216-51-5,l-Menthol,Mint (Cold),,C10 O1,Secondary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),156.27,2.44,CC1CCC(C(C1)O)C(C)C
+5BB08203,Menthone 10% in DPG from PerfumersWorld,10458-14-7,p-Menthan-3-one,Unclassified,,C10 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),154.25,2.65,CC1CCC(C(=O)C1)C(C)C
+4BB00291,Menthone from PerfumersWorld,89-80-5,MENTHONE,Unclassified,,C10 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),154.25,2.65,CC1CCC(C(=O)C1)C(C)C
+3LB00292,Menthyl Acetate from PerfumersWorld,16409-45-3,Menthyl acetate,Unclassified,,C12 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),198.31,3.01,CC1CCC(C(C1)OC(=O)C)C(C)C
+4LF00294,Methyl Amyl Ketone from PerfumersWorld,110-43-0,2-HEPTANONE,Unclassified,,C7 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),114.19,2.16,CCCCCC(=O)C
+5NC12471,Methyl Anthranilate 10% in DPG from PerfumersWorld,134-20-3,METHYL ANTHRANILATE,Floral (Orange Bl.),,C8 O2 N1,"Amine, Ester",Aromatic (Benzene),No,Standard (Alcohol Compatible),151.16,1.06,COC(=O)C1=CC=CC=C1N
+4NC00295,Methyl Anthranilate from PerfumersWorld,134-20-3,METHYL ANTHRANILATE,Floral (Orange Bl.),,C8 O2 N1,"Amine, Ester",Aromatic (Benzene),No,Standard (Alcohol Compatible),151.16,1.06,COC(=O)C1=CC=CC=C1N
+8F3094001296,Methyl Anthranilate from SimpleScentsDIY,134-20-3,METHYL ANTHRANILATE,Floral (Orange Bl.),,C8 O2 N1,"Amine, Ester",Aromatic (Benzene),No,Standard (Alcohol Compatible),151.16,1.06,COC(=O)C1=CC=CC=C1N
+5NJ07849,Methyl Benzoate 10% in DPG from PerfumersWorld,93-58-3,METHYL BENZOATE,Unclassified,,C8 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),136.15,1.47,COC(=O)C1=CC=CC=C1
+4NJ00296,Methyl Benzoate from PerfumersWorld,93-58-3,METHYL BENZOATE,Unclassified,,C8 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),136.15,1.47,COC(=O)C1=CC=CC=C1
+8F3094001774,Methyl Benzoate from SimpleScentsDIY,93-58-3,METHYL BENZOATE,Unclassified,,C8 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),136.15,1.47,COC(=O)C1=CC=CC=C1
+5PS07822,Methyl Chavicol 10% in DPG from PerfumersWorld,140-67-0,Estragole,Floral (Ylang),,C10 O1,"Allyl, Ether",Aromatic (Benzene),No,Standard (Alcohol Compatible),148.2,2.42,COC1=CC=C(C=C1)CC=C
+4PS02272,Methyl Chavicol from PerfumersWorld,140-67-0,Estragole,Floral (Ylang),,C10 O1,"Allyl, Ether",Aromatic (Benzene),No,Standard (Alcohol Compatible),148.2,2.42,COC1=CC=C(C=C1)CC=C
+5SC12482,Methyl Cinnamate 10% in DPG from PerfumersWorld,103-26-4,Methyl cinnamate,Unclassified,,C10 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),162.19,1.87,COC(=O)C=CC1=CC=CC=C1
+2SC00297,Methyl Cinnamate from PerfumersWorld,103-26-4,Methyl cinnamate,Unclassified,,C10 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),162.19,1.87,COC(=O)C=CC1=CC=CC=C1
+4SP16859,Methyl Diantilis from PerfumersWorld,5595-79-9,2-ethoxy-4-(methoxymethyl)phenol,Unclassified,,C10 O3,"Ether, Phenol",Aromatic (Benzene),No,Standard (Alcohol Compatible),182.22,1.94,CCOC1=C(C=CC(=C1)COC)O
+9SW00298,Methyl Eugenol from PerfumersWorld,93-15-2,Methyl eugenol,Floral (Ylang),,C11 O2,"Allyl, Ether",Aromatic (Benzene),No,Standard (Alcohol Compatible),178.23,2.43,COC1=C(C=C(C=C1)CC=C)OC
+3LF00299,Methyl Hexyl Ketone from PerfumersWorld,111-13-7,2-OCTANONE,Unclassified,,C8 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),128.21,2.55,CCCCCCC(=O)C
+8F3094001823,Methyl Ionone Pure from SimpleScentsDIY,127-51-5,"3-Methyl-4-(2,6,6-trimethyl-2-cyclohexen-1-yl)-3-buten-2-one",Woods (Agarwood),,C14 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),206.33,3.9,CC1=CCCC(C1C=C(C)C(=O)C)(C)C
+9SP02300,Methyl Isoeugenol from PerfumersWorld,93-16-3,Methylisoeugenol,Unclassified,,C11 O2,Ether,Aromatic (Benzene),No,Standard (Alcohol Compatible),178.23,2.74,CC=CC1=CC(=C(C=C1)OC)OC
+4JN15333,Methyl Jasmonate from PerfumersWorld,39924-52-2,methyl 2-[3-oxo-2-[(E)-pent-2-enyl]cyclopentyl]acetate,Unclassified,,C13 O3,"Ester, Ketone",Aliphatic,No,Standard (Alcohol Compatible),224.3,2.5,CCC=CCC1C(CCC1=O)CC(=O)OC
+4LY00304,Methyl Nonyl Ketone from PerfumersWorld,112-12-9,2-Undecanone,Unclassified,,C11 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),170.3,3.72,CCCCCCCCCC(=O)C
+5GI07522,Methyl Octine Carbonate 10% in DPG from PerfumersWorld,111-80-8,Methyl 2-nonynoate,Unclassified,,C10 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),168.24,2.13,CCCCCCC#CC(=O)OC
+4GI00305,Methyl Octine Carbonate from PerfumersWorld,111-80-8,Methyl 2-nonynoate,Unclassified,,C10 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),168.24,2.13,CCCCCCC#CC(=O)OC
+8F3094001829,Methyl Octine Carbonate from SimpleScentsDIY,111-80-8,Methyl 2-nonynoate,Unclassified,,C10 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),168.24,2.13,CCCCCCC#CC(=O)OC
+4FC11677,Methyl Pample Mousse from PerfumersWorld,67674-46-8,"6,6-Dimethoxy-2,5,5-trimethylhex-2-ene",Unclassified,,C11 O2,Acetal,Aliphatic,No,Standard (Alcohol Compatible),186.29,2.99,CC(=CCC(C)(C)C(OC)OC)C
+5FC19406,Methyl Pamplemousse 10% in TEC from PerfumersWorld,67674-46-8,"6,6-Dimethoxy-2,5,5-trimethylhex-2-ene",Unclassified,,C11 O2,Acetal,Aliphatic,No,Standard (Alcohol Compatible),186.29,2.99,CC(=CCC(C)(C)C(OC)OC)C
+8F3094001757,"Methyl Pamplemousse, Amarocite from SimpleScentsDIY",67674-46-8,"6,6-Dimethoxy-2,5,5-trimethylhex-2-ene",Unclassified,,C11 O2,Acetal,Aliphatic,No,Standard (Alcohol Compatible),186.29,2.99,CC(=CCC(C)(C)C(OC)OC)C
+5OP07554,Methyl Salicylate 10% in DPG from PerfumersWorld,119-36-8,methyl salicylate,Facet (Wintergreen),,C8 O3,Salicylate,Aromatic (Benzene),No,Standard (Alcohol Compatible),152.15,1.18,COC(=O)C1=CC=CC=C1O
+3OP00306,Methyl Salicylate from PerfumersWorld,119-36-8,methyl salicylate,Facet (Wintergreen),,C8 O3,Salicylate,Aromatic (Benzene),No,Standard (Alcohol Compatible),152.15,1.18,COC(=O)C1=CC=CC=C1O
+5SC07858,Methyl cinnamate 50% in DPG from PerfumersWorld,103-26-4,Methyl cinnamate,Unclassified,,C10 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),162.19,1.87,COC(=O)C=CC1=CC=CC=C1
+8F3094005313,Muscenone from SimpleScentsDIY,82356-51-2,METHYLCYCLOPENTADECENONE,Unclassified,,C16 O1,"Ketone, Macrocyclic Musk",Aliphatic,No,Lipophilic (Oil/Wax Compatible),236.4,5.2,CC1=CCCCCCCCCCCCCC1=O
+4XU05022,Muscone from PerfumersWorld,541-91-3,3-Methylcyclopentadecanone,Unclassified,,C16 O1,"Ketone, Macrocyclic Musk",Aliphatic,No,Lipophilic (Oil/Wax Compatible),238.41,5.28,CC1CCCCCCCCCCCCC(=O)C1
+8F3094001708,Muscone from SimpleScentsDIY,541-91-3,3-Methylcyclopentadecanone,Unclassified,,C16 O1,"Ketone, Macrocyclic Musk",Aliphatic,No,Lipophilic (Oil/Wax Compatible),238.41,5.28,CC1CCCCCCCCCCCCC(=O)C1
+2XA09558,Musk Concentrate from PerfumersWorld,1222-05-5,Galaxolide,Musk (Clean),,C20,Hydrocarbon / Other,Aromatic (Benzene),No,Lipophilic (Oil/Wax Compatible),268.44,5.84,CC1CC2(C(C1)C)C3=C(C=C2C)C(=CC(=C3)C)C(C)C
+5XU07864,Musk Ketone 10% in DEP from PerfumersWorld,81-14-1,MUSK KETONE,Amber (Rich),,C14 O5 N2,"Amine, Ketone",Aromatic (Benzene),No,Standard (Alcohol Compatible),294.31,3.62,CC1=C(C(=C(C(=C1[N+](=O)[O-])C(C)(C)C)[N+](=O)[O-])C)C(=O)C
+5XU09977,Musk Ketone 10% in DPG from PerfumersWorld,81-14-1,MUSK KETONE,Amber (Rich),,C14 O5 N2,"Amine, Ketone",Aromatic (Benzene),No,Standard (Alcohol Compatible),294.31,3.62,CC1=C(C(=C(C(=C1[N+](=O)[O-])C(C)(C)C)[N+](=O)[O-])C)C(=O)C
+1XU00308,Musk Ketone from PerfumersWorld,81-14-1,MUSK KETONE,Musk (Powder),,C14 O5 N2,"Amine, Ketone",Aromatic (Benzene),No,Standard (Alcohol Compatible),294.31,3.62,CC1=C(C(=C(C(=C1[N+](=O)[O-])C(C)(C)C)[N+](=O)[O-])C)C(=O)C
+5MA08478,Myrac Aldehyde 10% in DPG from PerfumersWorld,37677-14-8,Myrac aldehyde,Unclassified,,C13 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),192.3,3.66,CC(=CCCC1=CCC(CC1)C=O)C
+4MA00312,Myrac Aldehyde from PerfumersWorld,37677-14-8,Myrac aldehyde,Unclassified,,C13 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),192.3,3.66,CC(=CCCC1=CCC(CC1)C=O)C
+3CQ00313,Myrcene from PerfumersWorld,123-35-3,MYRCENE,Unclassified,,C10,Hydrocarbon / Other,Aliphatic,No,Standard (Alcohol Compatible),136.24,3.48,CC(=CCCC(=C)C=C)C
+1AA05031,Myristic Acid from PerfumersWorld,544-63-8,Tetradecanoic acid,Floral (Orris),,C14 O2,Carboxylic Acid,Aliphatic,No,Lipophilic (Oil/Wax Compatible),228.38,4.77,CCCCCCCCCCCCCC(=O)O
+8F3094001552,Natural B-Pinene from SimpleScentsDIY,127-91-3,BETA-PINENE,Unclassified,,C10,Hydrocarbon / Other,Aliphatic,No,Standard (Alcohol Compatible),136.24,3.0,CC1(C2CCC(=C)C1C2)C
+4GI02379,Neofolione from PerfumersWorld,111-79-5,Methyl non-2-enoate,Unclassified,,C10 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),170.25,2.69,CCCCCCC=CC(=O)OC
+3CR00317,Nerol from PerfumersWorld,106-25-2,nerol,Floral (Rose),,C10 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),154.25,2.67,CC(=CCCC(=CCO)C)C
+8F3094001294,Nerol from SimpleScentsDIY,106-25-2,nerol,Floral (Rose),,C10 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),154.25,2.67,CC(=CCCC(=CCO)C)C
+3LM00319,Nerolidol from PerfumersWorld,7212-44-4,NEROLIDOL,Unclassified,,C15 O1,Tertiary Alcohol,Aliphatic,No,Lipophilic (Oil/Wax Compatible),222.37,4.4,CC(=CCCC(=CCCC(C)(C=C)O)C)C
+8F3094005322,Nerolidol from SimpleScentsDIY,7212-44-4,NEROLIDOL,Unclassified,,C15 O1,Tertiary Alcohol,Aliphatic,No,Lipophilic (Oil/Wax Compatible),222.37,4.4,CC(=CCCC(=CCCC(C)(C=C)O)C)C
+5CN09239,Nerolin Bromelia 10% in DPG from PerfumersWorld,93-18-5,Nerolin Bromelia,Unclassified,,C12 O1,Ether,Aromatic (Benzene),No,Standard (Alcohol Compatible),172.23,3.24,CCOC1=CC2=CC=CC=C2C=C1
+1CN00320,Nerolin Bromelia from PerfumersWorld,93-18-5,Nerolin Bromelia,Unclassified,,C12 O1,Ether,Aromatic (Benzene),No,Standard (Alcohol Compatible),172.23,3.24,CCOC1=CC2=CC=CC=C2C=C1
+5CN09971,Nerolin Yara Yara 10% in DPG from PerfumersWorld,93-04-9,2-METHOXYNAPHTHALENE,Unclassified,,C11 O1,Ether,Aromatic (Benzene),No,Standard (Alcohol Compatible),158.2,2.85,COC1=CC2=CC=CC=C2C=C1
+1CN00321,Nerolin Yara yara from PerfumersWorld,93-04-9,2-METHOXYNAPHTHALENE,Unclassified,,C11 O1,Ether,Aromatic (Benzene),No,Standard (Alcohol Compatible),158.2,2.85,COC1=CC2=CC=CC=C2C=C1
+8F3094001780,Neroline Bromelia (Powder) from SimpleScentsDIY,93-18-5,Nerolin Bromelia,Unclassified,,C12 O1,Ether,Aromatic (Benzene),No,Standard (Alcohol Compatible),172.23,3.24,CCOC1=CC2=CC=CC=C2C=C1
+3RF05061,Neryl Acetate from PerfumersWorld,141-12-8,Neryl acetate,Unclassified,,C12 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),196.29,3.24,CC(=CCCC(=CCOC(=O)C)C)C
+8F3094001767,Neryl Acetate from SimpleScentsDIY,141-12-8,Neryl acetate,Unclassified,,C12 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),196.29,3.24,CC(=CCCC(=CCOC(=O)C)C)C
+3LA00326,Nopyl Acetate from PerfumersWorld,128-51-8,(-)-Nopyl acetate,Unclassified,,C13 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),208.3,2.93,CC(=O)OCCC1=CCC2CC1C2(C)C
+5WU23677,Norlimbanol Dextro 10% in DPG from PerfumersWorld,70788-30-6,"1-(2,2,6-Trimethylcyclohexyl)-3-hexanol",Woods (Dry Amber),,C15 O1,Secondary Alcohol,Aliphatic,No,Lipophilic (Oil/Wax Compatible),226.4,4.39,CCCC(CCC1C(CCCC1(C)C)C)O
+4WU22432,Norlimbanol Dextro from PerfumersWorld,70788-30-6,"1-(2,2,6-Trimethylcyclohexyl)-3-hexanol",Woods (Dry Amber),,C15 O1,Secondary Alcohol,Aliphatic,No,Lipophilic (Oil/Wax Compatible),226.4,4.39,CCCC(CCC1C(CCCC1(C)C)C)O
+3MA22553,Nympheal from PerfumersWorld,1637294-12-2,3-(4-isobutyl-2-methylphenyl)propanal,Floral (Muguet),,C14 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),204.31,3.33,CC1=C(C=CC(=C1)CC(C)C)CCC=O
+3QC00330,Ocimene from PerfumersWorld,13877-91-3,beta-Ocimene,Unclassified,,C10,Hydrocarbon / Other,Aliphatic,No,Standard (Alcohol Compatible),136.24,3.48,CC(=CCC=C(C)C=C)C
+8F3094005321,Ocimene from SimpleScentsDIY,13877-91-3,beta-Ocimene,Unclassified,,C10,Hydrocarbon / Other,Aliphatic,No,Standard (Alcohol Compatible),136.24,3.48,CC(=CCC=C(C)C=C)C
+8F3094005338,Octahydrocoumarin from SimpleScentsDIY,4430-31-3,Octahydrocoumarin,Unclassified,,C9 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),154.21,1.88,C1CCC2C(C1)CCC(=O)O2
+8F3094004202,Oranger Crystals (Powder) from SimpleScentsDIY,93-08-3,2-Acetylnaphthalene,Floral (Mimosa),,C12 O1,Ketone,Aromatic (Benzene),No,Standard (Alcohol Compatible),170.21,3.04,CC(=O)C1=CC2=CC=CC=C2C=C1
+8F3094004203,Oranger Crystals 10 % in DPG from SimpleScentsDIY,93-08-3,2-Acetylnaphthalene,Floral (Mimosa),,C12 O1,Ketone,Aromatic (Benzene),No,Standard (Alcohol Compatible),170.21,3.04,CC(=O)C1=CC2=CC=CC=C2C=C1
+5NC07839,Oranger Crystals 10% in DPG from PerfumersWorld,93-08-3,2-Acetylnaphthalene,Floral (Mimosa),,C12 O1,Ketone,Aromatic (Benzene),No,Standard (Alcohol Compatible),170.21,3.04,CC(=O)C1=CC2=CC=CC=C2C=C1
+1NC00340,Oranger Crystals from PerfumersWorld,93-08-3,2-Acetylnaphthalene,Floral (Mimosa),,C12 O1,Ketone,Aromatic (Benzene),No,Standard (Alcohol Compatible),170.21,3.04,CC(=O)C1=CC2=CC=CC=C2C=C1
+3IA00343,Orivone from PerfumersWorld,16587-71-6,4-tert-Pentylcyclohexanone,Unclassified,,C11 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),168.28,3.18,CCC(C)(C)C1CCC(=O)CC1
+8F3094001836,Orivone from SimpleScentsDIY,16587-71-6,4-tert-Pentylcyclohexanone,Unclassified,,C11 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),168.28,3.18,CCC(C)(C)C1CCC(=O)CC1
+3WX00347,Osyrol from PerfumersWorld,41890-92-0,"3,7-dimethyl-7-methoxyoctan-2-ol",Unclassified,,C11 O2,"Ether, Secondary Alcohol",Aliphatic,No,Standard (Alcohol Compatible),188.31,2.6,CC(CCCC(C)(C)OC)C(C)O
+8F3094001783,Para-Cresol from SimpleScentsDIY,106-44-5,P-CRESOL,Woods (Agarwood),,C7 O1,Phenol,Aromatic (Benzene),No,Standard (Alcohol Compatible),108.14,1.7,CC1=CC=C(C=C1)O
+4GF14127,Paradisamide from PerfumersWorld,406488-30-0,"Butanamide, 2-ethyl-N-methyl-N-(3-methylphenyl)-",Fruit (Tropical),,C14 O1 N1,Hydrocarbon / Other,Aromatic (Benzene),No,Standard (Alcohol Compatible),219.33,3.39,CCC(CC)C(=O)N(C)C1=CC=CC(=C1)C
+5IG11455,Parmavert 10% in DPG from PerfumersWorld,13257-44-8,"1,1-Dimethoxynon-2-yne",Unclassified,,C11 O2,Acetal,Aliphatic,No,Standard (Alcohol Compatible),184.28,2.58,CCCCCCC#CC(OC)OC
+4IG05175,Parmavert from PerfumersWorld,13257-44-8,"1,1-Dimethoxynon-2-yne",Unclassified,,C11 O2,Acetal,Aliphatic,No,Standard (Alcohol Compatible),184.28,2.58,CCCCCCC#CC(OC)OC
+8F3094001782,Patchone (Powder) from SimpleScentsDIY,98-52-2,4-tert-Butylcyclohexanol,Unclassified,,C10 O1,Secondary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),156.27,2.58,CC(C)(C)C1CCC(CC1)O
+3RB12753,Peonile from PerfumersWorld,10461-98-0,alpha-cyclohexylidene benzeneacetonitrile,Floral (Peony),,C14 N1,Nitrile,Aromatic (Benzene),No,Standard (Alcohol Compatible),197.28,3.93,C1CCC(=C(C#N)C2=CC=CC=C2)CC1
+8F3094001707,Peonile from SimpleScentsDIY,10461-98-0,alpha-cyclohexylidene benzeneacetonitrile,Floral (Peony),,C14 N1,Nitrile,Aromatic (Benzene),No,Standard (Alcohol Compatible),197.28,3.93,C1CCC(=C(C#N)C2=CC=CC=C2)CC1
+8F3094001824,Peranat from SimpleScentsDIY,90397-38-9,2-Methylpentyl 2-methylpentanoate,Unclassified,,C12 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),200.32,3.4,CCCC(C)COC(=O)C(C)CCC
+3RB00369,Phenoxy Ethyl Isobutyrate from PerfumersWorld,103-60-6,2-Phenoxyethyl isobutyrate,Unclassified,,C12 O3,"Ester, Ether",Aromatic (Benzene),No,Standard (Alcohol Compatible),208.26,2.26,CC(C)C(=O)OCCOC1=CC=CC=C1
+5GP07497,Phenyl Acetaldehyde 85% in PEA from PerfumersWorld,122-78-1,phenylacetaldehyde,Green (Harsh),,C8 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),120.15,1.43,C1=CC=C(C=C1)CC=O
+5GN08326,Phenyl Acetaldehyde Dimethyl Acetal (PADMA) 10% in DPG from PerfumersWorld,122-78-1,phenylacetaldehyde,Green (Harsh),,C8 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),120.15,1.43,C1=CC=C(C=C1)CC=O
+4GN00382,Phenyl Acetaldehyde Dimethyl Acetal (PADMA) from PerfumersWorld,122-78-1,phenylacetaldehyde,Green (Harsh),,C8 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),120.15,1.43,C1=CC=C(C=C1)CC=O
+3RP00371,Phenyl Ethyl Acetate from PerfumersWorld,103-45-7,Phenethyl acetate,Unclassified,,C10 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),164.2,1.79,CC(=O)OCCC1=CC=CC=C1
+8F3094004213,Phenyl Ethyl Acetate from SimpleScentsDIY,103-45-7,Phenethyl acetate,Unclassified,,C10 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),164.2,1.79,CC(=O)OCCC1=CC=CC=C1
+3RM00358,Phenyl Ethyl Alcohol (PEA) from PerfumersWorld,60-12-8,2-PHENYLETHANOL,Green (Harsh),,C8 O1,Primary Alcohol,Aromatic (Benzene),No,Standard (Alcohol Compatible),122.17,1.22,C1=CC=C(C=C1)CCO
+8F3094001283,Phenyl Ethyl Alcohol from SimpleScentsDIY,60-12-8,2-PHENYLETHANOL,Green (Harsh),,C8 O1,Primary Alcohol,Aromatic (Benzene),No,Standard (Alcohol Compatible),122.17,1.22,C1=CC=C(C=C1)CCO
+4RW00373,Phenyl Ethyl Formate from PerfumersWorld,104-62-1,2-Phenylethyl formate,Unclassified,,C9 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),150.18,1.4,C1=CC=C(C=C1)CCOC=O
+5RL08476,Phenyl Ethyl Isoamyl Ether 10% in DPG from PerfumersWorld,56011-02-0,Isopentyl phenethyl ether,Unclassified,,C13 O1,Ether,Aromatic (Benzene),No,Standard (Alcohol Compatible),192.3,3.29,CC(C)CCOCCC1=CC=CC=C1
+4RL00374,Phenyl Ethyl Isoamyl Ether from PerfumersWorld,56011-02-0,Isopentyl phenethyl ether,Unclassified,,C13 O1,Ether,Aromatic (Benzene),No,Standard (Alcohol Compatible),192.3,3.29,CC(C)CCOCCC1=CC=CC=C1
+3RB00375,Phenyl Ethyl Isobutyrate from PerfumersWorld,103-48-0,Phenethyl isobutyrate,Unclassified,,C12 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),192.26,2.43,CC(C)C(=O)OCCC1=CC=CC=C1
+5RP07854,Phenyl Ethyl Phenyl Acetate 50% in DPG from PerfumersWorld,102-20-5,Phenethyl phenylacetate,Unclassified,,C16 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),240.3,3.02,C1=CC=C(C=C1)CCOC(=O)CC2=CC=CC=C2
+3RP00377,Phenyl Ethyl Phenyl Acetate from PerfumersWorld,102-20-5,Phenethyl phenylacetate,Unclassified,,C16 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),240.3,3.02,C1=CC=C(C=C1)CCOC(=O)CC2=CC=CC=C2
+5RO12473,Phenyl Ethyl Salicylate 10% in DPG from PerfumersWorld,87-22-9,Phenethyl salicylate,Unclassified,,C15 O3,Salicylate,Aromatic (Benzene),No,Standard (Alcohol Compatible),242.27,2.79,C1=CC=C(C=C1)CCOC(=O)C2=CC=CC=C2O
+1RO05275,Phenyl Ethyl Salicylate from PerfumersWorld,87-22-9,Phenethyl salicylate,Unclassified,,C15 O3,Salicylate,Aromatic (Benzene),No,Standard (Alcohol Compatible),242.27,2.79,C1=CC=C(C=C1)CCOC(=O)C2=CC=CC=C2O
+3GN00379,Phenyl Propyl Alcohol from PerfumersWorld,122-97-4,3-PHENYL-1-PROPANOL,Unclassified,,C9 O1,Primary Alcohol,Aromatic (Benzene),No,Standard (Alcohol Compatible),136.19,1.61,C1=CC=C(C=C1)CCCO
+5GN10163,Phenylacetaldehyde 10% in DPG from PerfumersWorld,122-78-1,phenylacetaldehyde,Green (Harsh),,C8 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),120.15,1.43,C1=CC=C(C=C1)CC=O
+5GP07498,Phenylacetaldehyde 50% in PEA from PerfumersWorld,122-78-1,phenylacetaldehyde,Green (Harsh),,C8 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),120.15,1.43,C1=CC=C(C=C1)CC=O
+3WI00384,Physeol from PerfumersWorld,68845-00-1,"2-Ethoxy-2,6,6-trimethyl-9-methylenebicyclo[3.3.1]nonane",Unclassified,,C15 O1,Ether,Aliphatic,No,Lipophilic (Oil/Wax Compatible),222.37,4.18,CCOC1(CCC2C(=C)C1CCC2(C)C)C
+3VN06814,Piperonyl acetate from PerfumersWorld,326-61-4,PIPERONYL ACETATE,Unclassified,,C10 O4,"Acetal, Ester",Aromatic (Benzene),Yes,Standard (Alcohol Compatible),194.19,1.48,CC(=O)OCC1=CC2=C(C=C1)OCO2
+3WM16912,Polysantol from PerfumersWorld,107898-54-4,"(E)-3,3-dimethyl-5-(2,2,3-trimethylcyclopent-3-en-1-yl)pent-4-en-2-ol",Woods (Rot),,C15 O1,Secondary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),222.37,3.94,CC1=CCC(C1(C)C)C=CC(C)(C)C(C)O
+3MC11054,Precyclemone B from PerfumersWorld,52474-60-9,Precyclemone B,Unclassified,,C14 O1,Aldehyde,Aliphatic,No,Lipophilic (Oil/Wax Compatible),206.33,4.05,CC(=CCCC1=CCCC(C1)(C)C=O)C
+3FG00387,Prenyl Acetate from PerfumersWorld,1191-16-8,Prenyl acetate,Unclassified,,C7 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),128.17,1.52,CC(=CCOC(=O)C)C
+5UY19282,Pyralone 10% in DPG from PerfumersWorld,65442-31-1,6-sec-Butylquinoline,Unclassified,,C13 N1,Quinoline,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),185.27,3.75,CCC(C)C1=CC2=C(C=C1)N=CC=C2
+9UY19188,Pyralone from PerfumersWorld,65442-31-1,6-sec-Butylquinoline,Unclassified,,C13 N1,Quinoline,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),185.27,3.75,CCC(C)C1=CC2=C(C=C1)N=CC=C2
+8F3094001565,Raspberry Ketone (Powder) from SimpleScentsDIY,5471-51-2,Raspberry ketone,Fruit (Apple),,C10 O2,"Ketone, Phenol",Aromatic (Benzene),No,Standard (Alcohol Compatible),164.2,1.91,CC(=O)CCC1=CC=C(C=C1)O
+5FL07524,Raspberry Ketone 10% in DPG from PerfumersWorld,5471-51-2,Raspberry ketone,Fruit (Apple),,C10 O2,"Ketone, Phenol",Aromatic (Benzene),No,Standard (Alcohol Compatible),164.2,1.91,CC(=O)CCC1=CC=C(C=C1)O
+1FL00392,Raspberry Ketone from PerfumersWorld,5471-51-2,Raspberry ketone,Fruit (Sweet),,C10 O2,"Ketone, Phenol",Aromatic (Benzene),No,Standard (Alcohol Compatible),164.2,1.91,CC(=O)CCC1=CC=C(C=C1)O
+8F3094001785,Rhubafuran from SimpleScentsDIY,82461-14-1,RHUBAFURAN,Unclassified,,C12 O1,Ether,Aromatic (Benzene),Yes,Standard (Alcohol Compatible),176.26,2.75,CC1CC(CO1)(C)C2=CC=CC=C2
+3FL06757,Rhubofix from PerfumersWorld,41825-63-4,Rhubofix,Fruit (Rhubarb),,C14 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),206.33,3.74,CC12CCC(C(C1)(C)C)(C2)C=CC(=O)C
+8F3094001888,Rhubofix from SimpleScentsDIY,41816-03-9,Rhubofix,Fruit (Rhubarb),,C14 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),206.33,3.74,CC12CCC(C(C1)(C)C)(C2)C=CC(=O)C
+3XU22379,Romandolide from PerfumersWorld,236391-76-7,"Acetic acid, 2-(1-oxopropoxy)-, 1-(3,3-dimethylcyclohexyl)ethyl ester",Unclassified,,C15 O4,Ester,Aliphatic,No,Standard (Alcohol Compatible),270.37,3.09,CCC(=O)OCC(=O)OC(C)C1CCCC(C1)(C)C
+8F3094001902,Romandolide from SimpleScentsDIY,236391-76-7,"Acetic acid, 2-(1-oxopropoxy)-, 1-(3,3-dimethylcyclohexyl)ethyl ester",Unclassified,,C15 O4,Ester,Aliphatic,No,Standard (Alcohol Compatible),270.37,3.09,CCC(=O)OCC(=O)OC(C)C1CCCC(C1)(C)C
+8F3094001786,Rosafix (Powder) from SimpleScentsDIY,90-17-5,"2,2,2-Trichloro-1-phenylethyl acetate",Unclassified,,C10 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),267.54,3.66,CC(=O)OC(C1=CC=CC=C1)C(Cl)(Cl)Cl
+5RA07537,Rosalva 10% in DPG from PerfumersWorld,13019-22-2,9-DECEN-1-OL,Unclassified,,C10 O1,"Allyl, Primary Alcohol",Aliphatic,No,Standard (Alcohol Compatible),156.27,2.9,C=CCCCCCCCCO
+4RA00394,Rosalva from PerfumersWorld,13019-22-2,9-DECEN-1-OL,Unclassified,,C10 O1,"Allyl, Primary Alcohol",Aliphatic,No,Standard (Alcohol Compatible),156.27,2.9,C=CCCCCCCCCO
+5RB10952,Rose Otto Anatolian 10% in DPG from PerfumersWorld,100-51-6,benzyl alcohol,Aldehydic (Complex),,C7 O1,Primary Alcohol,Aromatic (Benzene),No,Standard (Alcohol Compatible),108.14,1.18,C1=CC=C(C=C1)CO
+5RR12478,Rose Otto Bulgarian 10% in DPG from PerfumersWorld,100-51-6,benzyl alcohol,Aldehydic (Complex),,C7 O1,Primary Alcohol,Aromatic (Benzene),No,Standard (Alcohol Compatible),108.14,1.18,C1=CC=C(C=C1)CO
+5RL07536,Rose Oxide 10% in DPG from PerfumersWorld,16409-43-1,Rose oxide,Green (Metallic),,C10 O1,Ether,Aliphatic,Yes,Standard (Alcohol Compatible),154.25,2.77,CC1CCOC(C1)C=C(C)C
+4RL00399,Rose Oxide from PerfumersWorld,16409-43-1,Rose oxide,Green (Metallic),,C10 O1,Ether,Aliphatic,Yes,Standard (Alcohol Compatible),154.25,2.77,CC1CCOC(C1)C=C(C)C
+8F3094001549,Rose Oxide from SimpleScentsDIY,16409-43-1,Rose oxide,Green (Metallic),,C10 O1,Ether,Aliphatic,Yes,Standard (Alcohol Compatible),154.25,2.77,CC1CCOC(C1)C=C(C)C
+5RP08966,Rosone Rose Crystals 10% in DEP from PerfumersWorld,90-17-5,"2,2,2-Trichloro-1-phenylethyl acetate",Unclassified,,C10 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),267.54,3.66,CC(=O)OC(C1=CC=CC=C1)C(Cl)(Cl)Cl
+5RP07870,Rosone Rose Crystals 10% in DPG from PerfumersWorld,90-17-5,"2,2,2-Trichloro-1-phenylethyl acetate",Unclassified,,C10 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),267.54,3.66,CC(=O)OC(C1=CC=CC=C1)C(Cl)(Cl)Cl
+1RP05672,Rosone Rose Crystals from PerfumersWorld,90-17-5,"2,2,2-Trichloro-1-phenylethyl acetate",Unclassified,,C10 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),267.54,3.66,CC(=O)OC(C1=CC=CC=C1)C(Cl)(Cl)Cl
+5ES07841,Saffranal 10% in DPG from PerfumersWorld,116-26-7,Safranal,Woods (Rot),,C10 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),150.22,2.49,CC1=C(C(CC=C1)(C)C)C=O
+4ES00402,Saffranal from PerfumersWorld,116-26-7,Safranal,Woods (Rot),,C10 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),150.22,2.49,CC1=C(C(CC=C1)(C)C)C=O
+4ES11978,Safraleine from PerfumersWorld,54440-17-4,"2,3,3-Trimethylindanone",Spice (Saffron),,C12 O1,Ketone,Aromatic (Benzene),No,Standard (Alcohol Compatible),174.24,2.8,CC1C(=O)C2=CC=CC=C2C1(C)C
+5ES09556,Safranal 1% in DPG from PerfumersWorld,116-26-7,Safranal,Woods (Rot),,C10 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),150.22,2.49,CC1=C(C(CC=C1)(C)C)C=O
+8F3094001649,Safranal from SimpleScentsDIY,116-26-7,Safranal,Woods (Rot),,C10 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),150.22,2.49,CC1=C(C(CC=C1)(C)C)C=O
+4WX00405,Sandalore from PerfumersWorld,65113-99-7,Sandalore,Unclassified,,C14 O1,Secondary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),210.36,3.78,CC1=CCC(C1(C)C)CCC(C)C(C)O
+8F3094001548,Sandalore from SimpleScentsDIY,65113-99-7,Sandalore,Unclassified,,C14 O1,Secondary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),210.36,3.78,CC1=CCC(C1(C)C)CCC(C)C(C)O
+3WX00407,Sandela 50 from PerfumersWorld,28219-61-6,Sandela,Unclassified,,C14 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),208.34,3.7,CCC(=CCC1CC=C(C1(C)C)C)CO
+3WX13005,Sandela 85 from PerfumersWorld,28219-61-6,Sandela,Unclassified,,C14 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),208.34,3.7,CCC(=CCC1CC=C(C1(C)C)C)CO
+8F3094001756,Sandela 85 from SimpleScentsDIY,3407-42-9,Isobornyl cyclohexanol,Unclassified,,C16 O1,Secondary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),236.4,3.86,CC1C2CC(C1(C)C)CC2C3CCCC(C3)O
+3WX07632,Sandenol 208 from PerfumersWorld,65113-99-7,Sandalore,Unclassified,,C14 O1,Secondary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),210.36,3.78,CC1=CCC(C1(C)C)CCC(C)C(C)O
+3WX07631,Sandenol 803 from PerfumersWorld,66068-84-6,"Cyclohexanol, 4-(5,5,6-trimethylbicyclo(2.2.1)hept-2-yl)-",Unclassified,,C16 O1,Secondary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),236.4,3.86,CC1C2CC(C1(C)C)CC2C3CCC(CC3)O
+5YM23701,Scentenal 10% in DPG from PerfumersWorld,86803-90-9,Scentenal,Unclassified,,C12 O2,"Aldehyde, Ether",Aliphatic,No,Standard (Alcohol Compatible),194.27,1.88,COC1CC2CC1C3C2CC(C3)C=O
+4YM22431,Scentenal from PerfumersWorld,86803-90-9,Scentenal,Unclassified,,C12 O2,"Aldehyde, Ether",Aliphatic,No,Standard (Alcohol Compatible),194.27,1.88,COC1CC2CC1C3C2CC(C3)C=O
+8F3094001889,Scentenal from SimpleScentsDIY,86803-90-9,Scentenal,Unclassified,,C12 O2,"Aldehyde, Ether",Aliphatic,No,Standard (Alcohol Compatible),194.27,1.88,COC1CC2CC1C3C2CC(C3)C=O
+8F3094005314,Silvanone Supra from SimpleScentsDIY,109-29-5,OXACYCLOHEPTADECAN-2-ONE,Unclassified,,C16 O2,"Lactone, Macrocyclic Musk",Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),254.41,5.0,C1CCCCCCCC(=O)OCCCCCCC1
+5UN08964,Skatole 1% in DPG from PerfumersWorld,83-34-1,3-METHYLINDOLE,Unclassified,,C9 N1,Indole,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),131.18,2.48,CC1=CNC2=CC=CC=C12
+9UU00413,Skatole from PerfumersWorld,83-34-1,3-METHYLINDOLE,Unclassified,,C9 N1,Indole,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),131.18,2.48,CC1=CNC2=CC=CC=C12
+5GL08170,Stemone 10% in DPG from PerfumersWorld,22457-23-4,Stemone,Green (Stem),Modifier,C8 O1 N1,Hydrocarbon / Other,Aliphatic,No,Standard (Alcohol Compatible),143.23,2.66,CCC(C)CC(=NO)CC
+4GL00415,Stemone from PerfumersWorld,22457-23-4,Stemone,Green (Stem),Modifier,C8 O1 N1,Hydrocarbon / Other,Aliphatic,No,Standard (Alcohol Compatible),143.23,2.66,CCC(C)CC(=NO)CC
+8F3094001706,Stemone from SimpleScentsDIY,22457-23-4,Stemone,Green (Stem),Modifier,C8 O1 N1,Hydrocarbon / Other,Aliphatic,No,Standard (Alcohol Compatible),143.23,2.66,CCC(C)CC(=NO)CC
+5GN07535,Styralyl Acetate 10% in DPG from PerfumersWorld,93-92-5,1-Phenylethyl acetate,Unclassified,,C10 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),164.2,2.31,CC(C1=CC=CC=C1)OC(=O)C
+4GN00417,Styralyl Acetate from PerfumersWorld,93-92-5,1-Phenylethyl acetate,Unclassified,,C10 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),164.2,2.31,CC(C1=CC=CC=C1)OC(=O)C
+8F3094004196,Styralyl Acetate from SimpleScentsDIY,93-92-5,1-Phenylethyl acetate,Unclassified,,C10 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),164.2,2.31,CC(C1=CC=CC=C1)OC(=O)C
+4GN00418,Styralyl Alcohol from PerfumersWorld,98-85-1,1-Phenylethanol,Unclassified,,C8 O1,Secondary Alcohol,Aromatic (Benzene),No,Standard (Alcohol Compatible),122.17,1.74,CC(C1=CC=CC=C1)O
+4GN00419,Styralyl Propionate from PerfumersWorld,120-45-6,1-Phenylethyl propionate,Unclassified,,C11 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),178.23,2.7,CCC(=O)OC(C)C1=CC=CC=C1
+8F3094001827,Sulfurol (Milky) from SimpleScentsDIY,137-00-8,4-METHYL-5-THIAZOLEETHANOL,Unclassified,,C6 O1 N1 S1,"Primary Alcohol, Thiazole",Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),143.21,0.99,CC1=C(SC=N1)CCO
+5ED08420,Sulfurol 1% in DPG from PerfumersWorld,137-00-8,4-METHYL-5-THIAZOLEETHANOL,Unclassified,,C6 O1 N1 S1,"Primary Alcohol, Thiazole",Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),143.21,0.99,CC1=C(SC=N1)CCO
+4ED00423,Sulfurol from PerfumersWorld,137-00-8,4-METHYL-5-THIAZOLEETHANOL,Unclassified,,C6 O1 N1 S1,"Primary Alcohol, Thiazole",Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),143.21,0.99,CC1=C(SC=N1)CCO
+TEC,TEC,77-93-0,TRIETHYL CITRATE,Unclassified,,C12 O7,"Ester, Tertiary Alcohol",Aliphatic,No,Hydrophilic (Water Compatible),276.28,0.19,CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O
+3KK05584,Terpineol from PerfumersWorld,8000-41-7,Terpineol,Floral (Lilac),,C10 O1,Tertiary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),154.25,2.5,CC1=CCC(CC1)C(C)(C)O
+8F3094005315,Terpineol from SimpleScentsDIY,8000-41-7,Terpineol,Floral (Lilac),,C10 O1,Tertiary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),154.25,2.5,CC1=CCC(CC1)C(C)(C)O
+3KC00431,Terpinolene from PerfumersWorld,586-62-9,TERPINOLENE,Unclassified,,C10,Hydrocarbon / Other,Aliphatic,No,Standard (Alcohol Compatible),136.24,3.45,CC1=CCC(=C(C)C)CC1
+3LK00432,Terpinyl Acetate from PerfumersWorld,80-26-2,ALPHA-TERPINYL ACETATE,Unclassified,,C12 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),196.29,3.07,CC1=CCC(CC1)C(C)(C)OC(=O)C
+3RL03873,Tetrahydro Geraniol from PerfumersWorld,106-21-8,"3,7-Dimethyloctan-1-ol",Unclassified,,C10 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),158.28,2.83,CC(C)CCCC(C)CCO
+3LM00435,Tetrahydro Muguol from PerfumersWorld,41678-36-8,"3,7-Dimethylocten-2-ol",Unclassified,,C10 O1,Hydrocarbon / Other,Aliphatic,No,Standard (Alcohol Compatible),156.27,3.52,CC(C)CCCC(C)C(=C)O
+5PS09241,Thymol 10% in DPG from PerfumersWorld,89-83-8,THYMOL,Unclassified,,C10 O1,Phenol,Aromatic (Benzene),No,Standard (Alcohol Compatible),150.22,2.82,CC1=CC(=C(C=C1)C(C)C)O
+1PS00442,Thymol from PerfumersWorld,89-83-8,THYMOL,Unclassified,,C10 O1,Phenol,Aromatic (Benzene),No,Standard (Alcohol Compatible),150.22,2.82,CC1=CC(=C(C=C1)C(C)C)O
+3WW07134,Timberol from PerfumersWorld,70788-30-6,"1-(2,2,6-Trimethylcyclohexyl)-3-hexanol",Woods (Dry Amber),,C15 O1,Secondary Alcohol,Aliphatic,No,Lipophilic (Oil/Wax Compatible),226.4,4.39,CCCC(CCC1C(CCCC1(C)C)C)O
+8F3094001702,Timberol from SimpleScentsDIY,70788-30-6,"1-(2,2,6-Trimethylcyclohexyl)-3-hexanol",Woods (Dry Amber),,C15 O1,Secondary Alcohol,Aliphatic,No,Lipophilic (Oil/Wax Compatible),226.4,4.39,CCCC(CCC1C(CCCC1(C)C)C)O
+5XA09242,Tonalide 10% in DPG from PerfumersWorld,1506-02-1,Tonalide,Unclassified,,C18 O1,Ketone,Aromatic (Benzene),No,Lipophilic (Oil/Wax Compatible),258.4,4.79,CC1CC(C2=C(C1(C)C)C=C(C(=C2)C(=O)C)C)(C)C
+1XA00444,Tonalide from PerfumersWorld,1506-02-1,Tonalide,Unclassified,,C18 O1,Ketone,Aromatic (Benzene),No,Lipophilic (Oil/Wax Compatible),258.4,4.79,CC1CC(C2=C(C1(C)C)C=C(C(=C2)C(=O)C)C)(C)C
+4SP12754,Toscanol from PerfumersWorld,16510-27-3,1-(cyclopropylmethyl)-4-methoxybenzene,Unclassified,,C11 O1,Ether,Aromatic (Benzene),No,Standard (Alcohol Compatible),162.23,2.65,COC1=CC=C(C=C1)CC2CC2
+5GH07673,Trans-2-cis-6-nonadienoal 1% in DPG from PerfumersWorld,557-48-2,"trans-2,cis-6-Nonadienal",Unclassified,,C9 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),138.21,2.49,CCC=CCCC=CC=O
+8F3094001788,Trifernal from SimpleScentsDIY,16251-77-7,3-Phenylbutyraldehyde,Unclassified,,C10 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),148.2,2.38,CC(CC=O)C1=CC=CC=C1
+5GH07509,Triplal 10% in DPG from PerfumersWorld,68039-49-6,Ligustral,Fruit (Apple),,C9 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),138.21,2.18,CC1C=C(CCC1C=O)C
+4GH00450,Triplal from PerfumersWorld,68039-49-6,Ligustral,Fruit (Apple),,C9 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),138.21,2.18,CC1C=C(CCC1C=O)C
+8F3094001650,Triplal from SimpleScentsDIY,68039-49-6,Ligustral,Fruit (Apple),,C9 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),138.21,2.18,CC1C=C(CCC1C=O)C
+4IG07330,Undecavertol from PerfumersWorld,81782-77-6,4-Methyl-3-decen-5-ol,Unclassified,,C11 O1,Secondary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),170.3,3.28,CCCCCC(C(=CCC)C)O
+8F3094001651,Undecavertol from SimpleScentsDIY,81782-77-6,4-Methyl-3-decen-5-ol,Unclassified,,C11 O1,Secondary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),170.3,3.28,CCCCCC(C(=CCC)C)O
+5FD11577,Valeraldehyde Iso 1% in DPG from PerfumersWorld,590-86-3,3-Methylbutanal,Unclassified,,C5 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),86.13,1.23,CC(C)CC=O
+5FD19193,Valeraldehyde Iso 1% in TEC from PerfumersWorld,590-86-3,3-Methylbutanal,Unclassified,,C5 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),86.13,1.23,CC(C)CC=O
+8F3094004217,Vanillin (Powder) from SimpleScentsDIY,121-33-5,vanillin,Gourmet (Sweet),,C8 O3,"Aldehyde, Ether, Phenol",Aromatic (Benzene),No,Standard (Alcohol Compatible),152.15,1.21,COC1=C(C=CC(=C1)C=O)O
+5VW07530,Vanillin 10% in DPG from PerfumersWorld,121-33-5,vanillin,Gourmet (Sweet),,C8 O3,"Aldehyde, Ether, Phenol",Aromatic (Benzene),No,Standard (Alcohol Compatible),152.15,1.21,COC1=C(C=CC(=C1)C=O)O
+1VW00456,Vanillin from PerfumersWorld,121-33-5,vanillin,Gourmet (Sweet),,C8 O3,"Aldehyde, Ether, Phenol",Aromatic (Benzene),No,Standard (Alcohol Compatible),152.15,1.21,COC1=C(C=CC(=C1)C=O)O
+3LH00459,Veloutone from PerfumersWorld,65443-14-3,"2,2,5-Trimethyl-5-pentylcyclopentanone",Unclassified,,C13 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),196.33,3.96,CCCCCC1(CCC(C1=O)(C)C)C
+8F3094001790,Veloutone from SimpleScentsDIY,65443-14-3,"2,2,5-Trimethyl-5-pentylcyclopentanone",Unclassified,,C13 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),196.33,3.96,CCCCCC1(CCC(C1=O)(C)C)C
+4XU11429,Velvione from PerfumersWorld,37609-25-9,5-Cyclohexadecen-1-one,Unclassified,,C16 O1,"Ketone, Macrocyclic Musk",Aliphatic,No,Lipophilic (Oil/Wax Compatible),236.4,5.2,C1CCCCCC(=O)CCCC=CCCCC1
+4NM04579,Verdantiol from PerfumersWorld,91-51-0,DTXSID2052609,Unclassified,,C21 O2 N2,Ester,Aromatic (Benzene),No,Lipophilic (Oil/Wax Compatible),338.45,5.49,CC(CC1=CC=C(C=C1)C(C)(C)C)N=NC2=CC=CC=C2C(=O)OC
+3FG00463,Verdox from PerfumersWorld,88-41-5,2-tert-Butylcyclohexyl acetate,Unclassified,,C12 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),198.31,3.15,CC(=O)OC1CCCCC1C(C)(C)C
+8F3094001482,Verdox from SimpleScentsDIY,88-41-5,2-tert-Butylcyclohexyl acetate,Unclassified,,C12 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),198.31,3.15,CC(=O)OC1CCCCC1C(C)(C)C
+3LJ01926,Verdyl Acetate from PerfumersWorld,2500-83-6,"4,7-Methano-1H-inden-5-ol, 3a,4,5,6,7,7a-hexahydro-, acetate",Green (Gemstone),,C12 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),192.26,2.15,CC(=O)OC1CC2CC1C3C2CC=C3
+3LN08954,Verdyl Propionate from PerfumersWorld,17511-60-3,Tricyclodecenyl propionate,Unclassified,,C13 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),206.28,2.54,CCC(=O)OC1CC2CC1C3C2C=CC3
+3LW00464,Vertenex from PerfumersWorld,32210-23-4,4-tert-Butylcyclohexyl acetate,Unclassified,,C12 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),198.31,3.15,CC(=O)OC1CCC(CC1)C(C)(C)C
+8F3094001837,Vertenex from SimpleScentsDIY,32210-23-4,4-tert-Butylcyclohexyl acetate,Unclassified,,C12 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),198.31,3.15,CC(=O)OC1CCC(CC1)C(C)(C)C
+3WY00465,Vertofix Couer from PerfumersWorld,32388-55-9,Acetyl cedrene,Unclassified,,C17 O1,Ketone,Aliphatic,No,Lipophilic (Oil/Wax Compatible),246.39,4.37,CC1CCC2C13CC(C2(C)C)C(=C(C3)C(=O)C)C
+8F3094001835,Vertofix from SimpleScentsDIY,32388-55-9,Acetyl cedrene,Unclassified,,C17 O1,Ketone,Aliphatic,No,Lipophilic (Oil/Wax Compatible),246.39,4.37,CC1CCC2C13CC(C2(C)C)C(=C(C3)C(=O)C)C
+8F3094004192,Vetikon from SimpleScentsDIY,7403-42-1,4-Methyl-4-phenylpentan-2-one,Unclassified,,C12 O1,Ketone,Aromatic (Benzene),No,Standard (Alcohol Compatible),176.26,2.94,CC(=O)CC(C)(C)C1=CC=CC=C1
+4WL15944,Vetival from PerfumersWorld,4927-39-3,4-Cyclohexyl-4-methyl-pentan-2-one,Unclassified,,C12 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),182.31,3.57,CC(=O)CC(C)(C)C1CCCCC1
+8F3094001648,Vetival from SimpleScentsDIY,4927-39-3,4-Cyclohexyl-4-methyl-pentan-2-one,Unclassified,,C12 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),182.31,3.57,CC(=O)CC(C)(C)C1CCCCC1
+3WY00468,Vetiveryl Acetate from PerfumersWorld,62563-80-8,Vetiveryl acetate,Unclassified,,C17 O2,Ester,Aliphatic,No,Lipophilic (Oil/Wax Compatible),262.39,4.27,CC1CC(C=C(C2C1CC(=C(C)C)C2)C)OC(=O)C
+8F3094005335,Violiff from SimpleScentsDIY,87731-18-8,"Carbonic acid, 4-cycloocten-1-yl methyl ester",Unclassified,,C10 O3,Ester,Aliphatic,No,Standard (Alcohol Compatible),184.23,2.66,COC(=O)OC1CCCC=CCC1
+8F3094001555,Viridine (PADMA) from SimpleScentsDIY,101-48-4,Phenylacetaldehyde dimethyl acetal (PADMA),Green (Harsh),,C10 O2,Acetal,Aromatic (Benzene),No,Standard (Alcohol Compatible),166.22,1.85,COC(CC1=CC=CC=C1)OC
+5WU21414,Z11 HD 8.5 from PerfumersWorld,57345-19-4,"5H-3,5a-Epoxynaphth[2,1-c]oxepin, dodecahydro-3,8,8,11a-tetramethyl-",Unclassified,,C18 O2,Ketal,Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),278.44,4.52,CC1(CCCC2(C1CCC34C2CCC(O3)(OC4)C)C)C
+3XA22378,Zenolide from PerfumersWorld,54982-83-1,"1,4-DIOXACYCLOHEXADECANE-5,16-DIONE",Unclassified,,C14 O4,"Lactone, Macrocyclic Musk",Aliphatic,Yes,Standard (Alcohol Compatible),256.34,2.99,C1CCCCCC(=O)OCCOC(=O)CCCC1
+5GG07890,cis-3 Hexenol 10% in DPG from PerfumersWorld,928-96-1,cis-3-Hexen-1-ol,Green (Cut Grass),,C6 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),100.16,1.33,CCC=CCCO
+4GL00225,cis-3 Hexenol from PerfumersWorld,928-96-1,cis-3-Hexen-1-ol,Green (Cut Grass),,C6 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),100.16,1.33,CCC=CCCO
+5GF07561,cis-3 Hexenyl Acetate 10% in DPG from PerfumersWorld,3681-71-8,cis-3-Hexenyl acetate,Unclassified,,C8 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),142.2,1.91,CCC=CCCOC(=O)C
+4GF00226,cis-3 Hexenyl Acetate from PerfumersWorld,3681-71-8,cis-3-Hexenyl acetate,Unclassified,,C8 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),142.2,1.91,CCC=CCCOC(=O)C
+3GN00227,cis-3 Hexenyl Benzoate from PerfumersWorld,25152-85-6,cis-3-Hexenyl benzoate,Unclassified,,C13 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),204.27,3.2,CCC=CCCOC(=O)C1=CC=CC=C1
+5GD08173,cis-3 Hexenyl Butyrate 10% in DPG from PerfumersWorld,16491-36-4,cis-3-Hexenyl butyrate,Unclassified,,C10 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),170.25,2.69,CCCC(=O)OCCC=CCC
+4GD00228,cis-3 Hexenyl Butyrate from PerfumersWorld,16491-36-4,cis-3-Hexenyl butyrate,Unclassified,,C10 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),170.25,2.69,CCCC(=O)OCCC=CCC
+4GG01946,cis-3 Hexenyl Hexanoate from PerfumersWorld,31501-11-8,cis-3-Hexenyl hexanoate,Unclassified,,C12 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),198.31,3.47,CCCCCC(=O)OCCC=CCC
+5GO12259,cis-3 Hexenyl Salicylate 10% in DPG from PerfumersWorld,65405-77-8,3-Hexenyl salicylate,Floral (Green),,C13 O3,Salicylate,Aromatic (Benzene),No,Standard (Alcohol Compatible),220.27,2.91,CCC=CCCOC(=O)C1=CC=CC=C1O
+3GO00229,cis-3 Hexenyl Salicylate from PerfumersWorld,65405-77-8,3-Hexenyl salicylate,Floral (Green),,C13 O3,Salicylate,Aromatic (Benzene),No,Standard (Alcohol Compatible),220.27,2.91,CCC=CCCOC(=O)C1=CC=CC=C1O
+5JN07525,cis-Jasmone 10% in DPG from PerfumersWorld,488-10-8,cis-Jasmone,Unclassified,,C11 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),164.25,3.02,CCC=CCC1=C(C)C(=O)CC1
+4JN00257,cis-Jasmone from PerfumersWorld,488-10-8,cis-Jasmone,Unclassified,,C11 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),164.25,3.02,CCC=CCC1=C(C)C(=O)CC1
+5PP11272,para-Cresol 10% in DPG from PerfumersWorld,106-44-5,P-CRESOL,Woods (Agarwood),,C7 O1,Phenol,Aromatic (Benzene),No,Standard (Alcohol Compatible),108.14,1.7,CC1=CC=C(C=C1)O
+9PP00348,para-Cresol from PerfumersWorld,106-44-5,P-CRESOL,Woods (Agarwood),,C7 O1,Phenol,Aromatic (Benzene),No,Standard (Alcohol Compatible),108.14,1.7,CC1=CC=C(C=C1)O
+5PN11524,para-Cresyl Acetate 10% in DPG from PerfumersWorld,140-39-6,p-Tolyl acetate,Unclassified,,C9 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),150.18,1.92,CC1=CC=C(C=C1)OC(=O)C
+9PP01951,para-Cresyl Acetate from PerfumersWorld,140-39-6,p-Tolyl acetate,Unclassified,,C9 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),150.18,1.92,CC1=CC=C(C=C1)OC(=O)C
+5PN08178,para-Cresyl Methyl Ether 10% in DPG from PerfumersWorld,104-93-8,4-Methylanisole,Unclassified,,C8 O1,Ether,Aromatic (Benzene),No,Standard (Alcohol Compatible),122.17,2.0,CC1=CC=C(C=C1)OC
+4PP00350,para-Cresyl Methyl Ether from PerfumersWorld,104-93-8,4-Methylanisole,Unclassified,,C8 O1,Ether,Aromatic (Benzene),No,Standard (Alcohol Compatible),122.17,2.0,CC1=CC=C(C=C1)OC
+5PN07817,para-Cresyl Phenyl Acetate 10% in DPG from PerfumersWorld,101-94-0,p-Tolyl phenylacetate,Unclassified,,C15 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),226.28,3.14,CC1=CC=C(C=C1)OC(=O)CC2=CC=CC=C2
+1PF01952,para-Cresyl Phenyl Acetate from PerfumersWorld,101-94-0,p-Tolyl phenylacetate,Unclassified,,C15 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),226.28,3.14,CC1=CC=C(C=C1)OC(=O)CC2=CC=CC=C2
+3NP02253,para-Methyl Acetophenone from PerfumersWorld,122-00-9,4'-Methylacetophenone,Unclassified,,C9 O1,Ketone,Aromatic (Benzene),No,Standard (Alcohol Compatible),134.18,2.2,CC1=CC=C(C=C1)C(=O)C
+8B23094000189-1,โพรไพลีน ไกลคอล (Propylene Glycol) from SimpleScentsDIY,57-55-6,propylene glycol,Unclassified,,C3 O2,"Primary Alcohol, Secondary Alcohol",Aliphatic,No,Hydrophilic (Water Compatible),76.09,-0.64,CC(CO)O
+8B23094000943,ไดโพรไพลีน ไกลคอล / Dipropylene Glycol / DPG from SimpleScentsDIY,25265-71-8,Dipropylenglykol,Gourmet (Nutty),,C12 O6,"Ether, Primary Alcohol, Secondary Alcohol",Aliphatic,No,Hydrophilic (Water Compatible),268.35,-0.47,CC(CO)OC(C)CO.CC(COCC(C)O)O

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistical Affinity Global Map</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Global Statistical Affinity Map</h1>
+        <div class="controls">
+            <label for="color-select">Color By:</label>
+            <select id="color-select" onchange="renderMap()">
+                <option value="odorFamily">Odor Family</option>
+                <option value="chemGroup">Chemical Group</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- 3D Environment -->
+    <div id="vector-map"></div>
+
+    <script src="global_tgsc_data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

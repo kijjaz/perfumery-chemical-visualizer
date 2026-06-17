@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AromaOS - Molecular Space Explorer</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <!-- Plotly -->
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <!-- Smiles Drawer -->
+    <script src="https://unpkg.com/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+    <!-- 3Dmol.js -->
+    <script src="https://3Dmol.csb.pitt.edu/build/3Dmol-min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="desktop">
+        <!-- 3D Plot Area -->
+        <div id="plot-container"></div>
+
+        <!-- Navigation Overlay -->
+        <div class="nav-instructions" style="z-index: 10;">
+            <div style="margin-bottom: 8px;"><strong style="color: var(--gold-primary);">PRECISION NAVIGATION</strong></div>
+            <div class="nav-item">⌨️ WASD: Fly / Pan</div>
+            <div class="nav-item">⌨️ Q/E: Vertical</div>
+            <div class="nav-item">🖱️ Scroll: Calibrated Zoom</div>
+            <div class="nav-item">👆 Double-Click: Focus</div>
+        </div>
+
+        <!-- Navigation Console -->
+        <div id="nav-console" class="nav-instructions" style="bottom: 60px; right: 20px; left: auto; border-left: none; border-right: 3px solid var(--accent-teal); width: 140px; text-align: center;">
+            <div style="margin-bottom: 8px;"><strong style="color: var(--accent-teal);">CONTROLS</strong></div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px; margin-bottom: 10px;">
+                <div></div><button class="os-btn btn-mini" onclick="navMove('up')">↑</button><div></div>
+                <button class="os-btn btn-mini" onclick="navMove('left')">←</button>
+                <button class="os-btn btn-mini" onclick="navMove('home')"><i class="fas fa-home"></i></button>
+                <button class="os-btn btn-mini" onclick="navMove('right')">→</button>
+                <div></div><button class="os-btn btn-mini" onclick="navMove('down')">↓</button><div></div>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 5px;">
+                <button class="os-btn btn-mini" onclick="resetCamera('top')">Top View</button>
+                <button class="os-btn btn-mini" onclick="resetCamera('front')">Front View</button>
+            </div>
+        </div>
+
+        <!-- Legend -->
+        <div id="map-legend" class="nav-instructions" style="top: 20px; right: 20px; left: auto; border-left: none; border-right: 3px solid var(--gold-primary);">
+            <div style="margin-bottom: 8px;"><strong style="color: var(--gold-primary);">MAP LEGEND</strong></div>
+            <div class="nav-item"><span style="color: #fff; font-size: 1.2rem; vertical-align: middle;">●</span> Inventory</div>
+            <div class="nav-item"><span style="color: var(--gold-primary); font-size: 1.2rem; vertical-align: middle;">⬥</span> Reference</div>
+        </div>
+
+        <!-- Natural Explorer Window -->
+    <div id="window-naturals" class="os-window hidden" style="top: 15%; left: 35%; width: 400px; height: 500px;">
+        <div class="os-window-header">
+            <div class="os-window-title"><i class="fas fa-leaf"></i> Natural Explorer</div>
+            <div class="window-controls">
+                <button class="os-close-btn">&times;</button>
+            </div>
+        </div>
+        <div class="window-content">
+            <div class="naturals-scroll-container">
+                <div id="naturals-list" class="naturals-grid">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+            <div id="natural-detail-panel" class="natural-detail hidden">
+                <h3 id="nat-detail-name">Natural Name</h3>
+                <p id="nat-detail-desc" class="text-dim"></p>
+                <div class="constituent-breakdown">
+                    <h4>Main Constituents</h4>
+                    <div id="nat-detail-list"></div>
+                </div>
+                <button class="btn-primary" onclick="resetFromNatural()" style="margin-top: 15px; width: 100%;">Clear Constellation</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Discovery Hub Window -->
+    <div id="window-discovery" class="os-window hidden" style="top: 10%; left: 10%; width: 350px;">
+        <div class="os-window-header">
+            <div class="os-window-title"><i class="fas fa-search"></i> Discovery Hub</div>
+            <div class="window-controls">
+                <button class="os-close-btn">&times;</button>
+            </div>
+        </div>
+        <div class="os-window-content">
+            <div class="hub-section">
+                <label class="hub-label">Search Molecules</label>
+                <input type="text" id="hub-search" list="molecule-search-list" placeholder="Start typing name..." autocomplete="off" class="os-input">
+                <datalist id="molecule-search-list"></datalist>
+            </div>
+            
+            <div class="hub-section">
+                <label class="hub-label">Filter by Olfactory Family</label>
+                <select id="hub-filter-family" class="os-input">
+                    <option value="all">Every Family</option>
+                </select>
+            </div>
+
+            <div class="hub-section">
+                <label class="hub-label">Filter by Chemical Group</label>
+                <select id="hub-filter-chem" class="os-input">
+                    <option value="all">Every Group</option>
+                </select>
+            </div>
+
+            <div class="hub-section">
+                <label class="hub-label">Filter by Supplier</label>
+                <select id="hub-filter-supplier" class="os-input">
+                    <option value="all">Every Supplier</option>
+                </select>
+            </div>
+
+            <div style="margin-top: 20px; display: flex; gap: 10px;">
+                <button class="os-btn btn-primary" style="flex: 1;" onclick="applyHubFilters()">Apply Filters</button>
+                <button class="os-btn" onclick="clearHubFilters()">Reset All</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Info Window -->
+        <div id="window-info" class="os-window hidden" data-title="Molecule Info"
+            style="width: 320px; top: 20px; left: 20px;">
+            <div class="os-window-header">
+                <span class="os-window-title">Molecule Info</span>
+                <button class="os-close-btn">&times;</button>
+            </div>
+            <div class="os-window-content">
+                <h2 id="info-name" style="margin-top: 0; font-size: 1.2rem;">Molecule Name</h2>
+                <div class="tag-container" style="margin-bottom: 1rem;">
+                    <span id="info-chem" class="tag chem">Chem Group</span>
+                    <span id="info-odor" class="tag role">Odor Family</span>
+                </div>
+
+                <div style="text-align: center; margin: 1rem 0; background: rgba(0,0,0,0.5); border-radius: 8px;">
+                    <div id="3dmol-viewer" style="width: 100%; height: 200px; position: relative;"></div>
+                    <canvas id="smiles-canvas" width="280" height="200" style="display: none;"></canvas>
+                </div>
+
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                    <h3 style="color: var(--gold-primary); font-size: 0.9rem; margin: 0; text-transform: uppercase;">
+                        Closest Relatives</h3>
+                    <select id="neighbor-limit" class="os-input" style="padding: 2px;">
+                        <option value="5">Show 5</option>
+                        <option value="10">Show 10</option>
+                        <option value="20" selected>Show 20</option>
+                        <option value="50">Show 50</option>
+                    </select>
+                </div>
+                <p style="font-size: 0.75rem; color: #888; margin-top: 0; margin-bottom: 1rem;">Calculated via Tanimoto
+                    distance of 2048-bit Morgan Fingerprints.</p>
+
+                <div id="exact-matches-container" style="display: none; margin-bottom: 1rem;">
+                    <h4 style="color: #4ba6a6; font-size: 0.85rem; margin: 0 0 0.5rem 0; text-transform: uppercase;">
+                        100% Structural Matches</h4>
+                    <div id="exact-match-list" class="neighbor-list"
+                        style="max-height: 150px; overflow-y: auto; padding-right: 5px;"></div>
+                </div>
+
+                <h4
+                    style="color: var(--text-color); font-size: 0.85rem; margin: 0 0 0.5rem 0; text-transform: uppercase;">
+                    Similar Structures</h4>
+                <div id="neighbor-list" class="neighbor-list"></div>
+
+                <button id="btn-compare-side" class="os-btn"
+                    style="width: 100%; margin-top: 1rem; border-color: var(--accent-teal); color: var(--accent-teal); background: rgba(75,166,166,0.1);">COMPARE
+                    WITH...</button>
+            </div>
+        </div>
+
+        <!-- Compare Window -->
+        <div id="window-compare" class="os-window hidden" data-title="Structural Comparison"
+            style="width: 800px; top: 100px; left: 100px;">
+            <div class="os-window-header">
+                <span class="os-window-title">Structural Comparison</span>
+                <button class="os-close-btn">&times;</button>
+            </div>
+            <div class="os-window-content">
+                <div class="compare-grid" style="margin-bottom: 1.5rem;">
+                    <div style="flex:1;">
+                        <input type="text" id="compare-search-a" list="molecule-search-list"
+                            placeholder="Search first molecule..." autocomplete="off" class="os-input"
+                            style="width: 100%;">
+                    </div>
+                    <div style="flex:1;">
+                        <input type="text" id="compare-search-b" list="molecule-search-list"
+                            placeholder="Search second molecule..." autocomplete="off" class="os-input"
+                            style="width: 100%;">
+                    </div>
+                </div>
+
+                <div class="compare-grid">
+                    <!-- Molecule A -->
+                    <div class="compare-col" id="compare-a">
+                        <h3 id="comp-name-a"
+                            style="color: var(--text-primary); text-align: center; min-height: 2.5rem; font-size: 1rem;">
+                            Molecule A</h3>
+                        <div class="tag-container" style="justify-content: center; margin-bottom: 1rem;">
+                            <span id="comp-chem-a" class="tag chem">Chem Group</span>
+                            <span id="comp-odor-a" class="tag role">Odor Family</span>
+                        </div>
+                        <div class="canvas-box">
+                            <div id="comp-3d-a" style="width: 100%; height: 100%; position: absolute; top:0; left:0;">
+                            </div>
+                            <canvas id="comp-canvas-a" width="300" height="250"
+                                style="position: relative; z-index: 2;"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Center Stat -->
+                    <div class="compare-center">
+                        <div class="similarity-circle">
+                            <span id="comp-score">0%</span>
+                            <small>Similarity</small>
+                        </div>
+                    </div>
+
+                    <!-- Molecule B -->
+                    <div class="compare-col" id="compare-b">
+                        <h3 id="comp-name-b"
+                            style="color: var(--text-primary); text-align: center; min-height: 2.5rem; font-size: 1rem;">
+                            Select a molecule...</h3>
+                        <div class="tag-container" style="justify-content: center; margin-bottom: 1rem;">
+                            <span id="comp-chem-b" class="tag chem" style="opacity: 0;">Chem Group</span>
+                            <span id="comp-odor-b" class="tag role" style="opacity: 0;">Odor Family</span>
+                        </div>
+                        <div class="canvas-box">
+                            <div id="comp-3d-b" style="width: 100%; height: 100%; position: absolute; top:0; left:0;">
+                            </div>
+                            <canvas id="comp-canvas-b" width="300" height="250"
+                                style="position: relative; z-index: 2;"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Shared Similar Structures Section -->
+                <div id="compare-shared-container"
+                    style="display: none; margin-top: 1.5rem; border-top: 1px solid var(--border-color); padding-top: 1.5rem;">
+                    <h3
+                        style="color: var(--gold-primary); text-align: center; margin-bottom: 1rem; font-size: 0.9rem; text-transform: uppercase;">
+                        Shared Structural Relatives</h3>
+                    <div id="compare-shared-list" class="neighbor-list"
+                        style="display: flex; gap: 10px; overflow-x: auto; padding-bottom: 10px;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Help Window -->
+        <div id="window-help" class="os-window hidden" data-title="Help / Instructions"
+            style="width: 500px; top: 150px; left: 150px;">
+            <div class="os-window-header">
+                <span class="os-window-title">Help / Instructions</span>
+                <button class="os-close-btn">&times;</button>
+            </div>
+            <div class="os-window-content">
+                <ul style="color: var(--text-primary); line-height: 1.6; padding-left: 1rem;">
+                    <li><strong>Rotate Universe:</strong> Left Click + Drag</li>
+                    <li><strong>Pan Camera:</strong> Right Click + Drag</li>
+                    <li><strong>Zoom In/Out:</strong> Scroll Wheel</li>
+                    <li><strong>Inspect Molecule:</strong> Click a node to view its structural properties and closest
+                        relatives.</li>
+                    <li><strong>Search & Filter:</strong> Use the taskbar to isolate specific chemical groups or odor
+                        families.</li>
+                    <li><strong>Compare Mode:</strong> Open via Start Menu to see side-by-side structural differences
+                        and similarities.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Credits Window -->
+        <div id="window-credits" class="os-window hidden" data-title="Credits"
+            style="width: 350px; top: 200px; left: 200px;">
+            <div class="os-window-header">
+                <span class="os-window-title">Credits</span>
+                <button class="os-close-btn">&times;</button>
+            </div>
+            <div class="os-window-content" style="text-align: center;">
+                <p style="color: var(--text-dim); margin-bottom: 0.5rem;">Created by</p>
+                <h3 style="color: var(--accent-teal); font-size: 1.2rem; margin-bottom: 1.5rem;">Kijjaz & Google Gemini
+                </h3>
+                <p style="font-size: 0.8rem; color: #666;">Powered by RDKit, 3Dmol.js, and Plotly</p>
+            </div>
+        </div>
+    </div> <!-- /desktop -->
+
+    <!-- Taskbar -->
+    <div id="taskbar">
+        <button id="start-btn">
+            <span style="color:var(--gold-bright);">⌬</span> AromaOS
+        </button>
+
+        <div id="start-menu" class="hidden">
+            <div class="dashboard-grid">
+                <!-- Discovery Column -->
+                <div class="dashboard-col">
+                    <div class="dashboard-header">Discovery</div>
+                    <div class="start-menu-item" data-window="window-discovery">
+                        <i class="fas fa-search"></i> Search & Filter
+                    </div>
+                    <div class="start-menu-item" data-window="window-naturals">
+                        <i class="fas fa-leaf"></i> Natural Explorer
+                    </div>
+                </div>
+
+                <!-- Analysis Column -->
+                <div class="dashboard-col">
+                    <div class="dashboard-header">Analysis</div>
+                    <div class="start-menu-item" data-window="window-compare">
+                        <i class="fas fa-columns"></i> Structural Comparison
+                    </div>
+                </div>
+
+                <!-- View Column -->
+                <div class="dashboard-col">
+                    <div class="dashboard-header">View</div>
+                    <div class="start-menu-item" id="menu-reset">
+                        <i class="fas fa-expand"></i> Reset View
+                    </div>
+                    <div class="start-menu-item" id="menu-toggle-labels">
+                        <i class="fas fa-tag"></i> Toggle Labels
+                    </div>
+                </div>
+
+                <!-- System Column -->
+                <div class="dashboard-col">
+                    <div class="dashboard-header">System</div>
+                    <div class="start-menu-item" data-window="window-help">
+                        <i class="fas fa-question-circle"></i> Help & Instructions
+                    </div>
+                    <div class="start-menu-item" data-window="window-credits">
+                        <i class="fas fa-info-circle"></i> Credits
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Quick Access -->
+        <div class="taskbar-quick">
+            <button class="quick-btn" title="Home / Reset View" onclick="resetView()">
+                <i class="fas fa-home"></i>
+            </button>
+            <button class="quick-btn" id="taskbar-proximity" title="Proximity Mode (Local View)" onclick="toggleProximity()">
+                <i class="fas fa-bullseye"></i>
+            </button>
+            <button class="quick-btn" title="Search & Filter" onclick="openWindow('window-discovery')">
+                <i class="fas fa-search"></i>
+            </button>
+            <button class="quick-btn" title="Natural Explorer" onclick="openWindow('window-naturals')">
+                <i class="fas fa-leaf"></i>
+            </button>
+            <button class="quick-btn" id="taskbar-toggle-labels" title="Toggle Labels">
+                <i class="fas fa-tag"></i>
+            </button>
+        </div>
+
+        <div id="taskbar-windows">
+            <!-- Populated by JS -->
+        </div>
+
+        <div id="taskbar-clock">00:00</div>
+    </div>
+
+    <!-- Data -->
+    <script src="naturals.js"></script>
+    <script src="data.js"></script>
+    <!-- App Logic -->
+    <script src="app.js"></script>
+</body>
+
+</html>
