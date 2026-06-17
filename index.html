@@ -509,6 +509,59 @@
             background: rgba(255, 255, 255, 0.2);
         }
 
+        /* Supplier Pill Badges and Table Styles */
+        .supplier-badges {
+            display: flex;
+            gap: 4px;
+            align-items: center;
+        }
+
+        .supplier-pill {
+            font-size: 0.6rem;
+            font-weight: 700;
+            padding: 1px 4px;
+            border-radius: 3px;
+            letter-spacing: 0.5px;
+            border: 1px solid currentColor;
+            text-transform: uppercase;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .supplier-pill.pw { color: #d4af37; background: rgba(212, 175, 55, 0.08); }
+        .supplier-pill.msr { color: #00f0ff; background: rgba(0, 240, 255, 0.08); }
+        .supplier-pill.ssd { color: #e040fb; background: rgba(224, 64, 251, 0.08); }
+        .supplier-pill.fw { color: #ff9100; background: rgba(255, 145, 0, 0.08); }
+        .supplier-pill.am { color: #00e676; background: rgba(0, 230, 118, 0.08); }
+
+        .supplier-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 8px;
+            font-size: 0.85rem;
+        }
+
+        .supplier-table th, .supplier-table td {
+            padding: 8px 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .supplier-table th {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-dim);
+            font-weight: 600;
+        }
+
+        .supplier-table td {
+            color: #fff;
+        }
+
+        .supplier-table tr:last-child td {
+            border-bottom: none;
+        }
+
         @media (max-width: 992px) {
             body {
                 flex-direction: column;
@@ -550,6 +603,10 @@
             <select id="family-filter" class="filter-select">
                 <option value="all">All Odor Families</option>
             </select>
+            
+            <select id="supplier-filter" class="filter-select" style="margin-top: 8px;">
+                <option value="all">All Suppliers</option>
+            </select>
         </div>
         
         <div id="chemical-list" class="chemical-list">
@@ -570,7 +627,7 @@
                 <div id="chem-name" class="detail-title"></div>
                 <div id="chem-official" class="detail-official"></div>
                 <div class="detail-subtitle">
-                    <span>SKU: <strong id="chem-sku"></strong></span>
+                    <span style="display: flex; align-items: center; gap: 6px;">Suppliers: <span id="chem-suppliers-badges" class="supplier-badges"></span></span>
                     <span>CAS: <strong id="chem-cas"></strong></span>
                     <span>SMILES: <strong id="chem-smiles" style="font-family: 'Space Mono', monospace; font-size: 0.75rem;"></strong></span>
                 </div>
@@ -610,6 +667,23 @@
                 <div id="chem-fg-list" class="badge-list">
                     <!-- Badges render here -->
                 </div>
+            </div>
+
+            <!-- Supplier Availability & SKUs -->
+            <div class="spec-card" style="width: 100%;">
+                <div class="spec-label">Supplier Availability & SKUs</div>
+                <table class="supplier-table">
+                    <thead>
+                        <tr>
+                            <th>Supplier</th>
+                            <th>Product Name</th>
+                            <th>SKU / Code</th>
+                        </tr>
+                    </thead>
+                    <tbody id="chem-supplier-table-body">
+                        <!-- Dynamic rows render here -->
+                    </tbody>
+                </table>
             </div>
 
             <!-- Interactive Tip Banner -->
@@ -707,36 +781,51 @@
         });
 
         function initApp() {
-            // Build the Odor Family dropdown options
+            // Build the Odor Family and Supplier dropdown options
             const families = new Set();
+            const suppliers = new Set();
+
             chemicalData.forEach(c => {
                 if (c.odorFamily) {
-                    // Extract broad family name (e.g. "Floral" from "Floral (Rose)")
-                    const match = c.odorFamily.split("(")[0].strip ? c.odorFamily.split("(")[0].strip() : c.odorFamily.split("(")[0].trim();
+                    const match = c.odorFamily.split("(")[0].trim();
                     if (match && match !== "Unclassified" && match !== "Unknown") {
                         families.add(match);
                     }
                 }
+                if (c.suppliers && Array.isArray(c.suppliers)) {
+                    c.suppliers.forEach(s => {
+                        if (s) suppliers.add(s);
+                    });
+                }
             });
 
-            const filterSelect = document.getElementById("family-filter");
+            const familySelect = document.getElementById("family-filter");
             Array.from(families).sort().forEach(fam => {
                 const opt = document.createElement("option");
                 opt.value = fam;
                 opt.textContent = fam;
-                filterSelect.appendChild(opt);
+                familySelect.appendChild(opt);
+            });
+
+            const supplierSelect = document.getElementById("supplier-filter");
+            Array.from(suppliers).sort().forEach(sup => {
+                const opt = document.createElement("option");
+                opt.value = sup;
+                opt.textContent = sup;
+                supplierSelect.appendChild(opt);
             });
 
             // Set up search and filter event listeners
             document.getElementById("search-bar").addEventListener("input", filterList);
-            filterSelect.addEventListener("change", filterList);
+            familySelect.addEventListener("change", filterList);
+            supplierSelect.addEventListener("change", filterList);
 
             // Initial render of list
             renderList(chemicalData);
 
             // Select the first chemical by default if available
             if (chemicalData.length > 0) {
-                selectChemical(chemicalData[0].sku);
+                selectChemical(chemicalData[0].cas);
             }
         }
 
@@ -751,15 +840,33 @@
 
             list.forEach(c => {
                 const item = document.createElement("div");
-                item.className = `chemical-item ${currentChemical && currentChemical.sku === c.sku ? 'active' : ''}`;
-                item.id = `item-${c.sku}`;
-                item.onclick = () => selectChemical(c.sku);
+                const isActive = currentChemical && currentChemical.cas === c.cas;
+                item.className = `chemical-item ${isActive ? 'active' : ''}`;
+                item.id = `item-${c.cas}`;
+                item.onclick = () => selectChemical(c.cas);
+
+                // Build supplier badges HTML
+                let badgesHtml = "";
+                if (c.suppliers && Array.isArray(c.suppliers)) {
+                    c.suppliers.forEach(s => {
+                        let short = s;
+                        let cls = "";
+                        if (s === "PerfumersWorld") { short = "PW"; cls = "pw"; }
+                        else if (s === "MySkinRecipes") { short = "MSR"; cls = "msr"; }
+                        else if (s === "SimpleScentsDIY") { short = "SSD"; cls = "ssd"; }
+                        else if (s === "Fraterworks") { short = "FW"; cls = "fw"; }
+                        else if (s === "Aroma & More") { short = "AM"; cls = "am"; }
+                        badgesHtml += `<span class="supplier-pill ${cls}" title="${s}">${short}</span>`;
+                    });
+                }
 
                 item.innerHTML = `
                     <div class="item-name">${c.name}</div>
                     <div class="item-meta">
-                        <span class="item-sku">${c.sku}</span>
                         <span>CAS: ${c.cas || 'Unknown'}</span>
+                        <div class="supplier-badges">
+                            ${badgesHtml}
+                        </div>
                     </div>
                 `;
                 listContainer.appendChild(item);
@@ -769,26 +876,41 @@
         function filterList() {
             const query = document.getElementById("search-bar").value.toLowerCase().trim();
             const family = document.getElementById("family-filter").value;
+            const supplier = document.getElementById("supplier-filter").value;
 
             const filtered = chemicalData.filter(c => {
-                const matchesQuery = 
-                    c.name.toLowerCase().includes(query) || 
-                    c.sku.toLowerCase().includes(query) || 
-                    (c.cas && c.cas.toLowerCase().includes(query)) ||
-                    (c.officialName && c.officialName.toLowerCase().includes(query));
+                // Check supplier filter
+                const matchesSupplier = supplier === "all" || (c.suppliers && c.suppliers.includes(supplier));
+                if (!matchesSupplier) return false;
 
-                const matchesFamily = 
-                    family === "all" || 
-                    (c.odorFamily && c.odorFamily.toLowerCase().startsWith(family.toLowerCase()));
+                // Check family filter
+                const matchesFamily = family === "all" || (c.odorFamily && c.odorFamily.toLowerCase().startsWith(family.toLowerCase()));
+                if (!matchesFamily) return false;
 
-                return matchesQuery && matchesFamily;
+                // Check search query
+                if (!query) return true;
+
+                // Match against main attributes
+                if (c.name.toLowerCase().includes(query)) return true;
+                if (c.cas && c.cas.toLowerCase().includes(query)) return true;
+                if (c.officialName && c.officialName.toLowerCase().includes(query)) return true;
+
+                // Match against supplier details (names and SKUs)
+                if (c.supplierDetails && Array.isArray(c.supplierDetails)) {
+                    for (let detail of c.supplierDetails) {
+                        if (detail.sku && detail.sku.toLowerCase().includes(query)) return true;
+                        if (detail.name && detail.name.toLowerCase().includes(query)) return true;
+                    }
+                }
+
+                return false;
             });
 
             renderList(filtered);
         }
 
-        function selectChemical(sku) {
-            const chem = chemicalData.find(c => c.sku === sku);
+        function selectChemical(cas) {
+            const chem = chemicalData.find(c => c.cas === cas);
             if (!chem) return;
 
             currentChemical = chem;
@@ -796,7 +918,7 @@
 
             // Update active state in sidebar list
             document.querySelectorAll(".chemical-item").forEach(el => el.classList.remove("active"));
-            const selectedItem = document.getElementById(`item-${sku}`);
+            const selectedItem = document.getElementById(`item-${cas}`);
             if (selectedItem) selectedItem.classList.add("active");
 
             // Show details content, hide empty state
@@ -806,9 +928,29 @@
             // Fill header info
             document.getElementById("chem-name").textContent = chem.name;
             document.getElementById("chem-official").textContent = chem.officialName || "";
-            document.getElementById("chem-sku").textContent = chem.sku;
             document.getElementById("chem-cas").textContent = chem.cas || "Unknown";
             document.getElementById("chem-smiles").textContent = chem.smiles || "None";
+
+            // Render supplier badges in details header card
+            const headerBadges = document.getElementById("chem-suppliers-badges");
+            headerBadges.innerHTML = "";
+            if (chem.suppliers && Array.isArray(chem.suppliers)) {
+                chem.suppliers.forEach(s => {
+                    let short = s;
+                    let cls = "";
+                    if (s === "PerfumersWorld") { short = "PW"; cls = "pw"; }
+                    else if (s === "MySkinRecipes") { short = "MSR"; cls = "msr"; }
+                    else if (s === "SimpleScentsDIY") { short = "SSD"; cls = "ssd"; }
+                    else if (s === "Fraterworks") { short = "FW"; cls = "fw"; }
+                    else if (s === "Aroma & More") { short = "AM"; cls = "am"; }
+                    
+                    const badgeSpan = document.createElement("span");
+                    badgeSpan.className = `supplier-pill ${cls}`;
+                    badgeSpan.title = s;
+                    badgeSpan.textContent = short;
+                    headerBadges.appendChild(badgeSpan);
+                });
+            }
 
             // Fill specs
             document.getElementById("chem-family").textContent = chem.odorFamily;
@@ -855,6 +997,23 @@
                 });
             } else {
                 fgContainer.innerHTML = `<span style="font-size: 0.8rem; color: var(--text-dim); font-style: italic;">No specific functional groups detected (classified as Hydrocarbon / Other).</span>`;
+            }
+
+            // Populate Supplier Details Table
+            const tableBody = document.getElementById("chem-supplier-table-body");
+            tableBody.innerHTML = "";
+            if (chem.supplierDetails && Array.isArray(chem.supplierDetails)) {
+                chem.supplierDetails.forEach(d => {
+                    const row = document.createElement("tr");
+                    row.innerHTML = `
+                        <td style="font-weight: 700; color: var(--gold-primary);">${d.supplier}</td>
+                        <td>${d.name}</td>
+                        <td style="font-family: 'Space Mono', monospace; color: var(--accent-teal);">${d.sku}</td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            } else {
+                tableBody.innerHTML = `<tr><td colspan="3" style="text-align: center; color: var(--text-dim); font-style: italic;">No supplier details available</td></tr>`;
             }
 
             // --- 2D Molecule Setup ---
