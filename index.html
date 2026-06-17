@@ -896,37 +896,13 @@
             if (!mol) return "";
             
             const mdetails = {
-                clearBackground: true,
+                clearBackground: false,
                 bondLineWidth: 2.0,
                 explicitMethyl: true,
-                legendColour: [0.95, 0.95, 0.96, 1.0],
-                annotationColour: [0.95, 0.95, 0.96, 1.0],
-                atomColourPalette: {
-                    0: [0.95, 0.95, 0.96],
-                    1: [0.95, 0.95, 0.96],
-                    5: [0.83, 0.68, 0.22], // Boron (gold)
-                    6: [0.95, 0.95, 0.96],
-                    7: [0.83, 0.68, 0.22], // Nitrogen (gold)
-                    8: [0.83, 0.68, 0.22], // Oxygen (gold)
-                    9: [0.83, 0.68, 0.22], // Fluorine (gold)
-                    14: [0.83, 0.68, 0.22], // Silicon (gold)
-                    15: [0.83, 0.68, 0.22], // Phosphorus (gold)
-                    16: [0.83, 0.68, 0.22], // Sulfur (gold)
-                    17: [0.83, 0.68, 0.22], // Chlorine (gold)
-                    35: [0.83, 0.68, 0.22], // Bromine (gold)
-                    53: [0.83, 0.68, 0.22]  // Iodine (gold)
-                },
                 ...highlights
             };
             
-            let svg = mol.get_svg_with_highlights(JSON.stringify(mdetails));
-            
-            // Clean up the colors for dark-mode Carbon & Gold theme
-            svg = svg.replaceAll('stroke:#000000', 'stroke:#f3f3f6') // theme's light gray text color
-                     .replaceAll('fill:#000000', 'fill:#f3f3f6')
-                     .replaceAll('stroke:#000', 'stroke:#f3f3f6')
-                     .replaceAll('fill:#000', 'fill:#f3f3f6');
-            return svg;
+            return mol.get_svg_with_highlights(JSON.stringify(mdetails));
         }
 
         function initApp() {
