@@ -19,24 +19,24 @@ Material Name,CAS Number,Official Name,Odor Family,Odor Description,Atom Counts,
 "2,4-Decadienal (FEMA 3135)",2363-88-4,"(2E,4E)-deca-2,4-dienal",Unclassified,,C10 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),152.24,2.88,CCCCCC=CC=CC=O,MySkinRecipes
 "2,4-Dimethyl-5-Acetyl Thiazole (FEMA 3267)",38205-60-6,"5-Acetyl-2,4-dimethylthiazole",Unclassified,,C7 O1 N1 S1,"Ketone, Thiazole",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),155.22,1.96,CC(=O)c1sc(C)nc1C,MySkinRecipes
 2-4-Methylcyclohexylpropan-2-ol,498-81-7,2-(4-methylcyclohexyl)propan-2-ol,Unclassified,,C10 O1,Tertiary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),156.27,2.58,CC1CCC(C(C)(C)O)CC1,MySkinRecipes
-2-Acetyl Furan,1192-62-7,1-(furan-2-yl)ethanone,Unclassified,,C6 O2,Ketone,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),110.11,1.48,CC(=O)c1ccco1,MySkinRecipes
-2-Acetyl Pyridine,1122-62-9,1-pyridin-2-ylethanone,Unclassified,,C7 O1 N1,Ketone,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),121.14,1.28,CC(=O)c1ccccn1,"Fraterworks, MySkinRecipes"
-2-Acetyl Thiophene,88-15-3,1-thiophen-2-ylethanone,Unclassified,,C6 O1 S1,Ketone,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),126.18,1.95,CC(=O)c1cccs1,MySkinRecipes
+2-Acetyl Furan,1192-62-7,1-(furan-2-yl)ethanone,Unclassified,,C6 O2,"Furan, Ketone",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),110.11,1.48,CC(=O)c1ccco1,MySkinRecipes
+2-Acetyl Pyridine,1122-62-9,1-pyridin-2-ylethanone,Unclassified,,C7 O1 N1,"Ketone, Pyridine",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),121.14,1.28,CC(=O)c1ccccn1,"Fraterworks, MySkinRecipes"
+2-Acetyl Thiophene,88-15-3,1-thiophen-2-ylethanone,Unclassified,,C6 O1 S1,"Ketone, Thiophene",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),126.18,1.95,CC(=O)c1cccs1,MySkinRecipes
 2-Acetyl-1-Pyrroline (FEMA 4249),85213-22-5,"1-(3,4-dihydro-2H-pyrrol-5-yl)ethanone",Unclassified,,C6 O1 N1,Ketone,Aliphatic,Yes,Hydrophilic (Water Compatible),111.14,0.81,CC(=O)C1=NCCC1,MySkinRecipes
 2-Acetylpyrazine,22047-25-2,Acetylpyrazine,Gourmet (Roasted),Heart-Base,C6 O1 N2,"Ketone, Pyrazine",Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),122.13,0.68,CC(=O)c1cnccn1,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
-2-Acetylpyrrole,1072-83-9,1-(1H-pyrrol-2-yl)ethanone,Unclassified,,C6 O1 N1,Ketone,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),109.13,1.22,CC(=O)c1ccc[nH]1,MySkinRecipes
+2-Acetylpyrrole,1072-83-9,1-(1H-pyrrol-2-yl)ethanone,Unclassified,,C6 O1 N1,"Ketone, Pyrrole",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),109.13,1.22,CC(=O)c1ccc[nH]1,MySkinRecipes
 2-Amino Pyrazine,5049-61-6,pyrazin-2-amine,Unclassified,,C4 N3,"Amine, Pyrazine",Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),95.11,0.06,Nc1cnccn1,MySkinRecipes
 2-Ethoxy Thiazole (FEMA 3340),15679-19-3,"2-ethoxy-1,3-thiazole",Unclassified,,C5 O1 N1 S1,"Ether, Thiazole",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),129.18,1.54,CCOc1nccs1,MySkinRecipes
 2-Ethoxy-3-Isopropyl Pyrazine (FEMA 4632),72797-16-1,2-ethoxy-3-propan-2-ylpyrazine,Unclassified,,C9 O1 N2,"Ether, Pyrazine",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),166.22,2.0,CCOc1nccnc1C(C)C,MySkinRecipes
 "2-Ethoxy-4-4-Methyl-1,3-Dioxolan-2-Ylphenol (FEMA 3838)",68527-76-4,"2-ethoxy-4-(4-methyl-1,3-dioxolan-2-yl)phenol",Unclassified,,C12 O4,"Acetal, Phenol",Aromatic (Benzene),Yes,Standard (Alcohol Compatible),224.26,2.22,CCOc1cc(C2OCC(C)O2)ccc1O,MySkinRecipes
 2-Ethoxypyrazine,38028-67-0,2-ethoxypyrazine,Unclassified,,C6 O1 N2,"Ether, Pyrazine",Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),124.14,0.88,CCOc1cnccn1,MySkinRecipes
 2-Ethyl Fenchol (Terrasol),18368-91-7,"2-ethyl-1,3,3-trimethylbicyclo[2.2.1]heptan-2-ol",Unclassified,,C12 O1,Tertiary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),182.31,2.97,CCC1(O)C2(C)CCC(C2)C1(C)C,MySkinRecipes
-2-Ethyl Furan (FEMA 3673),3208-16-0,2-ethylfuran,Unclassified,,C6 O1,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),96.13,1.84,CCc1ccco1,MySkinRecipes
+2-Ethyl Furan (FEMA 3673),3208-16-0,2-ethylfuran,Unclassified,,C6 O1,Furan,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),96.13,1.84,CCc1ccco1,MySkinRecipes
 2-Heptanol (FEMA 3288),543-49-7,heptan-2-ol,Unclassified,,C7 O1,Secondary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),116.2,1.95,CCCCCC(C)O,MySkinRecipes
-2-Isobutyl Quinoline,93-19-6,2-(2-methylpropyl)quinoline,Unclassified,,C13 N1,Quinoline,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),185.27,3.43,CC(C)Cc1ccc2ccccc2n1,"Fraterworks, MySkinRecipes"
+2-Isobutyl Quinoline,93-19-6,2-(2-methylpropyl)quinoline,Unclassified,,C13 N1,"Pyridine, Quinoline","Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),185.27,3.43,CC(C)Cc1ccc2ccccc2n1,"Fraterworks, MySkinRecipes"
 2-Isopropyl Phenol,88-69-7,2-propan-2-ylphenol,Unclassified,,C9 O1,Phenol,Aromatic (Benzene),No,Standard (Alcohol Compatible),136.19,2.52,CC(C)c1ccccc1O,Fraterworks
 2-Mercaptopropionic acid-2-Thiolpropionic Acid (FEMA 3180),79-42-5,2-sulfanylpropanoic acid,Unclassified,,C3 O2 S1,"Carboxylic Acid, Thiol",Aliphatic,No,Hydrophilic (Water Compatible),106.15,0.39,CC(S)C(=O)O,MySkinRecipes
-2-Mercaptothiophene (FEMA 3062),7774-74-5,thiophene-2-thiol,Unclassified,,C4 S2,Thiol,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),116.21,2.04,Sc1cccs1,MySkinRecipes
+2-Mercaptothiophene (FEMA 3062),7774-74-5,thiophene-2-thiol,Unclassified,,C4 S2,"Thiol, Thiophene",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),116.21,2.04,Sc1cccs1,MySkinRecipes
 2-Methoxy Pyrazine (FEMA 3302),3149-28-8,2-methoxypyrazine,Unclassified,,C5 O1 N2,"Ether, Pyrazine",Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),110.12,0.49,COc1cnccn1,MySkinRecipes
 2-Methoxy Thiazole,14542-13-3,"2-methoxy-1,3-thiazole",Unclassified,,C4 O1 N1 S1,"Ether, Thiazole",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),115.16,1.15,COc1nccs1,MySkinRecipes
 2-Methyl Butyl Acetate,624-41-9,2-methylbutyl acetate,Unclassified,,C7 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),130.19,1.6,CCC(C)COC(C)=O,MySkinRecipes
@@ -44,11 +44,11 @@ Material Name,CAS Number,Official Name,Odor Family,Odor Description,Atom Counts,
 2-Methyl Butyric Acid (FEMA 2695),116-53-0,2-methylbutanoic acid,Unclassified,,C5 O2,Carboxylic Acid,Aliphatic,No,Standard (Alcohol Compatible),102.13,1.12,CCC(C)C(=O)O,MySkinRecipes
 2-Methyl Thiazole,3581-87-1,"2-methyl-1,3-thiazole",Unclassified,,C4 N1 S1,Thiazole,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),99.16,1.45,Cc1nccs1,MySkinRecipes
 2-Methyl Valeric Acid (FEMA 2754),97-61-0,2-methylpentanoic acid,Unclassified,,C6 O2,Carboxylic Acid,Aliphatic,No,Standard (Alcohol Compatible),116.16,1.51,CCCC(C)C(=O)O,MySkinRecipes
-2-Methyl-3-Furyl Disulfide (FEMA 3259),28588-75-2,2-methyl-3-[(2-methylfuran-3-yl)disulfanyl]furan,Unclassified,,C10 O2 S2,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Lipophilic (Oil/Wax Compatible),226.32,4.29,Cc1occc1SSc1ccoc1C,MySkinRecipes
-2-Methyl-3-Methylthio Furan (FEMA 3949),63012-97-5,2-methyl-3-methylsulfanylfuran,Unclassified,,C6 O1 S1,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),128.2,2.31,CSc1ccoc1C,MySkinRecipes
+2-Methyl-3-Furyl Disulfide (FEMA 3259),28588-75-2,2-methyl-3-[(2-methylfuran-3-yl)disulfanyl]furan,Unclassified,,C10 O2 S2,Furan,Aromatic (Heterocycle),Yes,Lipophilic (Oil/Wax Compatible),226.32,4.29,Cc1occc1SSc1ccoc1C,MySkinRecipes
+2-Methyl-3-Methylthio Furan (FEMA 3949),63012-97-5,2-methyl-3-methylsulfanylfuran,Unclassified,,C6 O1 S1,Furan,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),128.2,2.31,CSc1ccoc1C,MySkinRecipes
 2-Methyl-3-Tetrahydrofuranthiol (FEMA 3787),57124-87-5,2-methyloxolane-3-thiol,Unclassified,,C5 O1 S1,"Ether, Thiol",Aliphatic,Yes,Standard (Alcohol Compatible),118.2,1.09,CC1OCCC1S,MySkinRecipes
 2-Methyl-35-6-Ethoxy Pyrazine (FEMA 3569),32737-14-7,2-ethoxy-3-methylpyrazine,Unclassified,,C7 O1 N2,"Ether, Pyrazine",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),138.17,1.18,CCOc1nccnc1C,MySkinRecipes
-2-Methyl-35-6-Furfurylthio Pyrazine (FEMA 3189),65530-53-2,2-(furan-2-ylmethylsulfanyl)-3-methylpyrazine,Unclassified,,C10 O1 N2 S1,Pyrazine,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),206.27,2.67,Cc1nccnc1SCc1ccco1,MySkinRecipes
+2-Methyl-35-6-Furfurylthio Pyrazine (FEMA 3189),65530-53-2,2-(furan-2-ylmethylsulfanyl)-3-methylpyrazine,Unclassified,,C10 O1 N2 S1,"Furan, Pyrazine",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),206.27,2.67,Cc1nccnc1SCc1ccco1,MySkinRecipes
 2-Methyl-35-6-Methylthio Pyrazine (FEMA 3208),2882-20-4,2-methyl-3-methylsulfanylpyrazine,Unclassified,,C6 N2 S1,Pyrazine,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),140.21,1.51,CSc1nccnc1C,MySkinRecipes
 2-Methyl-5-Ethyl Pyrazine (FEMA 3154),13360-64-0,2-ethyl-5-methylpyrazine,Unclassified,,C7 N2,Pyrazine,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),122.17,1.35,CCc1cnc(C)cn1,MySkinRecipes
 2-Methylbutyl Butyrate (FEMA 2934),51115-64-1,2-methylbutyl butanoate,Unclassified,,C9 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),158.24,2.38,CCCC(=O)OCC(C)CC,MySkinRecipes
@@ -58,9 +58,9 @@ Material Name,CAS Number,Official Name,Odor Family,Odor Description,Atom Counts,
 2-Methylthio Thiazole,5053-24-7,"2-methylsulfanyl-1,3-thiazole",Unclassified,,C4 N1 S2,Thiazole,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),131.22,1.86,CSc1nccs1,MySkinRecipes
 2-Octen-4-one,4643-27-0,2-Octen-4-one,Earthy (Mushroom),Heart,C8 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),126.2,2.32,CC=CC(=O)CCCC,"MySkinRecipes, PerfumersWorld"
 23-Hexanedione (FEMA 2558),3848-24-6,"hexane-2,3-dione",Unclassified,,C6 O2,Ketone,Aliphatic,No,Hydrophilic (Water Compatible),114.14,0.94,CCCC(=O)C(C)=O,MySkinRecipes
-25-Dimethyl Furan (FEMA 4106),625-86-5,"2,5-dimethylfuran",Unclassified,,C6 O1,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),96.13,1.9,Cc1ccc(C)o1,MySkinRecipes
+25-Dimethyl Furan (FEMA 4106),625-86-5,"2,5-dimethylfuran",Unclassified,,C6 O1,Furan,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),96.13,1.9,Cc1ccc(C)o1,MySkinRecipes
 25-Dimethyl-14-Dithiane-25-Diol (FEMA 3450),55704-78-4,"2,5-dimethyl-1,4-dithiane-2,5-diol",Unclassified,,C6 O2 S2,Tertiary Alcohol,Aliphatic,Yes,Hydrophilic (Water Compatible),180.29,0.88,CC1(O)CSC(C)(O)CS1,MySkinRecipes
-25-Dimethyl-3-Furanthiol (FEMA 3451),55764-23-3,"2,5-Dimethylfuran-3-thiol",Unclassified,,C6 O1 S1,Thiol,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),128.2,2.19,Cc1cc(S)c(C)o1,MySkinRecipes
+25-Dimethyl-3-Furanthiol (FEMA 3451),55764-23-3,"2,5-Dimethylfuran-3-thiol",Unclassified,,C6 O1 S1,"Furan, Thiol",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),128.2,2.19,Cc1cc(S)c(C)o1,MySkinRecipes
 25-Dimethyl-32hfuranone (FEMA 4101),14400-67-0,"2,5-dimethylfuran-3-one",Unclassified,,C6 O2,"Ether, Ketone",Aliphatic,Yes,Hydrophilic (Water Compatible),112.13,0.88,CC1=CC(=O)C(C)O1,MySkinRecipes
 25-Hexanedione,110-13-4,"hexane-2,5-dione",Unclassified,,C6 O2,Ketone,Aliphatic,No,Hydrophilic (Water Compatible),114.14,0.94,CC(=O)CCC(C)=O,MySkinRecipes
 3-Mercapto-2-Butanone (FEMA 3298),40789-98-8,3-sulfanylbutan-2-one,Unclassified,,C4 O1 S1,"Ketone, Thiol",Aliphatic,No,Hydrophilic (Water Compatible),104.17,0.89,CC(=O)C(C)S,MySkinRecipes
@@ -84,18 +84,18 @@ Material Name,CAS Number,Official Name,Odor Family,Odor Description,Atom Counts,
 4-Methyl Thiazole (FEMA 3716),693-95-8,"4-methyl-1,3-thiazole",Unclassified,,C4 N1 S1,Thiazole,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),99.16,1.45,Cc1cscn1,MySkinRecipes
 "4-Methyl-2-(E)-Pent-1-Enyl-1,3-Dioxolane (FEMA 4272)",94089-21-1,"4-methyl-2-[(E)-pent-1-enyl]-1,3-dioxolane",Unclassified,,C9 O2,Acetal,Aliphatic,Yes,Standard (Alcohol Compatible),156.22,2.1,CCCC=CC1OCC(C)O1,MySkinRecipes
 "4-Methyl-2-Phenyl-1,3-Dioxolane (FEMA 2130)",2568-25-4,"4-methyl-2-phenyl-1,3-dioxolane",Unclassified,,C10 O2,Acetal,Aromatic (Benzene),Yes,Standard (Alcohol Compatible),164.2,2.12,CC1COC(c2ccccc2)O1,MySkinRecipes
-4-Methyl-4-Furfurylthio-2-Pentanone (FEMA 3840),180031-78-1,4-(furan-2-ylmethylsulfanyl)pentan-2-one,Unclassified,,C10 O2 S1,Ketone,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),198.29,2.88,CC(=O)CC(C)SCc1ccco1,MySkinRecipes
+4-Methyl-4-Furfurylthio-2-Pentanone (FEMA 3840),180031-78-1,4-(furan-2-ylmethylsulfanyl)pentan-2-one,Unclassified,,C10 O2 S1,"Furan, Ketone",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),198.29,2.88,CC(=O)CC(C)SCc1ccco1,MySkinRecipes
 4-Methyl-4-Mercapto-2-Pentanone (FEMA 3997),19872-52-7,4-Mercapto-4-methyl-2-pentanone,Unclassified,,C6 O1 S1,"Ketone, Thiol",Aliphatic,No,Standard (Alcohol Compatible),132.23,1.67,CC(=O)CC(C)(C)S,MySkinRecipes
 4-Methyl-4-Methylthio-2-Pentanone (FEMA 3376),23550-40-5,4-methyl-4-methylsulfanylpentan-2-one,Unclassified,,C7 O1 S1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),146.25,2.11,CSC(C)(C)CC(C)=O,MySkinRecipes
 4-Methyl-5-Thiozoleethanol Acetate (FEMA 3205),656-53-1,"2-(4-methyl-1,3-thiazol-5-yl)ethyl acetate",Unclassified,,C8 O2 N1 S1,"Ester, Thiazole",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),185.25,1.56,CC(=O)OCCc1scnc1C,MySkinRecipes
 4-Methyl-5-Vinyl Thiazole (FEMA 3313),1759-28-0,"5-ethenyl-4-methyl-1,3-thiazole",Unclassified,,C6 N1 S1,Thiazole,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),125.2,2.09,C=Cc1scnc1C,MySkinRecipes
 4-Prop-1-En-2-yl-1-Cyclohexenylmethanol (FEMA 2664),536-59-4,(4-prop-1-en-2-ylcyclohexen-1-yl)methanol,Unclassified,,C10 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),152.24,2.28,C=C(C)C1CC=C(CO)CC1,MySkinRecipes
-5-Hydroxymethylfurfural,67-47-0,5-(hydroxymethyl)furan-2-carbaldehyde,Unclassified,,C6 O3,"Aldehyde, Primary Alcohol",Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),126.11,0.58,O=Cc1ccc(CO)o1,MySkinRecipes
+5-Hydroxymethylfurfural,67-47-0,5-(hydroxymethyl)furan-2-carbaldehyde,Unclassified,,C6 O3,"Aldehyde, Furan, Primary Alcohol",Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),126.11,0.58,O=Cc1ccc(CO)o1,MySkinRecipes
 5-Methyl Quinoxaline (FEMA 3203),13708-12-8,5-methylquinoxaline,Unclassified,,C9 N2,Pyrazine,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),144.18,1.94,Cc1cccc2nccnc12,MySkinRecipes
 5-Methyl-2-Propan-2-Ylhex-2-Enal (FEMA 3406),35158-25-9,5-methyl-2-propan-2-ylhex-2-enal,Unclassified,,C10 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),154.25,2.81,CC(C)CC=C(C=O)C(C)C,MySkinRecipes
 "6-Methoxy-2,6-Dimethylheptanal (FEMA 4745)",62439-41-2,"6-methoxy-2,6-dimethylheptanal",Unclassified,,C10 O2,"Aldehyde, Ether",Aliphatic,No,Standard (Alcohol Compatible),172.27,2.42,COC(C)(C)CCCC(C)C=O,MySkinRecipes
 6-Methyl Coumarin,92-48-8,6-Methylcoumarin,Gourmet (Coconut),Base,C10 O2,Lactone,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),160.17,2.1,Cc1ccc2oc(=O)ccc2c1,"MySkinRecipes, PerfumersWorld"
-6-Methyl Quinoline,91-62-3,6-methylquinoline,Unclassified,,C10 N1,Quinoline,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),143.19,2.54,Cc1ccc2ncccc2c1,Fraterworks
+6-Methyl Quinoline,91-62-3,6-methylquinoline,Unclassified,,C10 N1,"Pyridine, Quinoline","Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),143.19,2.54,Cc1ccc2ncccc2c1,Fraterworks
 6r-6-Pentyl-56-Dihydropyran-2-one (FEMA 3744),51154-96-2,"(2R)-2-pentyl-2,3-dihydropyran-6-one",Unclassified,,C10 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),168.24,2.44,CCCCCC1CC=CC(=O)O1,MySkinRecipes
 Acetal CD,29895-73-6,"(2-benzyl-1,3-dioxolan-4-yl)methanol",Unclassified,,C11 O3,"Acetal, Primary Alcohol",Aromatic (Benzene),Yes,Hydrophilic (Water Compatible),194.23,0.96,OCC1COC(Cc2ccccc2)O1,"Fraterworks, MySkinRecipes"
 Acetate C-9,143-13-5,nonyl acetate,Unclassified,,C11 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),186.29,3.3,CCCCCCCCCOC(C)=O,"Fraterworks, MySkinRecipes"
@@ -160,7 +160,7 @@ Amyl Salicylate,2050-8-0,Amyl salicylate,Green (Herbal),Heart,C12 O3,Salicylate,
 Amyl Valerate,2173-56-0,Pentyl valerate,Unclassified,,C10 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),172.27,2.91,CCCCCOC(=O)CCCC,"MySkinRecipes, PerfumersWorld"
 Andrane,13567-39-0,"2,6,6,8-tetramethyl-9-oxatetracyclo[5.4.1.01,5.08,10]dodecane",Unclassified,,C15 O1,Ether,Aliphatic,Yes,Standard (Alcohol Compatible),220.36,3.63,CC1CCC2C(C)(C)C3CC12CC1OC13C,Fraterworks
 Anethol,4180-23-8,ANETHOLE,Unclassified,,C10 O1,Ether,Aromatic (Benzene),No,Standard (Alcohol Compatible),148.2,2.73,CC=Cc1ccc(OC)cc1,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
-Anisaldehyde,123-11-5,4-Methoxybenzaldehyde,Floral (Hawthorn),Heart,C8 O2,"Aldehyde, Ether",Aromatic (Benzene),No,Standard (Alcohol Compatible),136.15,1.51,COc1ccc(C=O)cc1,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
+Anisaldehyde,123-11-5,4-Methoxybenzaldehyde,Aldehydic (Complex),Base,C8 O2,"Aldehyde, Ether",Aromatic (Benzene),No,Standard (Alcohol Compatible),136.15,1.51,COc1ccc(C=O)cc1,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
 Anisyl Acetate,104-21-2,4-Methoxybenzyl acetate,Unclassified,,C10 O3,"Ester, Ether",Aromatic (Benzene),No,Standard (Alcohol Compatible),180.2,1.76,COc1ccc(COC(C)=O)cc1,"Fraterworks, MySkinRecipes, PerfumersWorld"
 Anisyl Acetone,104-20-1,4-(4-methoxyphenyl)butan-2-one,Unclassified,,C11 O2,"Ether, Ketone",Aromatic (Benzene),No,Standard (Alcohol Compatible),178.23,2.22,COc1ccc(CCC(C)=O)cc1,"Fraterworks, MySkinRecipes"
 Anisyl Alcohol,105-13-5,4-METHOXYBENZYL ALCOHOL,Unclassified,,C8 O2,"Ether, Primary Alcohol",Aromatic (Benzene),No,Standard (Alcohol Compatible),138.17,1.19,COc1ccc(CO)cc1,"Fraterworks, MySkinRecipes, PerfumersWorld"
@@ -288,17 +288,17 @@ Clonal™,2437-25-4,Dodecanenitrile,Unclassified,,C12 N1,Nitrile,Aliphatic,No,Li
 Cocoa Hexenal,21834-92-4,(E)-5-methyl-2-phenylhex-2-enal,Unclassified,,C13 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),188.27,3.32,CC(C)CC=C(C=O)c1ccccc1,"Fraterworks, MySkinRecipes"
 Conifer Acetate (Coniferan),67874-72-0,Coniferan,Unclassified,,C13 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),212.33,3.54,CCC(C)(C)C1CCCCC1OC(C)=O,MySkinRecipes
 Coranol,83926-73-2,4-cyclohexyl-2-methyl-2-butanol,Unclassified,,C11 O1,Tertiary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),170.3,3.12,CC(C)(O)CCC1CCCCC1,"Fraterworks, SimpleScentsDIY"
-Corps Racine,2110-18-1,2-(3-phenylpropyl)pyridine,Unclassified,,C14 N1,Hydrocarbon / Other,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),197.28,3.26,c1ccc(CCCc2ccccn2)cc1,Fraterworks
+Corps Racine,2110-18-1,2-(3-phenylpropyl)pyridine,Unclassified,,C14 N1,Pyridine,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),197.28,3.26,c1ccc(CCCc2ccccn2)cc1,Fraterworks
 Cosmone,259854-70-1,"5-Cyclotetradecen-1-one, 3-methyl-, (5E)-",Unclassified,,C15 O1,"Ketone, Macrocyclic Musk",Aliphatic,No,Lipophilic (Oil/Wax Compatible),222.37,4.66,CC1CC=CCCCCCCCCC(=O)C1,PerfumersWorld
 Coumarin,91-64-5,coumarin,Aldehydic (Complex),Base,C9 O2,Lactone,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),146.14,1.79,O=c1ccc2ccccc2o1,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
-Coumarone,1646-26-0,1-(1-benzofuran-2-yl)ethanone,Unclassified,,C10 O2,Ketone,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),160.17,2.64,CC(=O)c1cc2ccccc2o1,Fraterworks
+Coumarone,1646-26-0,1-(1-benzofuran-2-yl)ethanone,Unclassified,,C10 O2,"Furan, Ketone","Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),160.17,2.64,CC(=O)c1cc2ccccc2o1,Fraterworks
 Creosol,93-51-6,2-methoxy-4-methylphenol,Unclassified,,C8 O2,"Ether, Phenol",Aromatic (Benzene),No,Standard (Alcohol Compatible),138.17,1.71,COc1cc(C)ccc1O,"Fraterworks, MySkinRecipes"
 Cuminyl Nitrile,13816-33-6,4-propan-2-ylbenzonitrile,Unclassified,,C10 N1,Nitrile,Aromatic (Benzene),No,Standard (Alcohol Compatible),145.2,2.68,CC(C)c1ccc(C#N)cc1,MySkinRecipes
 Cyclamen Aldehyde,103-95-7,Cyclamen aldehyde,Floral (Mimosa),Heart,C13 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),190.29,3.19,CC(C=O)Cc1ccc(C(C)C)cc1,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
 Cyclohexyl Ethyl Alcohol,4442-79-9,2-cyclohexylethanol,Unclassified,,C8 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),128.22,1.95,OCCC1CCCCC1,Fraterworks
 Cyclomethylene Citronellol,15760-18-6,3-(4-methylcyclohex-3-en-1-yl)butan-1-ol,Unclassified,,C11 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),168.28,2.75,CC1=CCC(C(C)CCO)CC1,Fraterworks
 Cyclopidene,40203-73-4,methyl 2-cyclopentylideneacetate,Unclassified,,C8 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),140.18,1.66,COC(=O)C=C1CCCC1,"Fraterworks, MySkinRecipes"
-Cyclosia®,107-75-5,Hydroxycitronellal,Floral (Muguet),Heart,C10 O2,"Aldehyde, Tertiary Alcohol",Aliphatic,No,Standard (Alcohol Compatible),172.27,2.15,CC(CC=O)CCCC(C)(C)O,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
+Cyclosia®,107-75-5,Hydroxycitronellal,Floral (Mimosa),Heart,C10 O2,"Aldehyde, Tertiary Alcohol",Aliphatic,No,Standard (Alcohol Compatible),172.27,2.15,CC(CC=O)CCCC(C)(C)O,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
 Cyclozonal,68991-96-8,"5,5-dimethyl-2,3,4,6,7,8-hexahydro-1H-naphthalene-2-carbaldehyde",Unclassified,,C13 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),192.3,3.49,CC1(C)CCCC2=C1CCC(C=O)C2,Fraterworks
 Cymene Para,99-87-6,P-CYMENE,Unclassified,,C10,Hydrocarbon / Other,Aromatic (Benzene),No,Standard (Alcohol Compatible),134.22,3.12,Cc1ccc(C(C)C)cc1,PerfumersWorld
 D-Limonene,5989-27-5,D-Limonene,Woods (Agarwood),Base,C10,Hydrocarbon / Other,Aliphatic,No,Standard (Alcohol Compatible),136.24,3.31,C=C(C)C1CC=C(C)CC1,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
@@ -322,9 +322,9 @@ Diethyl Hexyl Adipate,103-23-1,bis(2-ethylhexyl) hexanedioate,Unclassified,,C22 
 Diethyl Malonate,105-53-3,DIETHYL MALONATE,Unclassified,,C7 O4,Ester,Aliphatic,No,Hydrophilic (Water Compatible),160.17,0.5,CCOC(=O)CC(=O)OCC,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
 Diethyl Succinate,123-25-1,diethyl butanedioate,Unclassified,,C8 O4,Ester,Aliphatic,No,Hydrophilic (Water Compatible),174.2,0.89,CCOC(=O)CCC(=O)OCC,"Fraterworks, MySkinRecipes"
 Diethyl Tartrate (DET),87-91-2,"diethyl (2R,3R)-2,3-dihydroxybutanedioate",Unclassified,,C8 O6,"Ester, Secondary Alcohol",Aliphatic,No,Hydrophilic (Water Compatible),206.19,-1.17,CCOC(=O)C(O)C(O)C(=O)OCC,Fraterworks
-Difurfuryl Disulfide (FEMA 3146),4437-20-1,2-[(furan-2-ylmethyldisulfanyl)methyl]furan,Unclassified,,C10 O2 S2,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),226.32,3.95,c1coc(CSSCc2ccco2)c1,MySkinRecipes
-Difurfuryl Ether (FEMA 3337),4437-22-3,2-(furan-2-ylmethoxymethyl)furan,Unclassified,,C10 O3,Ether,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),178.19,2.59,c1coc(COCc2ccco2)c1,MySkinRecipes
-Difurfuryl Sulfide (FEMA 3238),13678-67-6,2-(furan-2-ylmethylsulfanylmethyl)furan,Unclassified,,C10 O2 S1,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),194.26,3.31,c1coc(CSCc2ccco2)c1,MySkinRecipes
+Difurfuryl Disulfide (FEMA 3146),4437-20-1,2-[(furan-2-ylmethyldisulfanyl)methyl]furan,Unclassified,,C10 O2 S2,Furan,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),226.32,3.95,c1coc(CSSCc2ccco2)c1,MySkinRecipes
+Difurfuryl Ether (FEMA 3337),4437-22-3,2-(furan-2-ylmethoxymethyl)furan,Unclassified,,C10 O3,"Ether, Furan",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),178.19,2.59,c1coc(COCc2ccco2)c1,MySkinRecipes
+Difurfuryl Sulfide (FEMA 3238),13678-67-6,2-(furan-2-ylmethylsulfanylmethyl)furan,Unclassified,,C10 O2 S1,Furan,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),194.26,3.31,c1coc(CSCc2ccco2)c1,MySkinRecipes
 Dihydro Alpha Ionone,31499-72-6,"4-(2,6,6-trimethylcyclohex-2-en-1-yl)butan-2-one",Unclassified,,C13 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),194.32,3.74,CC(=O)CCC1C(C)=CCCC1(C)C,Fraterworks
 Dihydro Beta Ionone,17283-81-7,Dihydro-beta-ionone,Unclassified,,C13 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),194.32,3.88,CC(=O)CCC1=C(C)CCCC1(C)C,"Fraterworks, MySkinRecipes, PerfumersWorld"
 Dihydro Coumarin,119-84-6,dihydrocoumarin,Unclassified,,C9 O2,Lactone,Aromatic (Benzene),Yes,Standard (Alcohol Compatible),148.16,1.54,O=C1CCc2ccccc2O1,"MySkinRecipes, PerfumersWorld"
@@ -358,7 +358,7 @@ Dupical,30168-23-1,4-Tricyclodecylidene butanal,Unclassified,,C14 O1,Aldehyde,Al
 Dynascone,56973-85-4,"1-(5,5-dimethylcyclohexen-1-yl)pent-4-en-1-one",Green (Bitter),Top,C13 O1,"Allyl, Ketone",Aliphatic,No,Standard (Alcohol Compatible),192.3,3.66,C=CCCC(=O)C1=CCCC(C)(C)C1,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
 Ebanol,67801-20-1,28N247O58B,Unclassified,,C14 O1,Secondary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),208.34,3.55,CC1=CCC(C=CC(C)C(C)O)C1(C)C,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
 Ethyl (E)-2-Hexenoate,27829-72-7,ethyl (E)-hex-2-enoate,Unclassified,,C8 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),142.2,1.91,CCCC=CC(=O)OCC,MySkinRecipes
-Ethyl 2-Furoate,614-99-3,ethyl furan-2-carboxylate,Unclassified,,C7 O3,Ester,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),140.14,1.46,CCOC(=O)c1ccco1,MySkinRecipes
+Ethyl 2-Furoate,614-99-3,ethyl furan-2-carboxylate,Unclassified,,C7 O3,"Ester, Furan",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),140.14,1.46,CCOC(=O)c1ccco1,MySkinRecipes
 Ethyl 2-Mercaptopropionate Ethyl-2-Sulfanylpropanoate (FEMA 3279),19788-49-9,Ethyl 2-mercaptopropionate,Unclassified,,C5 O2 S1,"Ester, Thiol",Aliphatic,No,Hydrophilic (Water Compatible),134.2,0.87,CCOC(=O)C(C)S,MySkinRecipes
 Ethyl 2-Methylbutyrate,7452-79-1,Ethyl 2-methylbutyrate,Unclassified,,C7 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),130.19,1.6,CCOC(=O)C(C)CC,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
 Ethyl 2-Methylsulfanylacetate (FEMA 3835),4455-13-4,ethyl 2-methylsulfanylacetate,Unclassified,,C5 O2 S1,Ester,Aliphatic,No,Hydrophilic (Water Compatible),134.2,0.91,CCOC(=O)CSC,MySkinRecipes
@@ -418,7 +418,7 @@ Filbert Pyrazine,15707-23-0,2-ethyl-3-methylpyrazine,Unclassified,,C7 N2,Pyrazin
 Filbertone,81925-81-7,(E)-5-methylhept-2-en-4-one,Unclassified,,C8 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),126.2,2.18,CC=CC(=O)C(C)CC,Fraterworks
 Firascone,815580-59-7,"methyl 2,6,6-trimethylcyclohex-3-ene-1-carboxylate",Unclassified,,C11 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),182.26,2.4,COC(=O)C1C(C)C=CCC1(C)C,Fraterworks
 Firsantol,104864-90-6,"2-methyl-4-(2,2,3-trimethylcyclopent-3-en-1-yl)pent-4-en-1-ol",Unclassified,,C14 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),208.34,3.55,C=C(CC(C)CO)C1CC=C(C)C1(C)C,"Fraterworks, MySkinRecipes"
-Fish Thiol-2-Methyl-3-Furanthiol (FEMA 3188),28588-74-1,2-methylfuran-3-thiol,Unclassified,,C5 O1 S1,Thiol,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),114.17,1.88,Cc1occc1S,MySkinRecipes
+Fish Thiol-2-Methyl-3-Furanthiol (FEMA 3188),28588-74-1,2-methylfuran-3-thiol,Unclassified,,C5 O1 S1,"Furan, Thiol",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),114.17,1.88,Cc1occc1S,MySkinRecipes
 Fixamber,71735-79-0,"13-Oxabicyclo(10.1.0)trideca-4,8-diene, trimethyl-",Unclassified,,C15 O1,Ether,Aliphatic,Yes,Lipophilic (Oil/Wax Compatible),220.36,4.25,CC1(C)CC=CCCC=CCCC2OC21C,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
 Floral Undecenone,1322-58-3,"6,10-dimethylundec-9-en-2-one",Unclassified,,C13 O1,Ketone,Aliphatic,No,Lipophilic (Oil/Wax Compatible),196.33,4.13,CC(=O)CCCC(C)CCC=C(C)C,MySkinRecipes
 Floralate,67634-26-8,"(2,4-dimethylcyclohex-3-en-1-yl)methyl acetate",Unclassified,,C11 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),182.26,2.54,CC(=O)OCC1CCC(C)=CC1C,Fraterworks
@@ -435,11 +435,11 @@ Freskomenthe,14765-30-1,2-butan-2-ylcyclohexan-1-one,Unclassified,,C10 O1,Ketone
 Fructone,6413-10-1,,Unclassified,,C8 O4,"Ester, Ketal",Aliphatic,Yes,Hydrophilic (Water Compatible),174.2,0.7,CCOC(=O)CC1(C)OCCO1,"Fraterworks, MySkinRecipes, PerfumersWorld"
 Fruitate,80657-64-3,"Ethyl hexahydro-4,7-methanoindane-3a-carboxylate",Unclassified,,C13 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),208.3,2.77,CCOC(=O)C12CCCC1C1CCC2C1,"Fraterworks, SimpleScentsDIY"
 Furaneol 10% in PG,3658-77-3,Furaneol,Unclassified,,C6 O3,"Ether, Ketone",Aliphatic,Yes,Hydrophilic (Water Compatible),128.13,0.76,CC1=C(O)C(=O)C(C)O1,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
-Furfuryl Acetate,623-17-6,furan-2-ylmethyl acetate,Unclassified,,C7 O3,Ester,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),140.14,1.34,CC(=O)OCc1ccco1,"Fraterworks, MySkinRecipes"
-Furfuryl Methyl Sulfide (FEMA 3160),1438-91-1,2-(methylsulfanylmethyl)furan,Unclassified,,C6 O1 S1,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),128.2,2.14,CSCc1ccco1,MySkinRecipes
-Furfuryl Propionate (FEMA 3346),623-19-8,furan-2-ylmethyl propanoate,Unclassified,,C8 O3,Ester,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),154.16,1.73,CCC(=O)OCc1ccco1,MySkinRecipes
-Furfuryl Thioacetate,13678-68-7,S-(furan-2-ylmethyl) ethanethioate,Unclassified,,C7 O2 S1,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),156.21,2.06,CC(=O)SCc1ccco1,MySkinRecipes
-Furfuryl thiopropionate (FEMA 3347),59020-85-8,S-(furan-2-ylmethyl) propanethioate,Unclassified,,C8 O2 S1,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),170.23,2.45,CCC(=O)SCc1ccco1,MySkinRecipes
+Furfuryl Acetate,623-17-6,furan-2-ylmethyl acetate,Unclassified,,C7 O3,"Ester, Furan",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),140.14,1.34,CC(=O)OCc1ccco1,"Fraterworks, MySkinRecipes"
+Furfuryl Methyl Sulfide (FEMA 3160),1438-91-1,2-(methylsulfanylmethyl)furan,Unclassified,,C6 O1 S1,Furan,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),128.2,2.14,CSCc1ccco1,MySkinRecipes
+Furfuryl Propionate (FEMA 3346),623-19-8,furan-2-ylmethyl propanoate,Unclassified,,C8 O3,"Ester, Furan",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),154.16,1.73,CCC(=O)OCc1ccco1,MySkinRecipes
+Furfuryl Thioacetate,13678-68-7,S-(furan-2-ylmethyl) ethanethioate,Unclassified,,C7 O2 S1,Furan,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),156.21,2.06,CC(=O)SCc1ccco1,MySkinRecipes
+Furfuryl thiopropionate (FEMA 3347),59020-85-8,S-(furan-2-ylmethyl) propanethioate,Unclassified,,C8 O2 S1,Furan,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),170.23,2.45,CCC(=O)SCc1ccco1,MySkinRecipes
 Galaxolide®,1222-5-5,Galaxolide,Musk (Clean),Base,C20,Hydrocarbon / Other,Aromatic (Benzene),No,Lipophilic (Oil/Wax Compatible),268.44,5.84,CC1=Cc2c(C(C)C)cc(C)cc2C12CC(C)CC2C,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
 Galbanum Decatriene (FEMA 3795),16356-11-9,"undeca-1,3,5-triene",Unclassified,,C11,Hydrocarbon / Other,Aliphatic,No,Standard (Alcohol Compatible),150.26,3.87,C=CC=CC=CCCCCC,MySkinRecipes
 Gamma Decalactone,706-14-9,gamma-Decalactone,Fruit (Peach),Heart,C10 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),170.25,2.66,CCCCCCC1CCC(=O)O1,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
@@ -495,11 +495,11 @@ Hyacinth Body,2556-10-7,Ethyl phenethyl acetal,Unclassified,,C12 O2,Acetal,Aroma
 Hyacinth Body No. 3,7493-57-4,2-(1-propoxyethoxy)ethylbenzene,Unclassified,,C13 O2,Acetal,Aromatic (Benzene),No,Standard (Alcohol Compatible),208.3,3.02,CCCOC(C)OCCc1ccccc1,Fraterworks
 Hydratropic Aldehyde,93-53-8,2-Phenylpropanal,Unclassified,,C9 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),134.18,1.99,CC(C=O)c1ccccc1,"Fraterworks, PerfumersWorld"
 Hydroxyambran,118562-73-5,2-cyclododecylpropan-1-ol,Unclassified,,C15 O1,Primary Alcohol,Aliphatic,No,Lipophilic (Oil/Wax Compatible),226.4,4.54,CC(CO)C1CCCCCCCCCCC1,Fraterworks
-Indisan,5463-39-8,,Unclassified,,C21 O5 N3,"Amine, Carboxylic Acid, Ether, Quinoline","Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),405.5,3.37,COc1cc(NCCCCCCNC(C)C)c2ncccc2c1.O=C(O)C(=O)O,PerfumersWorld
+Indisan,5463-39-8,,Unclassified,,C21 O5 N3,"Amine, Carboxylic Acid, Ether, Pyridine, Quinoline","Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),405.5,3.37,COc1cc(NCCCCCCNC(C)C)c2ncccc2c1.O=C(O)C(=O)O,PerfumersWorld
 Indocolore,2206-94-2,,Unclassified,,C10 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),162.19,2.22,C=C(OC(C)=O)c1ccccc1,"Fraterworks, PerfumersWorld"
 Indolarome,18096-62-3,"4,4a,5,9b-tetrahydroindeno[1,2-d][1,3]dioxine",Unclassified,,C11 O2,Acetal,Aromatic (Benzene),Yes,Standard (Alcohol Compatible),176.22,1.9,c1ccc2c(c1)CC1COCOC21,"Fraterworks, MySkinRecipes"
-Indole,120-72-9,indole,Animalic (Fecal),Modifier,C8 N1,Indole,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),117.15,2.17,c1ccc2[nH]ccc2c1,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
-Indolene,67860-0-8,,Unclassified,,C26 O1 N2,"Indole, Tertiary Alcohol","Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Lipophilic (Oil/Wax Compatible),388.56,6.75,CC(CCCC(C)(C)O)CC(c1c[nH]c2ccccc12)c1c[nH]c2ccccc12,PerfumersWorld
+Indole,120-72-9,indole,Animalic (Fecal),Modifier,C8 N1,"Indole, Pyrrole","Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),117.15,2.17,c1ccc2[nH]ccc2c1,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
+Indolene,67860-0-8,,Unclassified,,C26 O1 N2,"Indole, Pyrrole, Tertiary Alcohol","Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Lipophilic (Oil/Wax Compatible),388.56,6.75,CC(CCCC(C)(C)O)CC(c1c[nH]c2ccccc12)c1c[nH]c2ccccc12,PerfumersWorld
 Iraldeine® Beta,127-43-5,"(E)-1-(2,6,6-trimethylcyclohexen-1-yl)pent-1-en-3-one",Unclassified,,C14 O1,Ketone,Aliphatic,No,Lipophilic (Oil/Wax Compatible),206.33,4.05,CCC(=O)C=CC1=C(C)CCCC1(C)C,Fraterworks
 Iraldeine® Delta,79-89-0,"3-methyl-4-(2,6,6-trimethylcyclohexen-1-yl)but-3-en-2-one",Unclassified,,C14 O1,Ketone,Aliphatic,No,Lipophilic (Oil/Wax Compatible),206.33,4.05,CC(=O)C(C)=CC1=C(C)CCCC1(C)C,Fraterworks
 Iris Nitrile,29127-83-1,(Z)-non-2-enenitrile,Unclassified,,C9 N1,Nitrile,Aliphatic,No,Standard (Alcohol Compatible),137.23,3.04,CCCCCCC=CC#N,Fraterworks
@@ -527,8 +527,8 @@ Isobutyl Butyrate (FEMA 2187),539-90-2,2-methylpropyl butanoate,Unclassified,,C8
 Isobutyl Hexanoate (FEMA 2202),105-79-3,2-methylpropyl hexanoate,Unclassified,,C10 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),172.27,2.77,CCCCCC(=O)OCC(C)C,MySkinRecipes
 Isobutyl Isobutyrate (FEMA 2189),97-85-8,2-methylpropyl 2-methylpropanoate,Unclassified,,C8 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),144.21,1.84,CC(C)COC(=O)C(C)C,MySkinRecipes
 Isobutyl Phenyl Acetate,102-13-6,2-methylpropyl 2-phenylacetate,Unclassified,,C12 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),192.26,2.43,CC(C)COC(=O)Cc1ccccc1,"Fraterworks, MySkinRecipes"
-Isobutyl Quinoline,65442-31-1,6-sec-Butylquinoline,Unclassified,,C13 N1,Quinoline,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),185.27,3.75,CCC(C)c1ccc2ncccc2c1,"Fraterworks, MySkinRecipes, PerfumersWorld"
-IsoButyl Quinoline,1333-58-0,(Isobutyl)quinoline,Unclassified,,C13 N1,Quinoline,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),185.27,3.43,CC(C)Cc1ccnc2ccccc12,SimpleScentsDIY
+Isobutyl Quinoline,65442-31-1,6-sec-Butylquinoline,Unclassified,,C13 N1,"Pyridine, Quinoline","Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),185.27,3.75,CCC(C)c1ccc2ncccc2c1,"Fraterworks, MySkinRecipes, PerfumersWorld"
+IsoButyl Quinoline,1333-58-0,(Isobutyl)quinoline,Unclassified,,C13 N1,"Pyridine, Quinoline","Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),185.27,3.43,CC(C)Cc1ccnc2ccccc12,SimpleScentsDIY
 Isobutyl Salicylate,87-19-4,Isobutyl salicylate,Unclassified,,C11 O3,Salicylate,Aromatic (Benzene),No,Standard (Alcohol Compatible),194.23,2.21,CC(C)COC(=O)c1ccccc1O,"Fraterworks, MySkinRecipes, SimpleScentsDIY"
 Isobutyraldehyde (FEMA 2220),78-84-2,2-methylpropanal,Unclassified,,C4 O1,Aldehyde,Aliphatic,No,Hydrophilic (Water Compatible),72.11,0.84,CC(C)C=O,MySkinRecipes
 Isobutyric Acid,79-31-2,ISOBUTYRIC ACID,Unclassified,,C4 O2,Carboxylic Acid,Aliphatic,No,Hydrophilic (Water Compatible),88.11,0.73,CC(C)C(=O)O,"MySkinRecipes, PerfumersWorld"
@@ -542,7 +542,7 @@ Isopentyl Decanoate,2306-91-4,3-methylbutyl decanoate,Unclassified,,C15 O2,Ester
 Isophytol,505-32-8,"3,7,11,15-tetramethylhexadec-1-en-3-ol",Unclassified,,C20 O1,Tertiary Alcohol,Aliphatic,No,Lipophilic (Oil/Wax Compatible),296.54,6.36,C=CC(C)(O)CCCC(C)CCCC(C)CCCC(C)C,Fraterworks
 Isopropyl 2-Methyl Butyrate (FEMA 3699),66576-71-4,propan-2-yl 2-methylbutanoate,Unclassified,,C8 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),144.21,1.98,CCC(C)C(=O)OC(C)C,MySkinRecipes
 Isopropyl Palmitate (IPP),142-91-6,,Unclassified,,C19 O2,Ester,Aliphatic,No,Lipophilic (Oil/Wax Compatible),298.51,6.42,CCCCCCCCCCCCCCCC(=O)OC(C)C,PerfumersWorld
-Isopropyl Quinoline 10% in DPG,135-79-5,6-propan-2-ylquinoline,Unclassified,,C12 N1,Quinoline,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),171.24,3.36,CC(C)c1ccc2ncccc2c1,Fraterworks
+Isopropyl Quinoline 10% in DPG,135-79-5,6-propan-2-ylquinoline,Unclassified,,C12 N1,"Pyridine, Quinoline","Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),171.24,3.36,CC(C)c1ccc2ncccc2c1,Fraterworks
 Isopulegol,89-79-2,"(1R,2S,5R)-5-methyl-2-prop-1-en-2-ylcyclohexan-1-ol",Unclassified,,C10 O1,Secondary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),154.25,2.36,C=C(C)C1CCC(C)CC1O,MySkinRecipes
 Isovaleric Acid (FEMA 3102),503-74-2,3-methylbutanoic acid,Unclassified,,C5 O2,Carboxylic Acid,Aliphatic,No,Standard (Alcohol Compatible),102.13,1.12,CC(C)CC(=O)O,MySkinRecipes
 Ivy Dioxolane,68901-32-6,EINECS 272-669-9,Unclassified,,C15 O2,Acetal,Aliphatic,Yes,Standard (Alcohol Compatible),236.35,3.23,CC1=CC2CC(C3OCCO3)C1CC2C(C)C,"Fraterworks, MySkinRecipes"
@@ -595,7 +595,7 @@ Manzanate,39255-32-8,Ethyl 2-methylpentanoate,Unclassified,,C8 O2,Ester,Aliphati
 Maple Lactone,698-10-2,,Unclassified,,C7 O3,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),142.15,1.15,CCC1OC(=O)C(O)=C1C,PerfumersWorld
 Maple Lactone,80-71-7,Cyclotene,Unclassified,,C6 O2,Ketone,Aliphatic,No,Standard (Alcohol Compatible),112.13,1.18,CC1=C(O)C(=O)CC1,"Fraterworks, MySkinRecipes, SimpleScentsDIY"
 Marine Hexane (Ozofleur),181258-87-7,1-ethoxy-4-(2-methylbutan-2-yl)cyclohexane,Unclassified,,C13 O1,Ether,Aliphatic,No,Lipophilic (Oil/Wax Compatible),198.35,4.02,CCOC1CCC(C(C)(C)CC)CC1,MySkinRecipes
-Maritima,38462-23-6,"4-(4,8-dimethylnona-3,7-dienyl)pyridine",Unclassified,,C16 N1,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Lipophilic (Oil/Wax Compatible),229.37,4.71,CC(C)=CCCC(C)=CCCc1ccncc1,Fraterworks
+Maritima,38462-23-6,"4-(4,8-dimethylnona-3,7-dienyl)pyridine",Unclassified,,C16 N1,Pyridine,Aromatic (Heterocycle),Yes,Lipophilic (Oil/Wax Compatible),229.37,4.71,CC(C)=CCCC(C)=CCCc1ccncc1,Fraterworks
 Mayol,13828-37-0,p-MENTHAN-7-OL,Woods (Rot),Base,C10 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),156.27,2.44,CC(C)C1CCC(CO)CC1,"Fraterworks, PerfumersWorld, SimpleScentsDIY"
 Mefranal,55066-49-4,3-methyl-5-phenylpentanal,Unclassified,,C12 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),176.26,2.84,CC(CC=O)CCc1ccccc1,"Fraterworks, MySkinRecipes"
 Melafleur,68991-97-9,"8,8-dimethyl-2,3,4,5,6,7-hexahydro-1H-naphthalene-2-carbaldehyde",Unclassified,,C13 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),192.3,3.49,CC1(C)CCCC2=C1CC(C=O)CC2,"Fraterworks, MySkinRecipes"
@@ -608,7 +608,7 @@ Metal Oxazole,38303-23-0,"4,5,6,7,8,9,10,11,12,13-decahydrocyclododeca[d][1,3]ox
 Methional (FEMA 2747),3268-49-3,3-methylsulfanylpropanal,Unclassified,,C4 O1 S1,Aldehyde,Aliphatic,No,Hydrophilic (Water Compatible),104.17,0.94,CSCCC=O,MySkinRecipes
 Methyl 2-4-Tert Butylphenylacetate (FEMA 2690),3549-23-3,methyl 2-(4-tert-butylphenyl)acetate,Unclassified,,C13 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),206.28,2.7,COC(=O)Cc1ccc(C(C)(C)C)cc1,MySkinRecipes
 Methyl 2-Methyl Butyrate,868-57-5,methyl 2-methylbutanoate,Unclassified,,C6 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),116.16,1.21,CCC(C)C(=O)OC,"Fraterworks, MySkinRecipes"
-Methyl 2-Methyl-3-Furyl Disulfide (FEMA 3573),65505-17-1,2-methyl-3-(methyldisulfanyl)furan,Unclassified,,C6 O1 S2,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),160.26,2.96,CSSc1ccoc1C,MySkinRecipes
+Methyl 2-Methyl-3-Furyl Disulfide (FEMA 3573),65505-17-1,2-methyl-3-(methyldisulfanyl)furan,Unclassified,,C6 O1 S2,Furan,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),160.26,2.96,CSSc1ccoc1C,MySkinRecipes
 Methyl 3-Methylthiopropionate (FEMA 2720),13532-18-8,methyl 3-methylsulfanylpropanoate,Unclassified,,C5 O2 S1,Ester,Aliphatic,No,Hydrophilic (Water Compatible),134.2,0.91,COC(=O)CCSC,MySkinRecipes
 Methyl Acetate (FEMA 2676),79-20-9,methyl acetate,Unclassified,,C3 O2,Ester,Aliphatic,No,Hydrophilic (Water Compatible),74.08,0.18,COC(C)=O,MySkinRecipes
 Methyl Allyl Sulfide,10152-76-8,3-methylsulfanylprop-1-ene,Unclassified,,C4 S1,Allyl,Aliphatic,No,Standard (Alcohol Compatible),88.17,1.54,C=CCSC,MySkinRecipes
@@ -628,14 +628,14 @@ Methyl Heptine Carbonate,111-12-6,methyl oct-2-ynoate,Unclassified,,C9 O2,Ester,
 Methyl Heptyl Ketone (FEMA 2785),821-55-6,nonan-2-one,Unclassified,,C9 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),142.24,2.94,CCCCCCCC(C)=O,MySkinRecipes
 Methyl Hexanoate (FEMA 2708),106-70-7,methyl hexanoate,Unclassified,,C7 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),130.19,1.74,CCCCCC(=O)OC,MySkinRecipes
 Methyl Hexyl Ketone,111-13-7,2-OCTANONE,Unclassified,,C8 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),128.21,2.55,CCCCCCC(C)=O,"MySkinRecipes, PerfumersWorld"
-Methyl Ionone Pure,127-51-5,"3-Methyl-4-(2,6,6-trimethyl-2-cyclohexen-1-yl)-3-buten-2-one",Floral (Violet),Heart,C14 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),206.33,3.9,CC(=O)C(C)=CC1C(C)=CCCC1(C)C,"Fraterworks, PerfumersWorld, SimpleScentsDIY"
+Methyl Ionone Pure,127-51-5,"3-Methyl-4-(2,6,6-trimethyl-2-cyclohexen-1-yl)-3-buten-2-one",Woods (Agarwood),Base,C14 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),206.33,3.9,CC(=O)C(C)=CC1C(C)=CCCC1(C)C,"Fraterworks, PerfumersWorld, SimpleScentsDIY"
 Methyl Isobutyrate,547-63-7,methyl 2-methylpropanoate,Unclassified,,C5 O2,Ester,Aliphatic,No,Hydrophilic (Water Compatible),102.13,0.82,COC(=O)C(C)C,"Fraterworks, MySkinRecipes"
 Methyl Isoeugenol,93-16-3,Methylisoeugenol,Unclassified,,C11 O2,Ether,Aromatic (Benzene),No,Standard (Alcohol Compatible),178.23,2.74,CC=Cc1ccc(OC)c(OC)c1,"Fraterworks, MySkinRecipes, PerfumersWorld"
 Methyl Isovalerate,556-24-1,methyl 3-methylbutanoate,Unclassified,,C6 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),116.16,1.21,COC(=O)CC(C)C,MySkinRecipes
 Methyl Laitone 10%,94201-19-1,8-METHYL-1-OXASPIRO[4.5]DECAN-2-ONE,Unclassified,,C10 O2,Lactone,Aliphatic,Yes,Standard (Alcohol Compatible),168.24,2.27,CC1CCC2(CCC(=O)O2)CC1,"Fraterworks, MySkinRecipes, PerfumersWorld"
 Methyl Linoleate,112-63-0,"methyl (9Z,12Z)-octadeca-9,12-dienoate",Unclassified,,C19 O2,Ester,Aliphatic,No,Lipophilic (Oil/Wax Compatible),294.48,5.97,CCCCCC=CCC=CCCCCCCCC(=O)OC,Fraterworks
 Methyl Myristate,124-10-7,methyl tetradecanoate,Unclassified,,C15 O2,Ester,Aliphatic,No,Lipophilic (Oil/Wax Compatible),242.4,4.86,CCCCCCCCCCCCCC(=O)OC,"Fraterworks, MySkinRecipes"
-Methyl Nicotinate,93-60-7,methyl pyridine-3-carboxylate,Unclassified,,C7 O2 N1,Ester,Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),137.14,0.87,COC(=O)c1cccnc1,Fraterworks
+Methyl Nicotinate,93-60-7,methyl pyridine-3-carboxylate,Unclassified,,C7 O2 N1,"Ester, Pyridine",Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),137.14,0.87,COC(=O)c1cccnc1,Fraterworks
 Methyl Nonyl Ketone,112-12-9,2-Undecanone,Unclassified,,C11 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),170.3,3.72,CCCCCCCCCC(C)=O,"Fraterworks, PerfumersWorld"
 Methyl Octanoate Methyl Caprylate (FEMA 2728),111-11-5,methyl octanoate,Unclassified,,C9 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),158.24,2.52,CCCCCCCC(=O)OC,MySkinRecipes
 Methyl Octine Carbonate,111-80-8,Methyl 2-nonynoate,Unclassified,,C10 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),168.24,2.13,CCCCCCC#CC(=O)OC,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
@@ -665,15 +665,14 @@ Myrcene,123-35-3,MYRCENE,Unclassified,,C10,Hydrocarbon / Other,Aliphatic,No,Stan
 Myristic Acid,544-63-8,Tetradecanoic acid,Floral (Orris),Heart,C14 O2,Carboxylic Acid,Aliphatic,No,Lipophilic (Oil/Wax Compatible),228.38,4.77,CCCCCCCCCCCCCC(=O)O,"Fraterworks, MySkinRecipes, PerfumersWorld"
 Myroxide,69103-20-4,"2,2-dimethyl-3-(3-methylpenta-2,4-dienyl)oxirane",Unclassified,,C10 O1,Ether,Aliphatic,Yes,Standard (Alcohol Compatible),152.24,2.69,C=CC(C)=CCC1OC1(C)C,"Fraterworks, MySkinRecipes"
 Mysore Acetate,30772-69-1,"3-tricyclo[5.2.1.02,6]decanylmethyl acetate",Unclassified,,C13 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),208.3,2.62,CC(=O)OCC1CCC2C3CCC(C3)C12,Fraterworks
-N Ethyl-2-Acetyl Pyrrole (FEMA 3147),39741-41-8,1-(1-ethylpyrrol-2-yl)ethanone,Unclassified,,C8 O1 N1,Ketone,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),137.18,1.71,CCn1cccc1C(C)=O,MySkinRecipes
-N Furfuryl Pyrrole (FEMA 3284),1438-94-4,1-(furan-2-ylmethyl)pyrrole,Unclassified,,C9 O1 N1,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),147.18,2.13,c1coc(Cn2cccc2)c1,MySkinRecipes
-N Methyl-2-Acetyl Pyrrole (FEMA 3184),932-16-1,1-(1-methylpyrrol-2-yl)ethanone,Unclassified,,C7 O1 N1,Ketone,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),123.15,1.23,CC(=O)c1cccn1C,MySkinRecipes
+N Ethyl-2-Acetyl Pyrrole (FEMA 3147),39741-41-8,1-(1-ethylpyrrol-2-yl)ethanone,Unclassified,,C8 O1 N1,"Ketone, Pyrrole",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),137.18,1.71,CCn1cccc1C(C)=O,MySkinRecipes
+N Furfuryl Pyrrole (FEMA 3284),1438-94-4,1-(furan-2-ylmethyl)pyrrole,Unclassified,,C9 O1 N1,"Furan, Pyrrole",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),147.18,2.13,c1coc(Cn2cccc2)c1,MySkinRecipes
+N Methyl-2-Acetyl Pyrrole (FEMA 3184),932-16-1,1-(1-methylpyrrol-2-yl)ethanone,Unclassified,,C7 O1 N1,"Ketone, Pyrrole",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),123.15,1.23,CC(=O)c1cccn1C,MySkinRecipes
 Naphthalene,91-20-3,naphthalene,Unclassified,,C10,Hydrocarbon / Other,Aromatic (Benzene),No,Standard (Alcohol Compatible),128.17,2.84,c1ccc2ccccc2c1,MySkinRecipes
 Nectarate,113889-23-9,"3-tricyclo[5.2.1.02,6]dec-4-enyl butanoate",Unclassified,,C14 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),220.31,2.93,CCCC(=O)OC1C=CC2C3CCC(C3)C12,"Fraterworks, MySkinRecipes"
 Nectaryl,95962-14-4,,Facet (Minty),Modifier,C15 O1,Ketone,Aliphatic,No,Lipophilic (Oil/Wax Compatible),220.36,4.13,CC1=CCC(C(C)CC2CCCC2=O)CC1,"Fraterworks, MySkinRecipes, PerfumersWorld"
 Neo Patchouli,58096-46-1,"(4,4,8-trimethyl-1-tricyclo[6.3.1.02,5]dodecanyl) formate",Unclassified,,C16 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),250.38,3.93,CC12CCCC(OC=O)(C1)C1CC(C)(C)C1CC2,Fraterworks
-Neofolione,5435-64-3,,Unclassified,,C9 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),142.24,2.65,CC(CC=O)CC(C)(C)C,PerfumersWorld
-Neofolione,111-79-5,Methyl non-2-enoate,Unclassified,,C10 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),170.25,2.69,CCCCCCC=CC(=O)OC,"Fraterworks, MySkinRecipes"
+Neofolione,111-79-5,Methyl non-2-enoate,Unclassified,,C10 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),170.25,2.69,CCCCCCC=CC(=O)OC,"Fraterworks, MySkinRecipes, PerfumersWorld"
 Nerol,106-25-2,nerol,Aldehydic (Complex),Base,C10 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),154.25,2.67,CC(C)=CCCC(C)=CCO,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
 Nerolidol,7212-44-4,NEROLIDOL,Unclassified,,C15 O1,Tertiary Alcohol,Aliphatic,No,Lipophilic (Oil/Wax Compatible),222.37,4.4,C=CC(C)(O)CCC=C(C)CCC=C(C)C,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
 Nerolin Bromelia,93-18-5,Nerolin Bromelia,Unclassified,,C12 O1,Ether,Aromatic (Benzene),No,Standard (Alcohol Compatible),172.23,3.24,CCOc1ccc2ccccc2c1,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
@@ -683,7 +682,7 @@ Neryl Acetate,141-12-8,Neryl acetate,Unclassified,,C12 O2,Ester,Aliphatic,No,Sta
 Nonanol,143-8-8,1-Nonanol,Floral (Rose),Top,C9 O1,Primary Alcohol,Aliphatic,No,Standard (Alcohol Compatible),144.26,2.73,CCCCCCCCCO,"Fraterworks, MySkinRecipes, PerfumersWorld"
 Nootkatone Crystals,4674-50-4,"(4R,4aS,6R)-4,4a-dimethyl-6-prop-1-en-2-yl-3,4,5,6,7,8-hexahydronaphthalen-2-one",Unclassified,,C15 O1,Ketone,Aliphatic,No,Standard (Alcohol Compatible),218.34,3.9,C=C(C)C1CCC2=CC(=O)CC(C)C2(C)C1,"Fraterworks, MySkinRecipes"
 Nopyl Acetate,128-51-8,(-)-Nopyl acetate,Unclassified,,C13 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),208.3,2.93,CC(=O)OCCC1=CCC2CC1C2(C)C,"Fraterworks, MySkinRecipes, PerfumersWorld"
-Nutty Furan,1193-79-9,1-(5-methylfuran-2-yl)ethanone,Unclassified,,C7 O2,Ketone,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),124.14,1.79,CC(=O)c1ccc(C)o1,"Fraterworks, MySkinRecipes"
+Nutty Furan,1193-79-9,1-(5-methylfuran-2-yl)ethanone,Unclassified,,C7 O2,"Furan, Ketone",Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),124.14,1.79,CC(=O)c1ccc(C)o1,"Fraterworks, MySkinRecipes"
 Nutty Pyrazine,23747-48-0,"5-methyl-6,7-dihydro-5H-cyclopenta[b]pyrazine",Unclassified,,C8 N2,Pyrazine,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),134.18,1.53,CC1CCc2nccnc21,Fraterworks
 Nutty Quinoxaline,34413-35-9,"5,6,7,8-tetrahydroquinoxaline",Unclassified,,C8 N2,Pyrazine,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),134.18,1.36,c1cnc2c(n1)CCCC2,MySkinRecipes
 Nympheal,55066-48-3,,Floral (Muguet),Heart,C12 O1,Primary Alcohol,Aromatic (Benzene),No,Standard (Alcohol Compatible),178.27,2.64,CC(CCO)CCc1ccccc1,"Fraterworks, MySkinRecipes, PerfumersWorld"
@@ -777,9 +776,9 @@ Propyl Thioacetate (FEMA 3385),2307-10-0,S-propyl ethanethioate,Unclassified,,C5
 Pyrazine (FEMA 4015),290-37-9,pyrazine,Unclassified,,C4 N2,Pyrazine,Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),80.09,0.48,c1cnccn1,MySkinRecipes
 Pyrazine Ethanethiol (FEMA 3230),35250-53-4,2-pyrazin-2-ylethanethiol,Unclassified,,C6 N2 S1,"Pyrazine, Thiol",Aromatic (Heterocycle),Yes,Hydrophilic (Water Compatible),140.21,0.95,SCCc1cnccn1,MySkinRecipes
 Pyrazinyl Methyl Sulfide (FEMA 3231),21948-70-9,2-methylsulfanylpyrazine,Unclassified,,C5 N2 S1,Pyrazine,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),126.18,1.2,CSc1cnccn1,MySkinRecipes
-Pyridine (FEMA 2966),110-86-1,pyridine,Unclassified,,C5 N1,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),79.1,1.08,c1ccncc1,MySkinRecipes
+Pyridine (FEMA 2966),110-86-1,pyridine,Unclassified,,C5 N1,Pyridine,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),79.1,1.08,c1ccncc1,MySkinRecipes
 Pyroprunat,68039-73-6,(2-cyclopentylcyclopentyl) but-2-enoate,Unclassified,,C14 O2,Ester,Aliphatic,No,Standard (Alcohol Compatible),222.33,3.46,CC=CC(=O)OC1CCCC1C1CCCC1,Fraterworks
-Pyrrole (FEMA 3386),109-97-7,1H-pyrrole,Unclassified,,C4 N1,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),67.09,1.01,c1cc[nH]c1,MySkinRecipes
+Pyrrole (FEMA 3386),109-97-7,1H-pyrrole,Unclassified,,C4 N1,Pyrrole,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),67.09,1.01,c1cc[nH]c1,MySkinRecipes
 Raspberry Dicarboxylate Fructalate,72903-27-6,"diethyl cyclohexane-1,4-dicarboxylate",Unclassified,,C12 O4,Ester,Aliphatic,No,Standard (Alcohol Compatible),228.29,1.92,CCOC(=O)C1CCC(C(=O)OCC)CC1,MySkinRecipes
 Raspberry Glycidate,52788-71-3,ethyl 3-(4-methylphenyl)oxirane-2-carboxylate,Unclassified,,C12 O3,"Ester, Ether",Aromatic (Benzene),Yes,Standard (Alcohol Compatible),206.24,2.0,CCOC(=O)C1OC1c1ccc(C)cc1,Fraterworks
 Raspberry Ketone,5471-51-2,Raspberry ketone,Fruit (Apple),Top,C10 O2,"Ketone, Phenol",Aromatic (Benzene),No,Standard (Alcohol Compatible),164.2,1.91,CC(=O)CCc1ccc(O)cc1,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
@@ -794,8 +793,8 @@ Rosalva,13019-22-2,9-DECEN-1-OL,Unclassified,,C10 O1,"Allyl, Primary Alcohol",Al
 Rose Acetate,90-17-5,"2,2,2-Trichloro-1-phenylethyl acetate",Unclassified,,C10 O2,Ester,Aromatic (Benzene),No,Standard (Alcohol Compatible),267.54,3.66,CC(=O)OC(c1ccccc1)C(Cl)(Cl)Cl,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
 Rose Oxide,16409-43-1,Rose oxide,Green (Metallic),Top,C10 O1,Ether,Aliphatic,Yes,Standard (Alcohol Compatible),154.25,2.77,CC(C)=CC1CC(C)CCO1,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"
 Rosyrane Super,60335-71-9,"4-methyl-2-phenyl-3,6-dihydro-2H-pyran",Unclassified,,C12 O1,Ether,Aromatic (Benzene),Yes,Standard (Alcohol Compatible),174.24,3.09,CC1=CCOC(c2ccccc2)C1,"Fraterworks, MySkinRecipes"
-S-Furfuryl thioformate (FEMA 3158),59020-90-5,S-(furan-2-ylmethyl) methanethioate,Unclassified,,C6 O2 S1,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),142.18,1.7,O=CSCc1ccco1,MySkinRecipes
-S-Methyl thiofuroate (FEMA 3311),13679-61-3,S-methyl furan-2-carbothioate,Unclassified,,C6 O2 S1,Hydrocarbon / Other,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),142.18,1.78,CSC(=O)c1ccco1,MySkinRecipes
+S-Furfuryl thioformate (FEMA 3158),59020-90-5,S-(furan-2-ylmethyl) methanethioate,Unclassified,,C6 O2 S1,Furan,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),142.18,1.7,O=CSCc1ccco1,MySkinRecipes
+S-Methyl thiofuroate (FEMA 3311),13679-61-3,S-methyl furan-2-carbothioate,Unclassified,,C6 O2 S1,Furan,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),142.18,1.78,CSC(=O)c1ccco1,MySkinRecipes
 "Sabinene, Natural",3387-41-5,4-methylidene-1-propan-2-ylbicyclo[3.1.0]hexane,Unclassified,,C10,Hydrocarbon / Other,Aliphatic,No,Standard (Alcohol Compatible),136.24,3.0,C=C1CCC2(C(C)C)CC12,Fraterworks
 Safraleine,54440-17-4,"2,3,3-Trimethylindanone",Spice (Saffron),Heart,C12 O1,Ketone,Aromatic (Benzene),No,Standard (Alcohol Compatible),174.24,2.8,CC1C(=O)c2ccccc2C1(C)C,"Fraterworks, PerfumersWorld"
 Safranal,116-26-7,Safranal,Woods (Rot),Base,C10 O1,Aldehyde,Aliphatic,No,Standard (Alcohol Compatible),150.22,2.49,CC1=C(C=O)C(C)(C)CC=C1,"Fraterworks, PerfumersWorld, SimpleScentsDIY"
@@ -810,7 +809,7 @@ Sclareolate,319002-92-1,propyl (2S)-2-(2-methylbutan-2-yloxy)propanoate,Unclassi
 Shoyu Pyrazine,15707-24-1,"2,3-diethylpyrazine",Unclassified,,C8 N2,Pyrazine,Aromatic (Heterocycle),Yes,Standard (Alcohol Compatible),136.2,1.6,CCc1nccnc1CC,MySkinRecipes
 Silvial®,6658-48-6,2-methyl-3-[4-(2-methylpropyl)phenyl]propanal,Unclassified,,C14 O1,Aldehyde,Aromatic (Benzene),No,Standard (Alcohol Compatible),204.31,3.26,CC(C)Cc1ccc(CC(C)C=O)cc1,"Fraterworks, MySkinRecipes"
 Sinensal Natural ex Orange,60066-88-8,"(2E,6E)-2,6-dimethyl-10-methylidenedodeca-2,6,11-trienal",Unclassified,,C15 O1,Aldehyde,Aliphatic,No,Lipophilic (Oil/Wax Compatible),218.34,4.38,C=CC(=C)CCC=C(C)CCC=C(C)C=O,"Fraterworks, MySkinRecipes"
-Skatole,83-34-1,3-METHYLINDOLE,Unclassified,,C9 N1,Indole,"Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),131.18,2.48,Cc1c[nH]c2ccccc12,"Fraterworks, MySkinRecipes, PerfumersWorld"
+Skatole,83-34-1,3-METHYLINDOLE,Unclassified,,C9 N1,"Indole, Pyrrole","Aromatic (Benzene), Aromatic (Heterocycle)",Yes,Standard (Alcohol Compatible),131.18,2.48,Cc1c[nH]c2ccccc12,"Fraterworks, MySkinRecipes, PerfumersWorld"
 Sotolone,28664-35-9,"3-Hydroxy-4,5-dimethylfuran-2(5H)-one",Unclassified,,C6 O3,Lactone,Aliphatic,Yes,Hydrophilic (Water Compatible),128.13,0.76,CC1=C(O)C(=O)OC1C,Fraterworks
 Spirambrene,121251-68-1,"(1'R,3'R,6'S)-2,2,3',7',7'-pentamethylspiro[1,3-dioxane-5,2'-bicyclo[4.1.0]heptane]",Unclassified,,C15 O2,Ketal,Aliphatic,Yes,Standard (Alcohol Compatible),238.37,3.46,CC1CCC2C(C2(C)C)C12COC(C)(C)OC2,Fraterworks
 Stemone,22457-23-4,Stemone,Green (Stem),Modifier,C8 O1 N1,Hydrocarbon / Other,Aliphatic,No,Standard (Alcohol Compatible),143.23,2.66,CCC(CC(C)CC)=NO,"Fraterworks, MySkinRecipes, PerfumersWorld, SimpleScentsDIY"

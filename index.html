@@ -693,10 +693,21 @@
                 <div><strong>Interactive Learning:</strong> Click on any functional group badge above to highlight that specific moiety on both the 2D drawing and the rotating 3D molecular conformation.</div>
             </div>
 
+            <!-- Visualizers Controls -->
+            <div class="view-controls" style="display: flex; gap: 15px; margin-bottom: 2px; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; color: var(--text-dim); align-items: center; background: rgba(255,255,255,0.02); padding: 6px 12px; border: 1px solid var(--border-color); border-radius: 6px;">
+                <span>Display Panels:</span>
+                <label class="os-checkbox">
+                    <input type="checkbox" id="toggle-2d" checked onchange="togglePanel('2d', this.checked)"> 2D Depiction
+                </label>
+                <label class="os-checkbox">
+                    <input type="checkbox" id="toggle-3d" checked onchange="togglePanel('3d', this.checked)"> 3D Conformation
+                </label>
+            </div>
+
             <!-- Visualizers -->
             <div class="viz-container">
                 <!-- 2D Structure Card -->
-                <div class="viz-card">
+                <div class="viz-card" id="card-2d">
                     <div class="viz-header">
                         <div class="viz-title"><i class="fas fa-diagram-project"></i> 2D Depiction</div>
                         <button class="os-btn" id="btn-reset-2d" onclick="clearHighlights()">Clear Highlight</button>
@@ -709,7 +720,7 @@
                 </div>
 
                 <!-- 3D Structure Card -->
-                <div class="viz-card">
+                <div class="viz-card" id="card-3d">
                     <div class="viz-header">
                         <div class="viz-title"><i class="fas fa-cube"></i> 3D Conformation</div>
                         <div class="threed-controls">
@@ -753,6 +764,10 @@
             "Thiazole": "c1cscn1",
             "Indole": "c1ccc2[n,nH]ccc2c1",
             "Quinoline": "c1ccc2ncccc2c1",
+            "Pyrrole": "c1cc[nH,n]c1",
+            "Furan": "c1ccoc1",
+            "Thiophene": "c1ccsc1",
+            "Pyridine": "c1ccncc1",
             "Thiol": "[SX2H]",
             "Lactone": "[#6R](=[OX1])[#8R]",
             "Ester": "[#6](=[OX1])[#8][#6]",
@@ -1188,6 +1203,61 @@
             if (threedViewer) {
                 threedViewer.zoomTo();
                 threedViewer.render();
+            }
+        }
+
+        function togglePanel(type, show) {
+            const card2d = document.getElementById("card-2d");
+            const card3d = document.getElementById("card-3d");
+            const container = document.querySelector(".viz-container");
+            const toggle2d = document.getElementById("toggle-2d").checked;
+            const toggle3d = document.getElementById("toggle-3d").checked;
+
+            if (type === '2d') {
+                card2d.style.display = show ? "flex" : "none";
+            } else if (type === '3d') {
+                card3d.style.display = show ? "flex" : "none";
+            }
+
+            if (toggle2d && toggle3d) {
+                container.style.display = "grid";
+                container.style.gridTemplateColumns = "1fr 1fr";
+            } else if (toggle2d || toggle3d) {
+                container.style.display = "grid";
+                container.style.gridTemplateColumns = "1fr";
+            } else {
+                container.style.display = "none";
+            }
+
+            // Redraw active visualizers to adjust layout fit
+            if (show) {
+                if (type === '2d' && activeMol) {
+                    const svgContainer = document.getElementById("svg-container");
+                    if (activeFG) {
+                        const smarts = SMARTS_PATTERNS[activeFG];
+                        if (smarts) {
+                            const qmol = RDKit.get_qmol(smarts);
+                            if (qmol) {
+                                const matchJson = activeMol.get_substruct_match(qmol);
+                                qmol.delete();
+                                if (matchJson) {
+                                    const match = JSON.parse(matchJson);
+                                    const details = {
+                                        atoms: match.atoms,
+                                        bonds: match.bonds,
+                                        highlightColour: [0.83, 0.68, 0.21]
+                                    };
+                                    svgContainer.innerHTML = activeMol.get_svg_with_highlights(JSON.stringify(details));
+                                }
+                            }
+                        }
+                    } else {
+                        svgContainer.innerHTML = activeMol.get_svg();
+                    }
+                }
+                if (type === '3d' && threedViewer) {
+                    reset3DCamera();
+                }
             }
         }
     </script>
