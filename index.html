@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfumery Chemical Directory</title>
+    <title>Aroma Chemical Visualizer</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
@@ -391,6 +391,51 @@
             opacity: 0.8;
         }
 
+        .sim-badge {
+            background: rgba(212, 175, 55, 0.02);
+            border: 1px solid rgba(212, 175, 55, 0.15);
+            color: var(--text-primary);
+            font-size: 0.7rem;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-family: inherit;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            font-weight: 600;
+        }
+
+        .sim-badge:hover {
+            background: var(--gold-primary);
+            color: var(--bg-dark);
+            border-color: var(--gold-primary);
+            box-shadow: 0 0 10px var(--gold-glow);
+        }
+
+        .sim-badge i {
+            color: var(--gold-primary);
+            font-size: 0.65rem;
+            transition: color 0.2s ease;
+        }
+
+        .sim-badge:hover i {
+            color: var(--bg-dark);
+        }
+
+        .sim-badge span {
+            color: var(--accent-teal);
+            font-size: 0.65rem;
+            margin-left: 2px;
+            font-weight: 700;
+            transition: color 0.2s ease;
+        }
+
+        .sim-badge:hover span {
+            color: var(--bg-dark);
+        }
+
         /* Visualization containers */
         .viz-container {
             display: grid;
@@ -627,7 +672,7 @@
     <!-- Left Sidebar Directory -->
     <aside>
         <div class="sidebar-header">
-            <h1><i class="fas fa-flask"></i> AROMAS DIRECTORY</h1>
+            <h1><i class="fas fa-flask"></i> AROMA CHEMICAL VISUALIZER</h1>
             
             <div class="search-box">
                 <i class="fas fa-search"></i>
@@ -727,6 +772,14 @@
                         <!-- Dynamic rows render here -->
                     </tbody>
                 </table>
+            </div>
+
+            <!-- Structurally Similar Aroma Chemicals -->
+            <div class="spec-card" style="width: 100%;">
+                <div class="spec-label">Structurally Similar Aroma Chemicals (Morgan Similarity)</div>
+                <div id="chem-similar-list" class="badge-list" style="margin-top: 6px;">
+                    <!-- Clickable similar chemical badges go here -->
+                </div>
             </div>
 
             <!-- Interactive Tip Banner -->
@@ -1279,6 +1332,21 @@
                 });
             } else {
                 tableBody.innerHTML = `<tr><td colspan="3" style="text-align: center; color: var(--text-dim); font-style: italic;">No supplier details available</td></tr>`;
+            }
+
+            // Populate Similar Chemicals
+            const similarContainer = document.getElementById("chem-similar-list");
+            similarContainer.innerHTML = "";
+            if (chem.similarChemicals && Array.isArray(chem.similarChemicals) && chem.similarChemicals.length > 0) {
+                chem.similarChemicals.forEach(sim => {
+                    const btn = document.createElement("button");
+                    btn.className = "sim-badge";
+                    btn.onclick = () => selectChemical(sim.cas);
+                    btn.innerHTML = `<i class="fas fa-flask"></i> ${sim.name} <span>(${Math.round(sim.similarity * 100)}%)</span>`;
+                    similarContainer.appendChild(btn);
+                });
+            } else {
+                similarContainer.innerHTML = `<span style="font-size: 0.8rem; color: var(--text-dim); font-style: italic;">No similar synthetic chemicals found.</span>`;
             }
 
             // --- 2D Molecule Setup ---
