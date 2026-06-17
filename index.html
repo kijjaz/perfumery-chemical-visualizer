@@ -892,6 +892,26 @@
             overlay.innerHTML = `<div style="color: var(--danger-color); font-weight: 700;">Initialization Failed. Please refresh.</div>`;
         });
 
+        function draw2DMolecule(mol, highlights = {}) {
+            if (!mol) return "";
+            
+            const mdetails = {
+                clearBackground: false,
+                bondLineWidth: 2.0,
+                explicitMethyl: true,
+                ...highlights
+            };
+            
+            let svg = mol.get_svg_with_highlights(JSON.stringify(mdetails));
+            
+            // Clean up the colors for dark-mode Carbon & Gold theme
+            svg = svg.replaceAll('stroke:#000000', 'stroke:#f3f3f6') // theme's light gray text color
+                     .replaceAll('fill:#000000', 'fill:#f3f3f6')
+                     .replaceAll('stroke:#000', 'stroke:#f3f3f6')
+                     .replaceAll('fill:#000', 'fill:#f3f3f6');
+            return svg;
+        }
+
         function initApp() {
             // Build the Odor Family, Supplier, and Functional Group dropdown options
             const families = new Set();
@@ -1362,7 +1382,7 @@
                 activeMol = RDKit.get_mol(chem.smiles);
                 if (activeMol) {
                     // Draw base SVG
-                    svgContainer.innerHTML = activeMol.get_svg();
+                    svgContainer.innerHTML = draw2DMolecule(activeMol);
                 } else {
                     svgContainer.innerHTML = `<span style="color: var(--danger-color); font-size: 0.8rem;">Rendering Error</span>`;
                 }
@@ -1440,9 +1460,9 @@
                     bonds: match.bonds,
                     highlightColour: [0.83, 0.68, 0.21] // Premium gold color!
                 };
-                svgContainer.innerHTML = activeMol.get_svg_with_highlights(JSON.stringify(details));
+                svgContainer.innerHTML = draw2DMolecule(activeMol, details);
             } else {
-                svgContainer.innerHTML = activeMol.get_svg();
+                svgContainer.innerHTML = draw2DMolecule(activeMol);
             }
 
             // 2. Highlight 3D Structure
@@ -1470,7 +1490,7 @@
             // Reset 2D SVG
             if (activeMol) {
                 const svgContainer = document.getElementById("svg-container");
-                svgContainer.innerHTML = activeMol.get_svg();
+                svgContainer.innerHTML = draw2DMolecule(activeMol);
             }
 
             // Reset 3D Viewer Style
@@ -1534,12 +1554,12 @@
                                         bonds: match.bonds,
                                         highlightColour: [0.83, 0.68, 0.21]
                                     };
-                                    svgContainer.innerHTML = activeMol.get_svg_with_highlights(JSON.stringify(details));
+                                    svgContainer.innerHTML = draw2DMolecule(activeMol, details);
                                 }
                             }
                         }
                     } else {
-                        svgContainer.innerHTML = activeMol.get_svg();
+                        svgContainer.innerHTML = draw2DMolecule(activeMol);
                     }
                 }
                 if (type === '3d' && threedViewer) {
