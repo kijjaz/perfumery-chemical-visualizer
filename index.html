@@ -824,9 +824,25 @@
             // Initial render of list
             renderList(chemicalData);
 
-            // Select the first chemical by default if available
-            if (chemicalData.length > 0) {
+            // Set up hash change event listener
+            window.addEventListener("hashchange", handleHashChange);
+
+            // Select chemical by hash if available, otherwise fallback to first item
+            const initialHash = decodeURIComponent(window.location.hash.substring(1)).trim();
+            if (initialHash && chemicalData.some(c => c.cas === initialHash)) {
+                selectChemical(initialHash);
+            } else if (chemicalData.length > 0) {
                 selectChemical(chemicalData[0].cas);
+            }
+        }
+
+        function handleHashChange() {
+            const hash = decodeURIComponent(window.location.hash.substring(1)).trim();
+            if (hash) {
+                const found = chemicalData.find(c => c.cas === hash);
+                if (found) {
+                    selectChemical(found.cas);
+                }
             }
         }
 
@@ -914,13 +930,27 @@
             const chem = chemicalData.find(c => c.cas === cas);
             if (!chem) return;
 
+            // Prevent redundant selection
+            if (currentChemical && currentChemical.cas === cas) {
+                return;
+            }
+
             currentChemical = chem;
             activeFG = null; // Clear active highlighted group
+
+            // Update URL hash
+            if (decodeURIComponent(window.location.hash.substring(1)).trim() !== cas) {
+                window.location.hash = encodeURIComponent(cas);
+            }
 
             // Update active state in sidebar list
             document.querySelectorAll(".chemical-item").forEach(el => el.classList.remove("active"));
             const selectedItem = document.getElementById(`item-${cas}`);
-            if (selectedItem) selectedItem.classList.add("active");
+            if (selectedItem) {
+                selectedItem.classList.add("active");
+                // Scroll selected item into view inside the scrollable sidebar
+                selectedItem.scrollIntoView({ block: "nearest", behavior: "smooth" });
+            }
 
             // Show details content, hide empty state
             document.getElementById("details-pane").style.display = "none";
