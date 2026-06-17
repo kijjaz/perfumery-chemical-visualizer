@@ -896,9 +896,26 @@
             if (!mol) return "";
             
             const mdetails = {
-                clearBackground: false,
+                clearBackground: true,
                 bondLineWidth: 2.0,
                 explicitMethyl: true,
+                legendColour: [0.95, 0.95, 0.96, 1.0],
+                annotationColour: [0.95, 0.95, 0.96, 1.0],
+                atomColourPalette: {
+                    0: [0.95, 0.95, 0.96],
+                    1: [0.95, 0.95, 0.96],
+                    5: [0.83, 0.68, 0.22], // Boron (gold)
+                    6: [0.95, 0.95, 0.96],
+                    7: [0.83, 0.68, 0.22], // Nitrogen (gold)
+                    8: [0.83, 0.68, 0.22], // Oxygen (gold)
+                    9: [0.83, 0.68, 0.22], // Fluorine (gold)
+                    14: [0.83, 0.68, 0.22], // Silicon (gold)
+                    15: [0.83, 0.68, 0.22], // Phosphorus (gold)
+                    16: [0.83, 0.68, 0.22], // Sulfur (gold)
+                    17: [0.83, 0.68, 0.22], // Chlorine (gold)
+                    35: [0.83, 0.68, 0.22], // Bromine (gold)
+                    53: [0.83, 0.68, 0.22]  // Iodine (gold)
+                },
                 ...highlights
             };
             
