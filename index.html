@@ -89,7 +89,7 @@
 
         /* Sidebar styling */
         aside {
-            width: 380px;
+            width: 320px;
             background-color: var(--bg-sidebar);
             border-right: 1px solid var(--border-color);
             display: flex;
@@ -99,20 +99,20 @@
         }
 
         .sidebar-header {
-            padding: 24px;
+            padding: 14px 16px;
             border-bottom: 1px solid var(--border-color);
         }
 
         .sidebar-header h1 {
-            font-size: 1.2rem;
+            font-size: 1.05rem;
             font-weight: 800;
             letter-spacing: 1px;
             text-transform: uppercase;
             color: #fff;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 8px;
         }
 
         .sidebar-header h1 i {
@@ -121,27 +121,27 @@
 
         .search-box {
             position: relative;
-            margin-bottom: 12px;
+            margin-bottom: 8px;
         }
 
         .search-box i {
             position: absolute;
-            left: 12px;
+            left: 10px;
             top: 50%;
             transform: translateY(-50%);
             color: var(--text-dim);
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
 
         .search-input {
             width: 100%;
-            padding: 10px 12px 10px 38px;
+            padding: 7px 10px 7px 30px;
             background: rgba(0, 0, 0, 0.4);
             border: 1px solid var(--border-color);
             border-radius: 6px;
             color: var(--text-primary);
             font-family: inherit;
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             transition: all 0.3s;
         }
 
@@ -153,13 +153,13 @@
 
         .filter-select {
             width: 100%;
-            padding: 10px 12px;
+            padding: 7px 10px;
             background: rgba(0, 0, 0, 0.4);
             border: 1px solid var(--border-color);
             border-radius: 6px;
             color: var(--text-primary);
             font-family: inherit;
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             cursor: pointer;
             outline: none;
             transition: all 0.3s;
@@ -172,22 +172,22 @@
         .chemical-list {
             flex: 1;
             overflow-y: auto;
-            padding: 15px 24px;
+            padding: 10px 14px;
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 6px;
         }
 
         .chemical-item {
             background: var(--bg-card);
             border: 1px solid var(--border-color);
-            border-radius: 8px;
-            padding: 14px;
+            border-radius: 6px;
+            padding: 8px 10px;
             cursor: pointer;
-            transition: all 0.25s ease;
+            transition: all 0.2s ease;
             display: flex;
             flex-direction: column;
-            gap: 6px;
+            gap: 4px;
         }
 
         .chemical-item:hover {
@@ -203,17 +203,17 @@
         }
 
         .item-name {
-            font-size: 0.9rem;
+            font-size: 0.82rem;
             font-weight: 600;
             color: #fff;
-            line-height: 1.3;
+            line-height: 1.25;
         }
 
         .item-meta {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            font-size: 0.75rem;
+            font-size: 0.68rem;
             color: var(--text-dim);
             font-family: 'Space Mono', monospace;
         }
@@ -227,11 +227,11 @@
             flex: 1;
             height: 100%;
             overflow-y: auto;
-            padding: 40px;
+            padding: 16px 20px;
             display: flex;
             flex-direction: column;
-            gap: 30px;
-            max-width: 1200px;
+            gap: 14px;
+            max-width: 1440px;
             margin: 0 auto;
             width: 100%;
         }
@@ -253,25 +253,26 @@
 
         .detail-header {
             border-bottom: 1px solid var(--border-color);
-            padding-bottom: 20px;
+            padding-bottom: 10px;
             display: flex;
             flex-direction: column;
-            gap: 8px;
+            gap: 4px;
         }
 
         .detail-title {
-            font-size: 2rem;
+            font-size: 1.4rem;
             font-weight: 800;
             color: #fff;
-            letter-spacing: -0.5px;
+            letter-spacing: -0.3px;
         }
 
         .detail-subtitle {
-            font-size: 0.85rem;
+            font-size: 0.76rem;
             font-family: 'Space Mono', monospace;
             color: var(--text-dim);
             display: flex;
-            gap: 20px;
+            flex-wrap: wrap;
+            gap: 15px;
         }
 
         .detail-subtitle span strong {
@@ -279,39 +280,39 @@
         }
 
         .detail-official {
-            font-size: 1.05rem;
+            font-size: 0.88rem;
             color: var(--gold-primary);
             font-weight: 500;
-            margin-top: 5px;
+            margin-top: 2px;
         }
 
         /* Specs Grid */
         .specs-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 15px;
+            grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+            gap: 8px;
         }
 
         .spec-card {
             background: var(--bg-card);
             border: 1px solid var(--border-color);
-            border-radius: 10px;
-            padding: 16px;
+            border-radius: 6px;
+            padding: 8px 12px;
             display: flex;
             flex-direction: column;
-            gap: 6px;
+            gap: 3px;
         }
 
         .spec-label {
-            font-size: 0.7rem;
+            font-size: 0.62rem;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
             color: var(--text-dim);
             font-weight: 600;
         }
 
         .spec-value {
-            font-size: 0.95rem;
+            font-size: 0.82rem;
             font-weight: 600;
             color: #fff;
         }
@@ -324,23 +325,23 @@
         .badge-list {
             display: flex;
             flex-wrap: wrap;
-            gap: 8px;
-            margin-top: 4px;
+            gap: 6px;
+            margin-top: 3px;
         }
 
         .fg-badge {
             background: rgba(212, 175, 55, 0.05);
             border: 1px solid var(--gold-border);
             color: var(--gold-primary);
-            font-size: 0.75rem;
-            padding: 4px 10px;
+            font-size: 0.7rem;
+            padding: 3px 8px;
             border-radius: 4px;
             font-family: inherit;
             cursor: pointer;
             transition: all 0.2s ease;
             display: inline-flex;
             align-items: center;
-            gap: 6px;
+            gap: 5px;
             font-weight: 600;
         }
 
@@ -361,19 +362,19 @@
         .viz-container {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 30px;
+            gap: 14px;
             align-items: stretch;
         }
 
         .viz-card {
             background: var(--bg-card);
             border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 24px;
+            border-radius: 8px;
+            padding: 12px 16px;
             display: flex;
             flex-direction: column;
-            gap: 15px;
-            min-height: 400px;
+            gap: 8px;
+            min-height: 310px;
         }
 
         .viz-header {
@@ -381,18 +382,18 @@
             justify-content: space-between;
             align-items: center;
             border-bottom: 1px solid rgba(255,255,255,0.04);
-            padding-bottom: 12px;
+            padding-bottom: 8px;
         }
 
         .viz-title {
-            font-size: 0.85rem;
+            font-size: 0.72rem;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
             color: var(--text-dim);
             font-weight: 700;
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 6px;
         }
 
         .viz-title i {
@@ -430,7 +431,7 @@
         #threed-viewport {
             width: 100%;
             height: 100%;
-            min-height: 300px;
+            min-height: 230px;
         }
 
         .threed-controls {
@@ -479,18 +480,18 @@
         .tip-banner {
             background: rgba(212, 175, 55, 0.03);
             border: 1px solid rgba(212, 175, 55, 0.1);
-            border-radius: 8px;
-            padding: 12px 16px;
-            font-size: 0.8rem;
+            border-radius: 6px;
+            padding: 8px 12px;
+            font-size: 0.72rem;
             color: var(--gold-primary);
             display: flex;
             align-items: center;
-            gap: 10px;
-            line-height: 1.4;
+            gap: 8px;
+            line-height: 1.35;
         }
 
         .tip-banner i {
-            font-size: 1rem;
+            font-size: 0.9rem;
         }
 
         /* Custom Scrollbar */
@@ -536,20 +537,20 @@
         .supplier-table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 8px;
-            font-size: 0.85rem;
+            margin-top: 4px;
+            font-size: 0.78rem;
         }
 
         .supplier-table th, .supplier-table td {
-            padding: 8px 12px;
+            padding: 4px 8px;
             text-align: left;
             border-bottom: 1px solid var(--border-color);
         }
 
         .supplier-table th {
-            font-size: 0.7rem;
+            font-size: 0.65rem;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
             color: var(--text-dim);
             font-weight: 600;
         }
@@ -604,7 +605,7 @@
                 <option value="all">All Odor Families</option>
             </select>
             
-            <select id="supplier-filter" class="filter-select" style="margin-top: 8px;">
+            <select id="supplier-filter" class="filter-select" style="margin-top: 6px;">
                 <option value="all">All Suppliers</option>
             </select>
         </div>
@@ -621,7 +622,7 @@
             <p>Select a chemical from the directory to view details, 2D structures, and 3D molecular conformations.</p>
         </div>
         
-        <div id="details-content" style="display: none; flex-direction: column; gap: 30px; width: 100%;">
+        <div id="details-content" style="display: none; flex-direction: column; gap: 14px; width: 100%;">
             <!-- Header Card -->
             <div class="detail-header">
                 <div id="chem-name" class="detail-title"></div>
