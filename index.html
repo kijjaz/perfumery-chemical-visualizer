@@ -3,26 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Perfumery Course Portal</title>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <title>Perfumery Chemical Directory</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+    <!-- 3Dmol.js -->
+    <script src="https://3Dmol.csb.pitt.edu/build/3Dmol-min.js"></script>
+    <!-- RDKit.js Minimal -->
+    <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+    <!-- Compiled Chemical Data -->
+    <script src="chemical_data.js"></script>
+
     <style>
         :root {
-            --bg-dark: #070708;
-            --bg-card: rgba(20, 20, 22, 0.7);
-            --text-primary: #f3f3f5;
-            --text-dim: #a0a0a5;
+            --bg-dark: #070709;
+            --bg-sidebar: #0f0f13;
+            --bg-card: #15151c;
+            --bg-card-hover: #1e1e27;
+            --text-primary: #f3f3f6;
+            --text-dim: #92929e;
             --gold-primary: #d4af37;
-            --gold-bright: #f9d71c;
-            --gold-glow: rgba(212, 175, 55, 0.25);
-            --border-color: rgba(255, 255, 255, 0.07);
+            --gold-light: #f9d71c;
+            --gold-glow: rgba(212, 175, 55, 0.15);
+            --gold-border: rgba(212, 175, 55, 0.3);
+            --border-color: rgba(255, 255, 255, 0.06);
             --accent-teal: #4ba6a6;
-            --accent-teal-glow: rgba(75, 166, 166, 0.2);
-            --accent-purple: #8e44ad;
-            --accent-purple-glow: rgba(142, 68, 173, 0.2);
+            --accent-teal-dark: #2b5555;
+            --danger-color: #e74c3c;
         }
 
         * {
@@ -35,305 +43,963 @@
             background-color: var(--bg-dark);
             color: var(--text-primary);
             font-family: 'Outfit', sans-serif;
-            min-height: 100vh;
+            height: 100vh;
             display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            overflow-x: hidden;
-            background-image: 
-                radial-gradient(circle at 10% 20%, rgba(212, 175, 55, 0.04) 0%, transparent 40%),
-                radial-gradient(circle at 90% 80%, rgba(75, 166, 166, 0.04) 0%, transparent 40%);
-        }
-
-        header {
-            text-align: center;
-            padding: 60px 20px 30px;
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        h1 {
-            font-size: 2.8rem;
-            font-weight: 800;
-            letter-spacing: -1px;
-            margin-bottom: 15px;
-            background: linear-gradient(135deg, #fff 30%, var(--gold-primary) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            text-transform: uppercase;
-        }
-
-        .subtitle {
-            font-size: 1.1rem;
-            color: var(--text-dim);
-            font-weight: 300;
-            line-height: 1.6;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            width: 100%;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 25px;
-            width: 100%;
-            margin-bottom: 50px;
-        }
-
-        .card {
-            background: var(--bg-card);
-            border: 1px solid var(--border-color);
-            border-radius: 16px;
-            padding: 30px;
-            text-decoration: none;
-            color: inherit;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-            position: relative;
             overflow: hidden;
-            backdrop-filter: blur(20px);
         }
 
-        .card::before {
-            content: '';
-            position: absolute;
+        /* Loading Overlay */
+        #loading-overlay {
+            position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(180deg, transparent 60%, rgba(255,255,255,0.02) 100%);
-            opacity: 0;
-            transition: opacity 0.4s ease;
-        }
-
-        .card:hover::before {
-            opacity: 1;
-        }
-
-        .card-gold:hover {
-            border-color: var(--gold-primary);
-            box-shadow: 0 15px 35px var(--gold-glow);
-            transform: translateY(-5px);
-        }
-
-        .card-teal:hover {
-            border-color: var(--accent-teal);
-            box-shadow: 0 15px 35px var(--accent-teal-glow);
-            transform: translateY(-5px);
-        }
-
-        .card-purple:hover {
-            border-color: var(--accent-purple);
-            box-shadow: 0 15px 35px var(--accent-purple-glow);
-            transform: translateY(-5px);
-        }
-
-        .card-icon {
-            font-size: 2.2rem;
-            margin-bottom: 20px;
-        }
-
-        .card-gold .card-icon { color: var(--gold-primary); }
-        .card-teal .card-icon { color: var(--accent-teal); }
-        .card-purple .card-icon { color: var(--accent-purple); }
-
-        .card h2 {
-            font-size: 1.35rem;
-            font-weight: 600;
-            margin-bottom: 12px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            color: #fff;
-        }
-
-        .card p {
-            color: var(--text-dim);
-            font-size: 0.9rem;
-            line-height: 1.5;
-            margin-bottom: 25px;
-            font-weight: 300;
-        }
-
-        .btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            font-size: 0.8rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            padding: 8px 16px;
-            border-radius: 6px;
-            transition: all 0.3s ease;
-            font-family: 'Space Mono', monospace;
-            border: 1px solid var(--border-color);
-        }
-
-        .card-gold .btn { color: var(--gold-primary); background: rgba(212, 175, 55, 0.05); }
-        .card-gold:hover .btn { background: var(--gold-primary); color: var(--bg-dark); border-color: var(--gold-primary); }
-
-        .card-teal .btn { color: var(--accent-teal); background: rgba(75, 166, 166, 0.05); }
-        .card-teal:hover .btn { background: var(--accent-teal); color: var(--bg-dark); border-color: var(--accent-teal); }
-
-        .card-purple .btn { color: var(--accent-purple); background: rgba(142, 68, 173, 0.05); }
-        .card-purple:hover .btn { background: var(--accent-purple); color: var(--bg-dark); border-color: var(--accent-purple); }
-
-        /* Data Section */
-        .data-section {
-            background: rgba(15, 15, 18, 0.6);
-            border: 1px solid var(--border-color);
-            border-radius: 16px;
-            padding: 30px;
-            margin: 0 auto 40px;
-            max-width: 900px;
-            text-align: center;
-            backdrop-filter: blur(10px);
-        }
-
-        .data-section h3 {
-            font-size: 1.25rem;
-            font-weight: 600;
-            margin-bottom: 10px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            color: #fff;
-        }
-
-        .data-section p {
-            color: var(--text-dim);
-            font-size: 0.9rem;
-            margin-bottom: 20px;
-            font-weight: 300;
-        }
-
-        .download-links {
+            background: var(--bg-dark);
+            z-index: 9999;
             display: flex;
-            flex-wrap: wrap;
+            flex-direction: column;
             justify-content: center;
+            align-items: center;
+            gap: 20px;
+            transition: opacity 0.5s ease;
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 3px solid rgba(212, 175, 55, 0.1);
+            border-radius: 50%;
+            border-top-color: var(--gold-primary);
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .loading-text {
+            font-family: 'Space Mono', monospace;
+            color: var(--gold-primary);
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        /* Sidebar styling */
+        aside {
+            width: 380px;
+            background-color: var(--bg-sidebar);
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            flex-shrink: 0;
+        }
+
+        .sidebar-header {
+            padding: 24px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .sidebar-header h1 {
+            font-size: 1.2rem;
+            font-weight: 800;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #fff;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .sidebar-header h1 i {
+            color: var(--gold-primary);
+        }
+
+        .search-box {
+            position: relative;
+            margin-bottom: 12px;
+        }
+
+        .search-box i {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-dim);
+            font-size: 0.9rem;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 10px 12px 10px 38px;
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            color: var(--text-primary);
+            font-family: inherit;
+            font-size: 0.85rem;
+            transition: all 0.3s;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--gold-primary);
+            box-shadow: 0 0 8px var(--gold-glow);
+        }
+
+        .filter-select {
+            width: 100%;
+            padding: 10px 12px;
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            color: var(--text-primary);
+            font-family: inherit;
+            font-size: 0.85rem;
+            cursor: pointer;
+            outline: none;
+            transition: all 0.3s;
+        }
+
+        .filter-select:focus {
+            border-color: var(--gold-primary);
+        }
+
+        .chemical-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 15px 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .chemical-item {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 14px;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .chemical-item:hover {
+            background: var(--bg-card-hover);
+            border-color: rgba(255, 255, 255, 0.15);
+            transform: translateX(4px);
+        }
+
+        .chemical-item.active {
+            border-color: var(--gold-primary);
+            background: rgba(212, 175, 55, 0.06);
+            box-shadow: inset 0 0 10px rgba(212, 175, 55, 0.05);
+        }
+
+        .item-name {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #fff;
+            line-height: 1.3;
+        }
+
+        .item-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.75rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+
+        .item-sku {
+            color: var(--accent-teal);
+        }
+
+        /* Main details area */
+        main {
+            flex: 1;
+            height: 100%;
+            overflow-y: auto;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .empty-state {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            color: var(--text-dim);
             gap: 15px;
         }
 
-        .download-btn {
+        .empty-state i {
+            font-size: 3rem;
+            color: var(--border-color);
+        }
+
+        .detail-header {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .detail-title {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #fff;
+            letter-spacing: -0.5px;
+        }
+
+        .detail-subtitle {
+            font-size: 0.85rem;
+            font-family: 'Space Mono', monospace;
+            color: var(--text-dim);
+            display: flex;
+            gap: 20px;
+        }
+
+        .detail-subtitle span strong {
+            color: var(--gold-primary);
+        }
+
+        .detail-official {
+            font-size: 1.05rem;
+            color: var(--gold-primary);
+            font-weight: 500;
+            margin-top: 5px;
+        }
+
+        /* Specs Grid */
+        .specs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+        }
+
+        .spec-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .spec-label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-dim);
+            font-weight: 600;
+        }
+
+        .spec-value {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .spec-value.mono {
+            font-family: 'Space Mono', monospace;
+        }
+
+        /* Badges list styling */
+        .badge-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 4px;
+        }
+
+        .fg-badge {
+            background: rgba(212, 175, 55, 0.05);
+            border: 1px solid var(--gold-border);
+            color: var(--gold-primary);
+            font-size: 0.75rem;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-family: inherit;
+            cursor: pointer;
+            transition: all 0.2s ease;
             display: inline-flex;
             align-items: center;
-            gap: 10px;
-            padding: 12px 24px;
-            border-radius: 8px;
-            background: #111;
-            border: 1px solid var(--border-color);
-            color: var(--text-primary);
-            text-decoration: none;
-            font-size: 0.85rem;
+            gap: 6px;
             font-weight: 600;
-            transition: all 0.3s;
-            font-family: 'Space Mono', monospace;
         }
 
-        .download-btn:hover {
-            background: #fff;
-            color: #000;
-            border-color: #fff;
-            transform: translateY(-2px);
+        .fg-badge:hover,
+        .fg-badge.active {
+            background: var(--gold-primary);
+            color: var(--bg-dark);
+            border-color: var(--gold-primary);
+            box-shadow: 0 0 10px var(--gold-glow);
         }
 
-        footer {
-            text-align: center;
-            padding: 40px 20px;
+        .fg-badge i {
+            font-size: 0.7rem;
+            opacity: 0.8;
+        }
+
+        /* Visualization containers */
+        .viz-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            align-items: stretch;
+        }
+
+        .viz-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            min-height: 400px;
+        }
+
+        .viz-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            padding-bottom: 12px;
+        }
+
+        .viz-title {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
             color: var(--text-dim);
-            font-size: 0.8rem;
-            border-top: 1px solid var(--border-color);
-            font-family: 'Space Mono', monospace;
-            margin-top: 40px;
-            background: rgba(10, 10, 12, 0.4);
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
 
-        footer a {
+        .viz-title i {
             color: var(--gold-primary);
-            text-decoration: none;
         }
 
-        footer a:hover {
-            color: var(--gold-bright);
+        .viz-body {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0,0,0,0.5);
+            border-radius: 8px;
+            border: 1px solid rgba(255,255,255,0.03);
+            overflow: hidden;
+            position: relative;
         }
 
-        @media (max-width: 768px) {
-            h1 { font-size: 2rem; }
-            .grid { grid-template-columns: 1fr; }
-            .download-btn { width: 100%; justify-content: center; }
+        /* 2D rendering */
+        #svg-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+
+        #svg-container svg {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        /* 3D viewport */
+        #threed-viewport {
+            width: 100%;
+            height: 100%;
+            min-height: 300px;
+        }
+
+        .threed-controls {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        /* Custom OS checkbox / buttons */
+        .os-btn {
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid var(--border-color);
+            color: var(--text-dim);
+            padding: 6px 12px;
+            font-family: inherit;
+            font-size: 0.75rem;
+            font-weight: 600;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .os-btn:hover {
+            color: var(--text-primary);
+            border-color: var(--gold-primary);
+        }
+
+        .os-checkbox {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.75rem;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .os-checkbox input {
+            accent-color: var(--gold-primary);
+            cursor: pointer;
+        }
+
+        .tip-banner {
+            background: rgba(212, 175, 55, 0.03);
+            border: 1px solid rgba(212, 175, 55, 0.1);
+            border-radius: 8px;
+            padding: 12px 16px;
+            font-size: 0.8rem;
+            color: var(--gold-primary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            line-height: 1.4;
+        }
+
+        .tip-banner i {
+            font-size: 1rem;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 3px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        @media (max-width: 992px) {
+            body {
+                flex-direction: column;
+                overflow-y: auto;
+                height: auto;
+            }
+            aside {
+                width: 100%;
+                height: auto;
+                max-height: 400px;
+            }
+            main {
+                padding: 20px;
+            }
+            .viz-container {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Modern Perfumery Course Portal</h1>
-        <p class="subtitle">Interactive spatial databases, visual vocabulary engines, and molecular mapping visualizers designed for students and educators.</p>
-    </header>
-
-    <div class="container">
-        <div class="grid">
-            <!-- Card 1: Organ Explorer -->
-            <a href="./OrganExplorer/index.html" class="card card-gold">
-                <div>
-                    <div class="card-icon"><i class="fas fa-layer-group"></i></div>
-                    <h2>Organ Explorer</h2>
-                    <p>2D MDS visualizer mapping raw materials. Explore proximity-based sensory affinities, structured odor families, and structural similarity networks compiled for course organ setups.</p>
-                </div>
-                <div>
-                    <span class="btn">Launch Explorer <i class="fas fa-arrow-right"></i></span>
-                </div>
-            </a>
-
-            <!-- Card 2: Molecular Space -->
-            <a href="./MolecularSpace/index.html" class="card card-teal">
-                <div>
-                    <div class="card-icon"><i class="fas fa-cubes"></i></div>
-                    <h2>Molecular Space</h2>
-                    <p>Interactive 3D chemical coordinates space (AromaOS). Filter by supply vendor and view interactive WebGL-rendered 3D conformations with Gasteiger charge projections.</p>
-                </div>
-                <div>
-                    <span class="btn">Launch Space <i class="fas fa-arrow-right"></i></span>
-                </div>
-            </a>
-
-            <!-- Card 3: Statistical Affinity Map -->
-            <a href="./StatisticalAffinityMap/index.html" class="card card-purple">
-                <div>
-                    <div class="card-icon"><i class="fas fa-diagram-project"></i></div>
-                    <h2>Affinity Map</h2>
-                    <p>Global raw materials mapping projecting localized inventory items onto the standard TGSC (The Good Scents Company) olfactory network to explore chemical classifications.</p>
-                </div>
-                <div>
-                    <span class="btn">Launch Map <i class="fas fa-arrow-right"></i></span>
-                </div>
-            </a>
-        </div>
-
-        <!-- Download Section -->
-        <div class="data-section">
-            <h3>Student Data Downloads</h3>
-            <p>Download the standardized chemical datasets and reference feature matrices below for local spreadsheet lookups or analysis:</p>
-            <div class="download-links">
-                <a href="./Student_Organ_Database.csv" download class="download-btn">
-                    <i class="fas fa-file-csv"></i> Organ Database (Master)
-                </a>
-                <a href="./Student_Organ_Chemical_Features.csv" download class="download-btn">
-                    <i class="fas fa-table"></i> Chemical Features (Clean)
-                </a>
-            </div>
-        </div>
+    <!-- Loading Overlay -->
+    <div id="loading-overlay">
+        <div class="spinner"></div>
+        <div class="loading-text">Initializing Chemical Engine...</div>
     </div>
 
-    <footer>
-        <p>Host on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</p>
-    </footer>
+    <!-- Left Sidebar Directory -->
+    <aside>
+        <div class="sidebar-header">
+            <h1><i class="fas fa-flask"></i> AROMAS DIRECTORY</h1>
+            
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" id="search-bar" class="search-input" placeholder="Search by name, SKU, or CAS...">
+            </div>
+            
+            <select id="family-filter" class="filter-select">
+                <option value="all">All Odor Families</option>
+            </select>
+        </div>
+        
+        <div id="chemical-list" class="chemical-list">
+            <!-- Rendered list items -->
+        </div>
+    </aside>
 
+    <!-- Main Content Details Pane -->
+    <main>
+        <div id="details-pane" class="empty-state">
+            <i class="fas fa-info-circle"></i>
+            <p>Select a chemical from the directory to view details, 2D structures, and 3D molecular conformations.</p>
+        </div>
+        
+        <div id="details-content" style="display: none; flex-direction: column; gap: 30px; width: 100%;">
+            <!-- Header Card -->
+            <div class="detail-header">
+                <div id="chem-name" class="detail-title"></div>
+                <div id="chem-official" class="detail-official"></div>
+                <div class="detail-subtitle">
+                    <span>SKU: <strong id="chem-sku"></strong></span>
+                    <span>CAS: <strong id="chem-cas"></strong></span>
+                    <span>SMILES: <strong id="chem-smiles" style="font-family: 'Space Mono', monospace; font-size: 0.75rem;"></strong></span>
+                </div>
+            </div>
+
+            <!-- Features Grid -->
+            <div class="specs-grid">
+                <div class="spec-card">
+                    <div class="spec-label">Odor Family</div>
+                    <div id="chem-family" class="spec-value"></div>
+                </div>
+                <div class="spec-card">
+                    <div class="spec-label">Chemical Group</div>
+                    <div id="chem-group" class="spec-value"></div>
+                </div>
+                <div class="spec-card">
+                    <div class="spec-label">Molecular Weight</div>
+                    <div id="chem-mw" class="spec-value mono"></div>
+                </div>
+                <div class="spec-card">
+                    <div class="spec-label">LogP (Lipophilicity)</div>
+                    <div id="chem-logp" class="spec-value mono"></div>
+                </div>
+                <div class="spec-card">
+                    <div class="spec-label">Atom Counts</div>
+                    <div id="chem-atoms" class="spec-value mono"></div>
+                </div>
+                <div class="spec-card">
+                    <div class="spec-label">Aromaticity</div>
+                    <div id="chem-aromatic" class="spec-value"></div>
+                </div>
+            </div>
+
+            <!-- Clickable Functional Groups -->
+            <div class="spec-card" style="width: 100%;">
+                <div class="spec-label">Functional Groups / Molecular Features</div>
+                <div id="chem-fg-list" class="badge-list">
+                    <!-- Badges render here -->
+                </div>
+            </div>
+
+            <!-- Interactive Tip Banner -->
+            <div class="tip-banner">
+                <i class="fas fa-lightbulb"></i>
+                <div><strong>Interactive Learning:</strong> Click on any functional group badge above to highlight that specific moiety on both the 2D drawing and the rotating 3D molecular conformation.</div>
+            </div>
+
+            <!-- Visualizers -->
+            <div class="viz-container">
+                <!-- 2D Structure Card -->
+                <div class="viz-card">
+                    <div class="viz-header">
+                        <div class="viz-title"><i class="fas fa-diagram-project"></i> 2D Depiction</div>
+                        <button class="os-btn" id="btn-reset-2d" onclick="clearHighlights()">Clear Highlight</button>
+                    </div>
+                    <div class="viz-body">
+                        <div id="svg-container">
+                            <!-- RDKit SVG draws here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3D Structure Card -->
+                <div class="viz-card">
+                    <div class="viz-header">
+                        <div class="viz-title"><i class="fas fa-cube"></i> 3D Conformation</div>
+                        <div class="threed-controls">
+                            <label class="os-checkbox">
+                                <input type="checkbox" id="spin-toggle" checked onchange="toggleSpin(this)"> Spin
+                            </label>
+                            <button class="os-btn" onclick="reset3DCamera()">Reset Cam</button>
+                        </div>
+                    </div>
+                    <div class="viz-body" style="background: #000;">
+                        <div id="threed-viewport"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // RDKit Module instance
+        let RDKit = null;
+        let activeMol = null; // Current RDKit molecule object
+        let currentChemical = null; // Current chemical data object
+        let threedViewer = null; // 3Dmol.js viewer instance
+        let activeFG = null; // Currently highlighted functional group
+
+        // SMARTS patterns for chemical matching & highlighting
+        const SMARTS_PATTERNS = {
+            "Allyl": "[CX3H2]=[CX3H1]-[CX4H2]",
+            "Acetal": "[CX4H1,CX4H2](-[OX2]-[#6])-[OX2]-[#6]",
+            "Ketal": "[CX4H0](-[OX2]-[#6])(-[OX2]-[#6])(-[#6])-[#6]",
+            "Hemiacetal": "[CX4](-[OX2H])-[OX2]-[#6]",
+            "Primary Alcohol": "[CX4H2,CX4H3]-[OX2H]",
+            "Secondary Alcohol": "[CX4H1]-[OX2H]",
+            "Tertiary Alcohol": "[CX4H0]-[OX2H]",
+            "Aldehyde": "[#6]-[CX3H1](=[OX1])",
+            "Carboxylic Acid": "[CX3](=[OX1])[OX2H1]",
+            "Nitrile": "[NX1]#[CX2]",
+            "Amine": "[NX3;H2,H1,H0;!$(NC=O)]",
+            "Salicylate": "[OX2H]c1c([CX3](=[OX1])[OX2][#6])[ch][ch][ch][ch]1",
+            "Pyrazine": "c1cnccn1",
+            "Thiazole": "c1cscn1",
+            "Indole": "c1ccc2[n,nH]ccc2c1",
+            "Quinoline": "c1ccc2ncccc2c1",
+            "Thiol": "[SX2H]",
+            "Lactone": "[#6R](=[OX1])[#8R]",
+            "Ester": "[#6](=[OX1])[#8][#6]",
+            "Phenol": "[OX2H]-c1ccccc1",
+            "Ether": "[OX2](-[#6;!$(C=O)])-[#6;!$(C=O)]",
+            "Ketone": "[CX3](=[OX1])(-[#6])-[#6]",
+            "Macrocyclic Musk": "[r13,r14,r15,r16,r17,r18,r19,r20]",
+            "Benzene Ring": "c1ccccc1"
+        };
+
+        // Initialize RDKit Module asynchronously
+        window.initRDKitModule().then(instance => {
+            RDKit = instance;
+            console.log("RDKit JS initialized successfully.");
+            
+            // Hide loading overlay
+            const overlay = document.getElementById("loading-overlay");
+            overlay.style.opacity = 0;
+            setTimeout(() => overlay.style.display = "none", 500);
+
+            // Start the application
+            initApp();
+        }).catch(err => {
+            console.error("Failed to load RDKit module", err);
+            const overlay = document.getElementById("loading-overlay");
+            overlay.innerHTML = `<div style="color: var(--danger-color); font-weight: 700;">Initialization Failed. Please refresh.</div>`;
+        });
+
+        function initApp() {
+            // Build the Odor Family dropdown options
+            const families = new Set();
+            chemicalData.forEach(c => {
+                if (c.odorFamily) {
+                    // Extract broad family name (e.g. "Floral" from "Floral (Rose)")
+                    const match = c.odorFamily.split("(")[0].strip ? c.odorFamily.split("(")[0].strip() : c.odorFamily.split("(")[0].trim();
+                    if (match && match !== "Unclassified" && match !== "Unknown") {
+                        families.add(match);
+                    }
+                }
+            });
+
+            const filterSelect = document.getElementById("family-filter");
+            Array.from(families).sort().forEach(fam => {
+                const opt = document.createElement("option");
+                opt.value = fam;
+                opt.textContent = fam;
+                filterSelect.appendChild(opt);
+            });
+
+            // Set up search and filter event listeners
+            document.getElementById("search-bar").addEventListener("input", filterList);
+            filterSelect.addEventListener("change", filterList);
+
+            // Initial render of list
+            renderList(chemicalData);
+
+            // Select the first chemical by default if available
+            if (chemicalData.length > 0) {
+                selectChemical(chemicalData[0].sku);
+            }
+        }
+
+        function renderList(list) {
+            const listContainer = document.getElementById("chemical-list");
+            listContainer.innerHTML = "";
+
+            if (list.length === 0) {
+                listContainer.innerHTML = `<div style="color: var(--text-dim); text-align: center; padding: 20px; font-size: 0.85rem;">No chemicals match your criteria.</div>`;
+                return;
+            }
+
+            list.forEach(c => {
+                const item = document.createElement("div");
+                item.className = `chemical-item ${currentChemical && currentChemical.sku === c.sku ? 'active' : ''}`;
+                item.id = `item-${c.sku}`;
+                item.onclick = () => selectChemical(c.sku);
+
+                item.innerHTML = `
+                    <div class="item-name">${c.name}</div>
+                    <div class="item-meta">
+                        <span class="item-sku">${c.sku}</span>
+                        <span>CAS: ${c.cas || 'Unknown'}</span>
+                    </div>
+                `;
+                listContainer.appendChild(item);
+            });
+        }
+
+        function filterList() {
+            const query = document.getElementById("search-bar").value.toLowerCase().trim();
+            const family = document.getElementById("family-filter").value;
+
+            const filtered = chemicalData.filter(c => {
+                const matchesQuery = 
+                    c.name.toLowerCase().includes(query) || 
+                    c.sku.toLowerCase().includes(query) || 
+                    (c.cas && c.cas.toLowerCase().includes(query)) ||
+                    (c.officialName && c.officialName.toLowerCase().includes(query));
+
+                const matchesFamily = 
+                    family === "all" || 
+                    (c.odorFamily && c.odorFamily.toLowerCase().startsWith(family.toLowerCase()));
+
+                return matchesQuery && matchesFamily;
+            });
+
+            renderList(filtered);
+        }
+
+        function selectChemical(sku) {
+            const chem = chemicalData.find(c => c.sku === sku);
+            if (!chem) return;
+
+            currentChemical = chem;
+            activeFG = null; // Clear active highlighted group
+
+            // Update active state in sidebar list
+            document.querySelectorAll(".chemical-item").forEach(el => el.classList.remove("active"));
+            const selectedItem = document.getElementById(`item-${sku}`);
+            if (selectedItem) selectedItem.classList.add("active");
+
+            // Show details content, hide empty state
+            document.getElementById("details-pane").style.display = "none";
+            document.getElementById("details-content").style.display = "flex";
+
+            // Fill header info
+            document.getElementById("chem-name").textContent = chem.name;
+            document.getElementById("chem-official").textContent = chem.officialName || "";
+            document.getElementById("chem-sku").textContent = chem.sku;
+            document.getElementById("chem-cas").textContent = chem.cas || "Unknown";
+            document.getElementById("chem-smiles").textContent = chem.smiles || "None";
+
+            // Fill specs
+            document.getElementById("chem-family").textContent = chem.odorFamily;
+            document.getElementById("chem-group").textContent = chem.functionalGroups || "Hydrocarbon / Other";
+            document.getElementById("chem-mw").textContent = chem.mw ? `${chem.mw} g/mol` : "N/A";
+            document.getElementById("chem-logp").textContent = chem.logp !== undefined ? chem.logp : "N/A";
+            document.getElementById("chem-atoms").textContent = chem.atoms || "N/A";
+            document.getElementById("chem-aromatic").textContent = chem.aromaticity || "No";
+
+            // Populate Functional Groups Badges
+            const fgContainer = document.getElementById("chem-fg-list");
+            fgContainer.innerHTML = "";
+
+            let groups = [];
+            if (chem.functionalGroups && chem.functionalGroups !== "Hydrocarbon / Other") {
+                groups = chem.functionalGroups.split(",").map(g => g.trim());
+            }
+            
+            // Dynamically inject Benzene Ring if present in aromaticity
+            if (chem.aromaticity && chem.aromaticity.includes("Benzene") && !groups.includes("Benzene Ring")) {
+                groups.push("Benzene Ring");
+            }
+
+            if (groups.length > 0) {
+                groups.forEach(g => {
+                    if (SMARTS_PATTERNS[g]) {
+                        const btn = document.createElement("button");
+                        btn.className = "fg-badge";
+                        btn.id = `fg-btn-${g.replace(/\s+/g, '-')}`;
+                        btn.onclick = () => highlightFG(g);
+                        btn.innerHTML = `${g} <i class="fas fa-eye"></i>`;
+                        fgContainer.appendChild(btn);
+                    } else {
+                        // Display un-highlightable label
+                        const span = document.createElement("span");
+                        span.className = "fg-badge";
+                        span.style.cursor = "default";
+                        span.style.background = "rgba(255,255,255,0.02)";
+                        span.style.color = "var(--text-dim)";
+                        span.style.borderColor = "var(--border-color)";
+                        span.textContent = g;
+                        fgContainer.appendChild(span);
+                    }
+                });
+            } else {
+                fgContainer.innerHTML = `<span style="font-size: 0.8rem; color: var(--text-dim); font-style: italic;">No specific functional groups detected (classified as Hydrocarbon / Other).</span>`;
+            }
+
+            // --- 2D Molecule Setup ---
+            if (activeMol) {
+                activeMol.delete();
+                activeMol = null;
+            }
+
+            const svgContainer = document.getElementById("svg-container");
+            svgContainer.innerHTML = "";
+
+            if (chem.smiles) {
+                activeMol = RDKit.get_mol(chem.smiles);
+                if (activeMol) {
+                    // Draw base SVG
+                    svgContainer.innerHTML = activeMol.get_svg();
+                } else {
+                    svgContainer.innerHTML = `<span style="color: var(--danger-color); font-size: 0.8rem;">Rendering Error</span>`;
+                }
+            } else {
+                svgContainer.innerHTML = `<span style="color: var(--text-dim); font-size: 0.8rem; font-style: italic;">No SMILES available</span>`;
+            }
+
+            // --- 3D Molecule Setup ---
+            const viewport = document.getElementById("threed-viewport");
+            viewport.innerHTML = ""; // Clear old model
+
+            if (chem.molblock) {
+                // Initialize 3Dmol viewer
+                threedViewer = $3Dmol.createViewer(viewport, { backgroundColor: '#000000' });
+                
+                // Add MolBlock data
+                threedViewer.addModel(chem.molblock, "sdf");
+                
+                // Set style (spectrum / stick)
+                threedViewer.setStyle({}, { stick: { color: 'spectrum', radius: 0.15 } });
+                
+                // Set camera settings
+                threedViewer.zoomTo();
+                
+                // Spin configuration
+                const spinOn = document.getElementById("spin-toggle").checked;
+                threedViewer.spin(spinOn);
+                
+                threedViewer.render();
+            } else {
+                viewport.innerHTML = `<div style="display: flex; height:100%; justify-content: center; align-items:center; color: var(--text-dim); font-size: 0.8rem; font-style: italic;">No 3D Conformation Available (Mixture or Natural)</div>`;
+                threedViewer = null;
+            }
+        }
+
+        function highlightFG(groupName) {
+            if (!activeMol || !currentChemical) return;
+
+            const smarts = SMARTS_PATTERNS[groupName];
+            if (!smarts) return;
+
+            // Toggle highlight off if clicked again
+            if (activeFG === groupName) {
+                clearHighlights();
+                return;
+            }
+
+            activeFG = groupName;
+
+            // Highlight badge states
+            document.querySelectorAll(".fg-badge").forEach(btn => btn.classList.remove("active"));
+            const activeBtn = document.getElementById(`fg-btn-${groupName.replace(/\s+/g, '-')}`);
+            if (activeBtn) activeBtn.classList.add("active");
+
+            // Perform SMARTS query matching
+            const qmol = RDKit.get_qmol(smarts);
+            if (!qmol) return;
+
+            const matchJson = activeMol.get_substruct_match(qmol);
+            qmol.delete(); // Free memory
+
+            if (!matchJson) {
+                console.log("No substructure match found for", groupName);
+                return;
+            }
+
+            const match = JSON.parse(matchJson);
+
+            // 1. Highlight 2D Structure
+            const svgContainer = document.getElementById("svg-container");
+            if (match.atoms && match.atoms.length > 0) {
+                // RDKit expects highlight properties as keys in details object
+                const details = {
+                    atoms: match.atoms,
+                    bonds: match.bonds,
+                    highlightColour: [0.83, 0.68, 0.21] // Premium gold color!
+                };
+                svgContainer.innerHTML = activeMol.get_svg_with_highlights(JSON.stringify(details));
+            } else {
+                svgContainer.innerHTML = activeMol.get_svg();
+            }
+
+            // 2. Highlight 3D Structure
+            if (threedViewer && match.atoms && match.atoms.length > 0) {
+                // Reset standard styles
+                threedViewer.setStyle({}, { stick: { color: 'spectrum', radius: 0.15 } });
+                
+                // Color highlighted atom serial indices with gold spheres and gold sticks
+                threedViewer.setStyle(
+                    { serial: match.atoms }, 
+                    { 
+                        sphere: { radius: 0.45, color: '#d4af37' }, 
+                        stick: { radius: 0.25, color: '#d4af37' } 
+                    }
+                );
+                
+                threedViewer.render();
+            }
+        }
+
+        function clearHighlights() {
+            activeFG = null;
+            document.querySelectorAll(".fg-badge").forEach(btn => btn.classList.remove("active"));
+
+            // Reset 2D SVG
+            if (activeMol) {
+                const svgContainer = document.getElementById("svg-container");
+                svgContainer.innerHTML = activeMol.get_svg();
+            }
+
+            // Reset 3D Viewer Style
+            if (threedViewer) {
+                threedViewer.setStyle({}, { stick: { color: 'spectrum', radius: 0.15 } });
+                threedViewer.render();
+            }
+        }
+
+        function toggleSpin(checkbox) {
+            if (threedViewer) {
+                threedViewer.spin(checkbox.checked);
+            }
+        }
+
+        function reset3DCamera() {
+            if (threedViewer) {
+                threedViewer.zoomTo();
+                threedViewer.render();
+            }
+        }
+    </script>
 </body>
 </html>
