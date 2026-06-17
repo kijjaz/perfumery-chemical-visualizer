@@ -178,6 +178,39 @@
             gap: 6px;
         }
 
+        .group-header {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            padding: 6px 10px;
+            font-size: 0.72rem;
+            font-weight: 700;
+            color: var(--gold-primary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            margin-top: 8px;
+            user-select: none;
+        }
+
+        .group-header:hover {
+            background: rgba(212, 175, 55, 0.08);
+            border-color: rgba(212, 175, 55, 0.3);
+        }
+
+        .group-content {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            margin-top: 4px;
+            padding-left: 6px;
+            border-left: 1px dashed rgba(255, 255, 255, 0.05);
+        }
+
         .chemical-item {
             background: var(--bg-card);
             border: 1px solid var(--border-color);
@@ -608,6 +641,11 @@
             <select id="supplier-filter" class="filter-select" style="margin-top: 6px;">
                 <option value="all">All Suppliers</option>
             </select>
+            
+            <select id="group-by" class="filter-select" style="margin-top: 6px;">
+                <option value="none">Flat List (Alphabetical)</option>
+                <option value="fg">Group by Functional Group</option>
+            </select>
         </div>
         
         <div id="chemical-list" class="chemical-list">
@@ -745,6 +783,7 @@
         let currentChemical = null; // Current chemical data object
         let threedViewer = null; // 3Dmol.js viewer instance
         let activeFG = null; // Currently highlighted functional group
+        let collapsedGroups = new Set();
 
         // SMARTS patterns for chemical matching & highlighting
         const SMARTS_PATTERNS = {
@@ -835,6 +874,7 @@
             document.getElementById("search-bar").addEventListener("input", filterList);
             familySelect.addEventListener("change", filterList);
             supplierSelect.addEventListener("change", filterList);
+            document.getElementById("group-by").addEventListener("change", filterList);
 
             // Initial render of list
             renderList(chemicalData);
@@ -861,6 +901,34 @@
             }
         }
 
+        function toggleGroupCollapse(idSafeName) {
+            const header = document.getElementById(`group-header-${idSafeName}`);
+            const content = document.getElementById(`group-content-${idSafeName}`);
+            if (!header || !content) return;
+            const icon = header.querySelector(".toggle-icon");
+            const folderIcon = header.querySelector(".fa-folder, .fa-folder-open");
+            
+            if (collapsedGroups.has(idSafeName)) {
+                collapsedGroups.delete(idSafeName);
+                header.classList.remove("collapsed");
+                content.classList.remove("collapsed");
+                content.style.display = "flex";
+                if (icon) icon.style.transform = "rotate(0deg)";
+                if (folderIcon) {
+                    folderIcon.className = "fas fa-folder-open";
+                }
+            } else {
+                collapsedGroups.add(idSafeName);
+                header.classList.add("collapsed");
+                content.classList.add("collapsed");
+                content.style.display = "none";
+                if (icon) icon.style.transform = "rotate(-90deg)";
+                if (folderIcon) {
+                    folderIcon.className = "fas fa-folder";
+                }
+            }
+        }
+
         function renderList(list) {
             const listContainer = document.getElementById("chemical-list");
             listContainer.innerHTML = "";
@@ -870,11 +938,14 @@
                 return;
             }
 
-            list.forEach(c => {
+            const selectedSupplier = document.getElementById("supplier-filter").value;
+            const groupBy = document.getElementById("group-by").value;
+
+            function createChemicalItem(c) {
                 const item = document.createElement("div");
                 const isActive = currentChemical && currentChemical.cas === c.cas;
                 item.className = `chemical-item ${isActive ? 'active' : ''}`;
-                item.id = `item-${c.cas}`;
+                item.setAttribute("data-cas", c.cas);
                 item.onclick = () => selectChemical(c.cas);
 
                 // Build supplier badges HTML
@@ -892,8 +963,47 @@
                     });
                 }
 
+                // Determine display name and alt names
+                let displayName = c.name;
+                let altNames = [];
+                let selectedSupplierNames = [];
+
+                if (selectedSupplier !== "all" && c.supplierDetails) {
+                    selectedSupplierNames = [...new Set(c.supplierDetails
+                        .filter(d => d.supplier === selectedSupplier)
+                        .map(d => d.name)
+                        .filter(Boolean)
+                    )];
+                }
+
+                if (selectedSupplierNames.length > 0) {
+                    displayName = selectedSupplierNames[0];
+                    // The primary name and other supplier names become alternative names
+                    const otherNames = [...new Set([c.name, ...c.supplierDetails.map(d => d.name)])]
+                        .filter(n => n !== displayName);
+                    altNames = otherNames;
+                } else {
+                    displayName = c.name;
+                    altNames = [...new Set(c.supplierDetails.map(d => d.name))]
+                        .filter(n => n !== displayName);
+                }
+
+                // Generate altNames HTML displaying many supplier names
+                let altNamesHtml = "";
+                if (altNames.length > 0) {
+                    const altNameDetails = altNames.map(altName => {
+                        const sups = c.supplierDetails
+                            .filter(d => d.name === altName)
+                            .map(d => d.supplier);
+                        const uniqueSups = [...new Set(sups)];
+                        return `${altName} (${uniqueSups.join(", ")})`;
+                    });
+                    altNamesHtml = `<div class="item-alt-names" style="font-size: 0.7rem; color: var(--text-dim); margin-top: 1px; font-style: italic; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="Alt: ${altNameDetails.join(", ")}">Alt: ${altNameDetails.join(", ")}</div>`;
+                }
+
                 item.innerHTML = `
-                    <div class="item-name">${c.name}</div>
+                    <div class="item-name">${displayName}</div>
+                    ${altNamesHtml}
                     <div class="item-meta">
                         <span>CAS: ${c.cas || 'Unknown'}</span>
                         <div class="supplier-badges">
@@ -901,8 +1011,68 @@
                         </div>
                     </div>
                 `;
-                listContainer.appendChild(item);
-            });
+                return item;
+            }
+
+            if (groupBy === "fg") {
+                const groupsMap = {};
+                list.forEach(c => {
+                    let groups = ["Hydrocarbon / Other"];
+                    if (c.functionalGroups && c.functionalGroups !== "Hydrocarbon / Other") {
+                        groups = c.functionalGroups.split(",").map(g => g.trim());
+                    }
+                    groups.forEach(g => {
+                        if (!groupsMap[g]) {
+                            groupsMap[g] = [];
+                        }
+                        groupsMap[g].push(c);
+                    });
+                });
+
+                // Sort group names: put "Hydrocarbon / Other" at the bottom
+                const sortedGroupNames = Object.keys(groupsMap).sort((a, b) => {
+                    if (a === "Hydrocarbon / Other") return 1;
+                    if (b === "Hydrocarbon / Other") return -1;
+                    return a.localeCompare(b);
+                });
+
+                sortedGroupNames.forEach(gName => {
+                    const items = groupsMap[gName];
+                    const idSafeName = gName.replace(/[^a-zA-Z0-9]/g, '-');
+                    const isCollapsed = collapsedGroups.has(idSafeName);
+
+                    // Group Header
+                    const header = document.createElement("div");
+                    header.className = `group-header ${isCollapsed ? 'collapsed' : ''}`;
+                    header.id = `group-header-${idSafeName}`;
+                    header.onclick = () => toggleGroupCollapse(idSafeName);
+                    header.innerHTML = `
+                        <span><i class="fas ${isCollapsed ? 'fa-folder' : 'fa-folder-open'}"></i> ${gName} (${items.length})</span>
+                        <i class="fas fa-chevron-down toggle-icon" style="transition: transform 0.2s ease; ${isCollapsed ? 'transform: rotate(-90deg);' : ''}"></i>
+                    `;
+                    listContainer.appendChild(header);
+
+                    // Group Content Container
+                    const contentDiv = document.createElement("div");
+                    contentDiv.className = `group-content ${isCollapsed ? 'collapsed' : ''}`;
+                    contentDiv.id = `group-content-${idSafeName}`;
+                    if (isCollapsed) {
+                        contentDiv.style.display = "none";
+                    }
+
+                    items.forEach(c => {
+                        const item = createChemicalItem(c);
+                        contentDiv.appendChild(item);
+                    });
+
+                    listContainer.appendChild(contentDiv);
+                });
+            } else {
+                list.forEach(c => {
+                    const item = createChemicalItem(c);
+                    listContainer.appendChild(item);
+                });
+            }
         }
 
         function filterList() {
@@ -939,14 +1109,19 @@
             });
 
             renderList(filtered);
+
+            // Refresh details panel name if a chemical is selected to reflect selected supplier
+            if (currentChemical) {
+                selectChemical(currentChemical.cas, true);
+            }
         }
 
-        function selectChemical(cas) {
+        function selectChemical(cas, force = false) {
             const chem = chemicalData.find(c => c.cas === cas);
             if (!chem) return;
 
-            // Prevent redundant selection
-            if (currentChemical && currentChemical.cas === cas) {
+            // Prevent redundant selection unless forced
+            if (!force && currentChemical && currentChemical.cas === cas) {
                 return;
             }
 
@@ -958,13 +1133,13 @@
                 window.location.hash = encodeURIComponent(cas);
             }
 
-            // Update active state in sidebar list
+            // Update active state in sidebar list using data-cas attribute (supports duplicates in multiple groups)
             document.querySelectorAll(".chemical-item").forEach(el => el.classList.remove("active"));
-            const selectedItem = document.getElementById(`item-${cas}`);
-            if (selectedItem) {
-                selectedItem.classList.add("active");
-                // Scroll selected item into view inside the scrollable sidebar
-                selectedItem.scrollIntoView({ block: "nearest", behavior: "smooth" });
+            const selectedItems = document.querySelectorAll(`.chemical-item[data-cas="${cas}"]`);
+            if (selectedItems.length > 0) {
+                selectedItems.forEach(el => el.classList.add("active"));
+                // Scroll the first occurrence into view
+                selectedItems[0].scrollIntoView({ block: "nearest", behavior: "smooth" });
             }
 
             // Show details content, hide empty state
@@ -972,7 +1147,24 @@
             document.getElementById("details-content").style.display = "flex";
 
             // Fill header info
-            document.getElementById("chem-name").textContent = chem.name;
+            let displayName = chem.name;
+            const selectedSupplier = document.getElementById("supplier-filter").value;
+            if (selectedSupplier !== "all" && chem.supplierDetails) {
+                const names = [...new Set(chem.supplierDetails
+                    .filter(d => d.supplier === selectedSupplier)
+                    .map(d => d.name)
+                    .filter(Boolean)
+                )];
+                if (names.length > 0) {
+                    displayName = names[0];
+                }
+            }
+
+            if (displayName !== chem.name) {
+                document.getElementById("chem-name").innerHTML = `${displayName} <span style="font-size: 0.95rem; font-weight: normal; color: var(--text-dim); margin-left: 8px;">(${chem.name})</span>`;
+            } else {
+                document.getElementById("chem-name").textContent = displayName;
+            }
             document.getElementById("chem-official").textContent = chem.officialName || "";
             document.getElementById("chem-cas").textContent = chem.cas || "Unknown";
             document.getElementById("chem-smiles").textContent = chem.smiles || "None";
