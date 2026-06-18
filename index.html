@@ -827,8 +827,11 @@
                             <button class="os-btn" onclick="reset3DCamera()">Reset Cam</button>
                         </div>
                     </div>
-                    <div class="viz-body" style="background: #000;">
+                    <div class="viz-body" style="background: #000; position: relative;">
                         <div id="threed-viewport"></div>
+                        <div id="threed-placeholder" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: none; justify-content: center; align-items: center; color: var(--text-dim); font-size: 0.8rem; font-style: italic; text-align: center; padding: 20px; box-sizing: border-box; background: #000; z-index: 10;">
+                            No 3D Conformation Available (Mixture or Natural)
+                        </div>
                     </div>
                 </div>
             </div>
@@ -971,6 +974,14 @@
 
             // Set up hash change event listener
             window.addEventListener("hashchange", handleHashChange);
+
+            // Handle window resize for 3D viewer alignment
+            window.addEventListener("resize", () => {
+                if (threedViewer) {
+                    threedViewer.resize();
+                    threedViewer.render();
+                }
+            });
 
             // Select chemical by hash if available, otherwise fallback to first item
             const initialHash = decodeURIComponent(window.location.hash.substring(1)).trim();
@@ -1387,11 +1398,17 @@
 
             // --- 3D Molecule Setup ---
             const viewport = document.getElementById("threed-viewport");
-            viewport.innerHTML = ""; // Clear old model
+            const placeholder = document.getElementById("threed-placeholder");
 
             if (chem.molblock) {
-                // Initialize 3Dmol viewer
-                threedViewer = $3Dmol.createViewer(viewport, { backgroundColor: '#000000' });
+                if (placeholder) placeholder.style.display = "none";
+                
+                // Initialize 3Dmol viewer if not already done
+                if (!threedViewer) {
+                    threedViewer = $3Dmol.createViewer(viewport, { backgroundColor: '#000000' });
+                } else {
+                    threedViewer.clear();
+                }
                 
                 // Add MolBlock data
                 threedViewer.addModel(chem.molblock, "sdf");
@@ -1408,8 +1425,11 @@
                 
                 threedViewer.render();
             } else {
-                viewport.innerHTML = `<div style="display: flex; height:100%; justify-content: center; align-items:center; color: var(--text-dim); font-size: 0.8rem; font-style: italic;">No 3D Conformation Available (Mixture or Natural)</div>`;
-                threedViewer = null;
+                if (placeholder) placeholder.style.display = "flex";
+                if (threedViewer) {
+                    threedViewer.spin(false);
+                    threedViewer.clear();
+                }
             }
         }
 
@@ -1558,6 +1578,7 @@
                     }
                 }
                 if (type === '3d' && threedViewer) {
+                    threedViewer.resize();
                     reset3DCamera();
                 }
             }
