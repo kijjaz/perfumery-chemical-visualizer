@@ -1433,6 +1433,40 @@
             }
         }
 
+        function getCombinedSubstructureMatches(smarts) {
+            if (!activeMol) return null;
+            const qmol = RDKit.get_qmol(smarts);
+            if (!qmol) return null;
+
+            const matchesJson = activeMol.get_substruct_matches(qmol);
+            qmol.delete(); // Free memory
+
+            if (!matchesJson || matchesJson === "[]") {
+                return null;
+            }
+
+            try {
+                const matches = JSON.parse(matchesJson);
+                const combined = { atoms: [], bonds: [] };
+                matches.forEach(match => {
+                    if (match.atoms) {
+                        match.atoms.forEach(a => {
+                            if (!combined.atoms.includes(a)) combined.atoms.push(a);
+                        });
+                    }
+                    if (match.bonds) {
+                        match.bonds.forEach(b => {
+                            if (!combined.bonds.includes(b)) combined.bonds.push(b);
+                        });
+                    }
+                });
+                return combined;
+            } catch (e) {
+                console.error("Error parsing substructure matches JSON:", e);
+                return null;
+            }
+        }
+
         function highlightFG(groupName) {
             if (!activeMol || !currentChemical) return;
 
@@ -1452,23 +1486,11 @@
             const activeBtn = document.getElementById(`fg-btn-${groupName.replace(/\s+/g, '-')}`);
             if (activeBtn) activeBtn.classList.add("active");
 
-            // Perform SMARTS query matching
-            const qmol = RDKit.get_qmol(smarts);
-            if (!qmol) return;
-
-            const matchJson = activeMol.get_substruct_match(qmol);
-            qmol.delete(); // Free memory
-
-            if (!matchJson) {
-                console.log("No substructure match found for", groupName);
-                return;
-            }
-
-            const match = JSON.parse(matchJson);
+            const match = getCombinedSubstructureMatches(smarts);
 
             // 1. Highlight 2D Structure
             const svgContainer = document.getElementById("svg-container");
-            if (match.atoms && match.atoms.length > 0) {
+            if (match && match.atoms && match.atoms.length > 0) {
                 // RDKit expects highlight properties as keys in details object
                 const details = {
                     atoms: match.atoms,
@@ -1481,7 +1503,7 @@
             }
 
             // 2. Highlight 3D Structure
-            if (threedViewer && match.atoms && match.atoms.length > 0) {
+            if (threedViewer && match && match.atoms && match.atoms.length > 0) {
                 // Reset standard styles
                 threedViewer.setStyle({}, { stick: { color: 'spectrum', radius: 0.15 } });
                 
@@ -1558,19 +1580,14 @@
                     if (activeFG) {
                         const smarts = SMARTS_PATTERNS[activeFG];
                         if (smarts) {
-                            const qmol = RDKit.get_qmol(smarts);
-                            if (qmol) {
-                                const matchJson = activeMol.get_substruct_match(qmol);
-                                qmol.delete();
-                                if (matchJson) {
-                                    const match = JSON.parse(matchJson);
-                                    const details = {
-                                        atoms: match.atoms,
-                                        bonds: match.bonds,
-                                        highlightColour: [0.83, 0.68, 0.21]
-                                    };
-                                    svgContainer.innerHTML = draw2DMolecule(activeMol, details);
-                                }
+                            const match = getCombinedSubstructureMatches(smarts);
+                            if (match && match.atoms && match.atoms.length > 0) {
+                                const details = {
+                                    atoms: match.atoms,
+                                    bonds: match.bonds,
+                                    highlightColour: [0.83, 0.68, 0.21]
+                                };
+                                svgContainer.innerHTML = draw2DMolecule(activeMol, details);
                             }
                         }
                     } else {
