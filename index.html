@@ -1065,10 +1065,24 @@
                 }
 
                 // Determine display name and alt names
+                const query = document.getElementById("search-bar").value.toLowerCase().trim();
                 let displayName = c.name;
                 let altNames = [];
-                let selectedSupplierNames = [];
 
+                // 1. Prioritize search query match
+                let queryMatchingName = null;
+                if (query) {
+                    if (c.name.toLowerCase().includes(query)) {
+                        queryMatchingName = c.name;
+                    } else if (c.supplierDetails) {
+                        queryMatchingName = c.supplierDetails
+                            .map(d => d.name)
+                            .find(name => name && name.toLowerCase().includes(query));
+                    }
+                }
+
+                // 2. Fall back to selected supplier names
+                let selectedSupplierNames = [];
                 if (selectedSupplier !== "all" && c.supplierDetails) {
                     selectedSupplierNames = [...new Set(c.supplierDetails
                         .filter(d => d.supplier === selectedSupplier)
@@ -1077,17 +1091,21 @@
                     )];
                 }
 
-                if (selectedSupplierNames.length > 0) {
+                if (queryMatchingName) {
+                    displayName = queryMatchingName;
+                } else if (selectedSupplierNames.length > 0) {
                     displayName = selectedSupplierNames[0];
-                    // The primary name and other supplier names become alternative names
-                    const otherNames = [...new Set([c.name, ...c.supplierDetails.map(d => d.name)])]
-                        .filter(n => n !== displayName);
-                    altNames = otherNames;
                 } else {
                     displayName = c.name;
-                    altNames = [...new Set(c.supplierDetails.map(d => d.name))]
-                        .filter(n => n !== displayName);
                 }
+
+                const allPossibleNames = [c.name];
+                if (c.supplierDetails) {
+                    c.supplierDetails.forEach(d => {
+                        if (d.name) allPossibleNames.push(d.name);
+                    });
+                }
+                altNames = [...new Set(allPossibleNames)].filter(n => n !== displayName);
 
                 // Generate altNames HTML displaying many supplier names
                 let altNamesHtml = "";
@@ -1216,9 +1234,48 @@
 
             renderList(filtered);
 
-            // Refresh details panel name if a chemical is selected to reflect selected supplier
+            // Update details panel name if a chemical is selected to reflect selected supplier/search match
             if (currentChemical) {
-                selectChemical(currentChemical.cas, true);
+                updateDetailsHeaderName();
+            }
+        }
+
+        function updateDetailsHeaderName() {
+            if (!currentChemical) return;
+
+            let displayName = currentChemical.name;
+            const query = document.getElementById("search-bar").value.toLowerCase().trim();
+            const selectedSupplier = document.getElementById("supplier-filter").value;
+
+            let queryMatchingName = null;
+            if (query) {
+                if (currentChemical.name.toLowerCase().includes(query)) {
+                    queryMatchingName = currentChemical.name;
+                } else if (currentChemical.supplierDetails) {
+                    queryMatchingName = currentChemical.supplierDetails
+                        .map(d => d.name)
+                        .find(name => name && name.toLowerCase().includes(query));
+                }
+            }
+
+            if (queryMatchingName) {
+                displayName = queryMatchingName;
+            } else if (selectedSupplier !== "all" && currentChemical.supplierDetails) {
+                const names = [...new Set(currentChemical.supplierDetails
+                    .filter(d => d.supplier === selectedSupplier)
+                    .map(d => d.name)
+                    .filter(Boolean)
+                )];
+                if (names.length > 0) {
+                    displayName = names[0];
+                }
+            }
+
+            const headerEl = document.getElementById("chem-name");
+            if (displayName !== currentChemical.name) {
+                headerEl.innerHTML = `${displayName} <span style="font-size: 0.95rem; font-weight: normal; color: var(--text-dim); margin-left: 8px;">(${currentChemical.name})</span>`;
+            } else {
+                headerEl.textContent = displayName;
             }
         }
 
@@ -1253,24 +1310,7 @@
             document.getElementById("details-content").style.display = "flex";
 
             // Fill header info
-            let displayName = chem.name;
-            const selectedSupplier = document.getElementById("supplier-filter").value;
-            if (selectedSupplier !== "all" && chem.supplierDetails) {
-                const names = [...new Set(chem.supplierDetails
-                    .filter(d => d.supplier === selectedSupplier)
-                    .map(d => d.name)
-                    .filter(Boolean)
-                )];
-                if (names.length > 0) {
-                    displayName = names[0];
-                }
-            }
-
-            if (displayName !== chem.name) {
-                document.getElementById("chem-name").innerHTML = `${displayName} <span style="font-size: 0.95rem; font-weight: normal; color: var(--text-dim); margin-left: 8px;">(${chem.name})</span>`;
-            } else {
-                document.getElementById("chem-name").textContent = displayName;
-            }
+            updateDetailsHeaderName();
             document.getElementById("chem-official").textContent = chem.officialName || "";
             document.getElementById("chem-cas").textContent = chem.cas || "Unknown";
             document.getElementById("chem-smiles").textContent = chem.smiles || "None";
